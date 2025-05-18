@@ -1,0 +1,65 @@
+
+#####################################################################################
+Checking that k8810138m_tmc.fits contains all rows in k671252qm_tmc.fits
+#####################################################################################
+	WARNING: ROW 1239 (one indexed) in k671252qm_tmc.fits not found in k8810138m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1240 (one indexed) in k671252qm_tmc.fits not found in k8810138m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1241 (one indexed) in k671252qm_tmc.fits not found in k8810138m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1239
+	COMPNAME =  nic3_g096
+	FILENAME =  crnicmoscomp$nic3_g096_004_syn.fits
+
+
+Row = 1240
+	COMPNAME =  nic3_g141
+	FILENAME =  crnicmoscomp$nic3_g141_004_syn.fits
+
+
+Row = 1241
+	COMPNAME =  nic3_g206
+	FILENAME =  crnicmoscomp$nic3_g206_004_syn.fits
+
+
+#####################################################################################
+Checking that k671252qm_tmc.fits contains all rows in k8810138m_tmc.fits
+#####################################################################################
+	WARNING: ROW 1239 (one indexed) in k8810138m_tmc.fits not found in k671252qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1240 (one indexed) in k8810138m_tmc.fits not found in k671252qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1241 (one indexed) in k8810138m_tmc.fits not found in k671252qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1239
+	COMPNAME =  nic3_g096
+	FILENAME =  crnicmoscomp$nic3_g096_005_syn.fits
+
+
+Row = 1240
+	COMPNAME =  nic3_g141
+	FILENAME =  crnicmoscomp$nic3_g141_005_syn.fits
+
+
+Row = 1241
+	COMPNAME =  nic3_g206
+	FILENAME =  crnicmoscomp$nic3_g206_005_syn.fits
+
+

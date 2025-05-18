@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that s3i1812lm_tmc.fits contains all rows in s2k2020nm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2288 (one indexed) in s2k2020nm_tmc.fits not found in s3i1812lm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2290 (one indexed) in s2k2020nm_tmc.fits not found in s3i1812lm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2288
+	COMPNAME =  wfc3_ir_f140w
+	FILENAME =  crwfc3comp$wfc3_ir_f140w_002_syn.fits
+
+
+Row = 2290
+	COMPNAME =  wfc3_ir_f160w
+	FILENAME =  crwfc3comp$wfc3_ir_f160w_002_syn.fits
+
+
+#####################################################################################
+Checking that s2k2020nm_tmc.fits contains all rows in s3i1812lm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2288 (one indexed) in s3i1812lm_tmc.fits not found in s2k2020nm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2290 (one indexed) in s3i1812lm_tmc.fits not found in s2k2020nm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2288
+	COMPNAME =  wfc3_ir_f140w
+	FILENAME =  crwfc3comp$wfc3_ir_f140w_003_syn.fits
+
+
+Row = 2290
+	COMPNAME =  wfc3_ir_f160w
+	FILENAME =  crwfc3comp$wfc3_ir_f160w_003_syn.fits
+
+

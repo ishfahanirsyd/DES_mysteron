@@ -1,0 +1,161 @@
+
+#####################################################################################
+Checking that k541217cm_tmc.fits contains all rows in k5810292m_tmc.fits
+#####################################################################################
+	WARNING: ROW 13 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 55 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 76 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 79 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 87 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 89 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 91 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 92 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 93 (one indexed) in k5810292m_tmc.fits not found in k541217cm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 13
+	COMPNAME =  acs_f220w
+	FILENAME =  cracscomp$acs_f220w_004_syn.fits
+
+
+Row = 55
+	COMPNAME =  acs_f850lp
+	FILENAME =  cracscomp$acs_f850lp_004_syn.fits
+
+
+Row = 76
+	COMPNAME =  acs_g800l
+	FILENAME =  cracscomp$acs_g800l_004_syn.fits
+
+
+Row = 79
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_008_syn.fits
+
+
+Row = 87
+	COMPNAME =  acs_pr130l
+	FILENAME =  cracscomp$acs_pr130l_005_syn.fits
+
+
+Row = 89
+	COMPNAME =  acs_pr200l
+	FILENAME =  cracscomp$acs_pr200l_004_syn.fits
+
+
+Row = 91
+	COMPNAME =  acs_sbc_mama
+	FILENAME =  cracscomp$acs_sbc_mama_005_syn.fits
+
+
+Row = 92
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_007_syn.fits
+
+
+Row = 93
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_007_syn.fits
+
+
+#####################################################################################
+Checking that k5810292m_tmc.fits contains all rows in k541217cm_tmc.fits
+#####################################################################################
+	WARNING: ROW 13 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 55 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 76 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 79 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 87 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 89 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 91 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 92 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 93 (one indexed) in k541217cm_tmc.fits not found in k5810292m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 13
+	COMPNAME =  acs_f220w
+	FILENAME =  cracscomp$acs_f220w_003_syn.fits
+
+
+Row = 55
+	COMPNAME =  acs_f850lp
+	FILENAME =  cracscomp$acs_f850lp_003_syn.fits
+
+
+Row = 76
+	COMPNAME =  acs_g800l
+	FILENAME =  cracscomp$acs_g800l_003_syn.fits
+
+
+Row = 79
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_007_syn.fits
+
+
+Row = 87
+	COMPNAME =  acs_pr130l
+	FILENAME =  cracscomp$acs_pr130l_004_syn.fits
+
+
+Row = 89
+	COMPNAME =  acs_pr200l
+	FILENAME =  cracscomp$acs_pr200l_003_syn.fits
+
+
+Row = 91
+	COMPNAME =  acs_sbc_mama
+	FILENAME =  cracscomp$acs_sbc_mama_004_syn.fits
+
+
+Row = 92
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_006_syn.fits
+
+
+Row = 93
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_006_syn.fits
+
+

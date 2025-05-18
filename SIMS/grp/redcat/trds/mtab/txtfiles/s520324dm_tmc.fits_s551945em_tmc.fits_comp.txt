@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that s551945em_tmc.fits contains all rows in s520324dm_tmc.fits
+#####################################################################################
+	WARNING: ROW 216 (one indexed) in s520324dm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 216
+	COMPNAME =  cos_mirrorb
+	FILENAME =  crcoscomp$cos_mirrorb_005_syn.fits
+
+
+#####################################################################################
+Checking that s520324dm_tmc.fits contains all rows in s551945em_tmc.fits
+#####################################################################################
+	WARNING: ROW 216 (one indexed) in s551945em_tmc.fits not found in s520324dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 216
+	COMPNAME =  cos_mirrorb
+	FILENAME =  crcoscomp$cos_mirrorb_006_syn.fits
+
+

@@ -1,0 +1,401 @@
+
+#####################################################################################
+Checking that o7d1209tm_tmc.fits contains all rows in o5a1822rm_tmc.fits
+#####################################################################################
+	WARNING: ROW 19 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 22 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 28 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 34 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 37 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 41 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 44 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 47 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 48 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 58 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 79 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 97 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2052 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2056 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2062 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2064 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2067 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2069 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2073 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2075 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2077 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2079 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2082 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2085 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2087 (one indexed) in o5a1822rm_tmc.fits not found in o7d1209tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 19
+	COMPNAME =  acs_f330w
+	FILENAME =  cracscomp$acs_f330w_003_syn.fits
+
+
+Row = 22
+	COMPNAME =  acs_f344n
+	FILENAME =  cracscomp$acs_f344n_003_syn.fits
+
+
+Row = 28
+	COMPNAME =  acs_f435w
+	FILENAME =  cracscomp$acs_f435w_003_syn.fits
+
+
+Row = 34
+	COMPNAME =  acs_f502n
+	FILENAME =  cracscomp$acs_f502n_004_syn.fits
+
+
+Row = 37
+	COMPNAME =  acs_f550m
+	FILENAME =  cracscomp$acs_f550m_004_syn.fits
+
+
+Row = 41
+	COMPNAME =  acs_f606w
+	FILENAME =  cracscomp$acs_f606w_004_syn.fits
+
+
+Row = 44
+	COMPNAME =  acs_f625w
+	FILENAME =  cracscomp$acs_f625w_003_syn.fits
+
+
+Row = 47
+	COMPNAME =  acs_f658n
+	FILENAME =  cracscomp$acs_f658n_004_syn.fits
+
+
+Row = 48
+	COMPNAME =  acs_f660n
+	FILENAME =  cracscomp$acs_f660n_004_syn.fits
+
+
+Row = 58
+	COMPNAME =  acs_f892n
+	FILENAME =  cracscomp$acs_f892n_004_syn.fits
+
+
+Row = 79
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_009_syn.fits
+
+
+Row = 97
+	COMPNAME =  acs_sbc_mama
+	FILENAME =  cracscomp$acs_sbc_mama_005_syn.fits
+
+
+Row = 2052
+	COMPNAME =  stis_ng11_mjd
+	FILENAME =  crstiscomp$stis_ng11_mjd_010_syn.fits[MJD#]
+
+
+Row = 2056
+	COMPNAME =  stis_ng12_mjd
+	FILENAME =  crstiscomp$stis_ng12_mjd_010_syn.fits[MJD#]
+
+
+Row = 2062
+	COMPNAME =  stis_ng21_mjd
+	FILENAME =  crstiscomp$stis_ng21_mjd_010_syn.fits[MJD#]
+
+
+Row = 2064
+	COMPNAME =  stis_ng21b_mjd
+	FILENAME =  crstiscomp$stis_ng21b_mjd_004_syn.fits[MJD#]
+
+
+Row = 2067
+	COMPNAME =  stis_ng22_mjd
+	FILENAME =  crstiscomp$stis_ng22_mjd_010_syn.fits[MJD#]
+
+
+Row = 2069
+	COMPNAME =  stis_ng22b_mjd
+	FILENAME =  crstiscomp$stis_ng22b_mjd_004_syn.fits[MJD#]
+
+
+Row = 2073
+	COMPNAME =  stis_ng31_mjd
+	FILENAME =  crstiscomp$stis_ng31_mjd_005_syn.fits[MJD#]
+
+
+Row = 2075
+	COMPNAME =  stis_ng32_mjd
+	FILENAME =  crstiscomp$stis_ng32_mjd_005_syn.fits[MJD#]
+
+
+Row = 2077
+	COMPNAME =  stis_ng41_mjd
+	FILENAME =  crstiscomp$stis_ng41_mjd_005_syn.fits[MJD#]
+
+
+Row = 2079
+	COMPNAME =  stis_ng42_mjd
+	FILENAME =  crstiscomp$stis_ng42_mjd_005_syn.fits[MJD#]
+
+
+Row = 2082
+	COMPNAME =  stis_nm16_mjd
+	FILENAME =  crstiscomp$stis_nm16_mjd_007_syn.fits[MJD#]
+
+
+Row = 2085
+	COMPNAME =  stis_nm26_mjd
+	FILENAME =  crstiscomp$stis_nm26_mjd_010_syn.fits[MJD#]
+
+
+Row = 2087
+	COMPNAME =  stis_nm36_mjd
+	FILENAME =  crstiscomp$stis_nm36_mjd_006_syn.fits[MJD#]
+
+
+#####################################################################################
+Checking that o5a1822rm_tmc.fits contains all rows in o7d1209tm_tmc.fits
+#####################################################################################
+	WARNING: ROW 20 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 23 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 29 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 35 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 38 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 42 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 45 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 48 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 49 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 59 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2050 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2053 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2058 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2059 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2062 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2063 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2067 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2069 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2071 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2073 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2075 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2077 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2079 (one indexed) in o7d1209tm_tmc.fits not found in o5a1822rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 20
+	COMPNAME =  acs_f330w
+	FILENAME =  cracscomp$acs_f330w_004_syn.fits
+
+
+Row = 23
+	COMPNAME =  acs_f344n
+	FILENAME =  cracscomp$acs_f344n_004_syn.fits
+
+
+Row = 29
+	COMPNAME =  acs_f435w
+	FILENAME =  cracscomp$acs_f435w_004_syn.fits
+
+
+Row = 35
+	COMPNAME =  acs_f502n
+	FILENAME =  cracscomp$acs_f502n_005_syn.fits
+
+
+Row = 38
+	COMPNAME =  acs_f550m
+	FILENAME =  cracscomp$acs_f550m_005_syn.fits
+
+
+Row = 42
+	COMPNAME =  acs_f606w
+	FILENAME =  cracscomp$acs_f606w_005_syn.fits
+
+
+Row = 45
+	COMPNAME =  acs_f625w
+	FILENAME =  cracscomp$acs_f625w_004_syn.fits
+
+
+Row = 48
+	COMPNAME =  acs_f658n
+	FILENAME =  cracscomp$acs_f658n_005_syn.fits
+
+
+Row = 49
+	COMPNAME =  acs_f660n
+	FILENAME =  cracscomp$acs_f660n_005_syn.fits
+
+
+Row = 59
+	COMPNAME =  acs_f892n
+	FILENAME =  cracscomp$acs_f892n_005_syn.fits
+
+
+Row = 2050
+	COMPNAME =  stis_ng11_mjd
+	FILENAME =  crstiscomp$stis_ng11_mjd_010_syn.fits[mjd#]
+
+
+Row = 2053
+	COMPNAME =  stis_ng12_mjd
+	FILENAME =  crstiscomp$stis_ng12_mjd_010_syn.fits[mjd#]
+
+
+Row = 2058
+	COMPNAME =  stis_ng21b_mjd
+	FILENAME =  crstiscomp$stis_ng21b_mjd_004_syn.fits[mjd#]
+
+
+Row = 2059
+	COMPNAME =  stis_ng21_mjd
+	FILENAME =  crstiscomp$stis_ng21_mjd_010_syn.fits[mjd#]
+
+
+Row = 2062
+	COMPNAME =  stis_ng22b_mjd
+	FILENAME =  crstiscomp$stis_ng22b_mjd_004_syn.fits[mjd#]
+
+
+Row = 2063
+	COMPNAME =  stis_ng22_mjd
+	FILENAME =  crstiscomp$stis_ng22_mjd_010_syn.fits[mjd#]
+
+
+Row = 2067
+	COMPNAME =  stis_ng31_mjd
+	FILENAME =  crstiscomp$stis_ng31_mjd_005_syn.fits[mjd#]
+
+
+Row = 2069
+	COMPNAME =  stis_ng32_mjd
+	FILENAME =  crstiscomp$stis_ng32_mjd_005_syn.fits[mjd#]
+
+
+Row = 2071
+	COMPNAME =  stis_ng41_mjd
+	FILENAME =  crstiscomp$stis_ng41_mjd_005_syn.fits[mjd#]
+
+
+Row = 2073
+	COMPNAME =  stis_ng42_mjd
+	FILENAME =  crstiscomp$stis_ng42_mjd_005_syn.fits[mjd#]
+
+
+Row = 2075
+	COMPNAME =  stis_nm16_mjd
+	FILENAME =  crstiscomp$stis_nm16_mjd_007_syn.fits[mjd#]
+
+
+Row = 2077
+	COMPNAME =  stis_nm26_mjd
+	FILENAME =  crstiscomp$stis_nm26_mjd_010_syn.fits[mjd#]
+
+
+Row = 2079
+	COMPNAME =  stis_nm36_mjd
+	FILENAME =  crstiscomp$stis_nm36_mjd_006_syn.fits[mjd#]
+
+

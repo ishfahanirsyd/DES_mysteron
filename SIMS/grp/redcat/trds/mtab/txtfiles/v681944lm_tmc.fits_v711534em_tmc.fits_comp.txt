@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that v711534em_tmc.fits contains all rows in v681944lm_tmc.fits
+#####################################################################################
+	WARNING: ROW 83 (one indexed) in v681944lm_tmc.fits not found in v711534em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 83
+	COMPNAME =  acs_hrc_m12
+	FILENAME =  cracscomp$acs_hrc_m12_005_syn.fits
+
+
+#####################################################################################
+Checking that v681944lm_tmc.fits contains all rows in v711534em_tmc.fits
+#####################################################################################
+	WARNING: ROW 83 (one indexed) in v711534em_tmc.fits not found in v681944lm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 83
+	COMPNAME =  acs_hrc_m12
+	FILENAME =  cracscomp$acs_hrc_m12_006_syn.fits
+
+

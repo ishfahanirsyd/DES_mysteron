@@ -1,0 +1,1159 @@
+
+#####################################################################################
+Checking that k461615bm_tmc.fits contains all rows in k370908lm_tmc.fits
+#####################################################################################
+	WARNING: ROW 1 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 3 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 5 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 7 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 9 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 11 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 13 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 15 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 17 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 19 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 21 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 23 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 25 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 27 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 29 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 31 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 33 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 35 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 37 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 39 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 41 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 43 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 45 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 47 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 49 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 51 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 53 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 55 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 57 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 59 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 61 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 63 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 65 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 67 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 69 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 71 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 73 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 75 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 77 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 79 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 81 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 83 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 85 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 87 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 89 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 91 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 93 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 95 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 97 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 99 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 101 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 103 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 105 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 107 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 109 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 111 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 113 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 115 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 117 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 119 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 121 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 123 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 124 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 125 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 126 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 127 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 129 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 131 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 133 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 135 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 137 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 139 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 141 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 143 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 145 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 147 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 149 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 151 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 153 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 155 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 157 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 159 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1316 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1323 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1330 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1333 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1335 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1337 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1339 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1341 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1344 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1347 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1350 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1352 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1354 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1356 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1358 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1360 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1368 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1547 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1554 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1556 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1558 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1560 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1911 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1915 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1917 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1919 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1921 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1923 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1926 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1930 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1933 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1935 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1944 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1959 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1964 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1993 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2006 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2008 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2010 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2012 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2014 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2016 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2018 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2020 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2022 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2024 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2025 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2027 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2029 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2032 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2054 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2056 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2058 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2060 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2100 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2102 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2119 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2124 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2156 (one indexed) in k370908lm_tmc.fits not found in k461615bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1
+	COMPNAME =  acs_f115lp
+	FILENAME =  cracscomp$acs_f115lp_002.tab
+
+
+Row = 3
+	COMPNAME =  acs_f115lp_sbc
+	FILENAME =  cracscomp$acs_f115lp_sbc_001.tab
+
+
+Row = 5
+	COMPNAME =  acs_f122m
+	FILENAME =  cracscomp$acs_f122m_002.tab
+
+
+Row = 7
+	COMPNAME =  acs_f122m_sbc
+	FILENAME =  cracscomp$acs_f122m_sbc_002.tab
+
+
+Row = 9
+	COMPNAME =  acs_f125lp
+	FILENAME =  cracscomp$acs_f125lp_003.tab
+
+
+Row = 11
+	COMPNAME =  acs_f125lp_sbc
+	FILENAME =  cracscomp$acs_f125lp_sbc_001.tab
+
+
+Row = 13
+	COMPNAME =  acs_f140lp
+	FILENAME =  cracscomp$acs_f140lp_003.tab
+
+
+Row = 15
+	COMPNAME =  acs_f140lp_sbc
+	FILENAME =  cracscomp$acs_f140lp_sbc_001.tab
+
+
+Row = 17
+	COMPNAME =  acs_f150lp
+	FILENAME =  cracscomp$acs_f150lp_002.tab
+
+
+Row = 19
+	COMPNAME =  acs_f150lp_sbc
+	FILENAME =  cracscomp$acs_f150lp_sbc_001.tab
+
+
+Row = 21
+	COMPNAME =  acs_f165lp
+	FILENAME =  cracscomp$acs_f165lp_002.tab
+
+
+Row = 23
+	COMPNAME =  acs_f165lp_sbc
+	FILENAME =  cracscomp$acs_f165lp_sbc_001.tab
+
+
+Row = 25
+	COMPNAME =  acs_f220w
+	FILENAME =  cracscomp$acs_f220w_001.tab
+
+
+Row = 27
+	COMPNAME =  acs_f220w_hrc
+	FILENAME =  cracscomp$acs_f220w_hrc_002.tab
+
+
+Row = 29
+	COMPNAME =  acs_f220w_wfc
+	FILENAME =  cracscomp$acs_f220w_wfc_002.tab
+
+
+Row = 31
+	COMPNAME =  acs_f250w
+	FILENAME =  cracscomp$acs_f250w_001.tab
+
+
+Row = 33
+	COMPNAME =  acs_f250w_hrc
+	FILENAME =  cracscomp$acs_f250w_hrc_001.tab
+
+
+Row = 35
+	COMPNAME =  acs_f250w_wfc
+	FILENAME =  cracscomp$acs_f250w_wfc_001.tab
+
+
+Row = 37
+	COMPNAME =  acs_f330w
+	FILENAME =  cracscomp$acs_f330w_001.tab
+
+
+Row = 39
+	COMPNAME =  acs_f330w_hrc
+	FILENAME =  cracscomp$acs_f330w_hrc_001.tab
+
+
+Row = 41
+	COMPNAME =  acs_f330w_wfc
+	FILENAME =  cracscomp$acs_f330w_wfc_001.tab
+
+
+Row = 43
+	COMPNAME =  acs_f344n
+	FILENAME =  cracscomp$acs_f344n_001.tab
+
+
+Row = 45
+	COMPNAME =  acs_f344n_hrc
+	FILENAME =  cracscomp$acs_f344n_hrc_001.tab
+
+
+Row = 47
+	COMPNAME =  acs_f344n_wfc
+	FILENAME =  cracscomp$acs_f344n_wfc_001.tab
+
+
+Row = 49
+	COMPNAME =  acs_f410w_hrc
+	FILENAME =  cracscomp$acs_f410w_hrc_001.tab
+
+
+Row = 51
+	COMPNAME =  acs_f410w_wfc
+	FILENAME =  cracscomp$acs_f410w_wfc_001.tab
+
+
+Row = 53
+	COMPNAME =  acs_f425w_hrc
+	FILENAME =  cracscomp$acs_f425w_hrc_001.tab
+
+
+Row = 55
+	COMPNAME =  acs_f435w
+	FILENAME =  cracscomp$acs_f435w_001.tab
+
+
+Row = 57
+	COMPNAME =  acs_f435w_hrc
+	FILENAME =  cracscomp$acs_f435w_hrc_001.tab
+
+
+Row = 59
+	COMPNAME =  acs_f435w_wfc
+	FILENAME =  cracscomp$acs_f435w_wfc_001.tab
+
+
+Row = 61
+	COMPNAME =  acs_f475w
+	FILENAME =  cracscomp$acs_f475w_001.tab
+
+
+Row = 63
+	COMPNAME =  acs_f475w_hrc
+	FILENAME =  cracscomp$acs_f475w_hrc_001.tab
+
+
+Row = 65
+	COMPNAME =  acs_f475w_wfc
+	FILENAME =  cracscomp$acs_f475w_wfc_001.tab
+
+
+Row = 67
+	COMPNAME =  acs_f502n
+	FILENAME =  cracscomp$acs_f502n_001.tab
+
+
+Row = 69
+	COMPNAME =  acs_f502n_hrc
+	FILENAME =  cracscomp$acs_f502n_hrc_001.tab
+
+
+Row = 71
+	COMPNAME =  acs_f502n_wfc
+	FILENAME =  cracscomp$acs_f502n_wfc_001.tab
+
+
+Row = 73
+	COMPNAME =  acs_f550m
+	FILENAME =  cracscomp$acs_f550m_001.tab
+
+
+Row = 75
+	COMPNAME =  acs_f555w
+	FILENAME =  cracscomp$acs_f555w_001.tab
+
+
+Row = 77
+	COMPNAME =  acs_f555w_hrc
+	FILENAME =  cracscomp$acs_f555w_hrc_001.tab
+
+
+Row = 79
+	COMPNAME =  acs_f555w_wfc
+	FILENAME =  cracscomp$acs_f555w_wfc_001.tab
+
+
+Row = 81
+	COMPNAME =  acs_f606w
+	FILENAME =  cracscomp$acs_f606w_001.tab
+
+
+Row = 83
+	COMPNAME =  acs_f606w_hrc
+	FILENAME =  cracscomp$acs_f606w_hrc_001.tab
+
+
+Row = 85
+	COMPNAME =  acs_f606w_wfc
+	FILENAME =  cracscomp$acs_f606w_wfc_001.tab
+
+
+Row = 87
+	COMPNAME =  acs_f625w
+	FILENAME =  cracscomp$acs_f625w_001.tab
+
+
+Row = 89
+	COMPNAME =  acs_f625w_hrc
+	FILENAME =  cracscomp$acs_f625w_hrc_001.tab
+
+
+Row = 91
+	COMPNAME =  acs_f625w_wfc
+	FILENAME =  cracscomp$acs_f625w_wfc_001.tab
+
+
+Row = 93
+	COMPNAME =  acs_f658n
+	FILENAME =  cracscomp$acs_f658n_001.tab
+
+
+Row = 95
+	COMPNAME =  acs_f660n
+	FILENAME =  cracscomp$acs_f660n_001.tab
+
+
+Row = 97
+	COMPNAME =  acs_f775w
+	FILENAME =  cracscomp$acs_f775w_001.tab
+
+
+Row = 99
+	COMPNAME =  acs_f775w_hrc
+	FILENAME =  cracscomp$acs_f775w_hrc_001.tab
+
+
+Row = 101
+	COMPNAME =  acs_f775w_wfc
+	FILENAME =  cracscomp$acs_f775w_wfc_001.tab
+
+
+Row = 103
+	COMPNAME =  acs_f814w
+	FILENAME =  cracscomp$acs_f814w_001.tab
+
+
+Row = 105
+	COMPNAME =  acs_f814w_hrc
+	FILENAME =  cracscomp$acs_f814w_hrc_002.tab
+
+
+Row = 107
+	COMPNAME =  acs_f814w_wfc
+	FILENAME =  cracscomp$acs_f814w_wfc_002.tab
+
+
+Row = 109
+	COMPNAME =  acs_f850lp
+	FILENAME =  cracscomp$acs_f850lp_001.tab
+
+
+Row = 111
+	COMPNAME =  acs_f850lp_hrc
+	FILENAME =  cracscomp$acs_f850lp_hrc_001.tab
+
+
+Row = 113
+	COMPNAME =  acs_f850lp_wfc
+	FILENAME =  cracscomp$acs_f850lp_wfc_001.tab
+
+
+Row = 115
+	COMPNAME =  acs_f892n
+	FILENAME =  cracscomp$acs_f892n_001.tab
+
+
+Row = 117
+	COMPNAME =  acs_f892n_hrc
+	FILENAME =  cracscomp$acs_f892n_hrc_001.tab
+
+
+Row = 119
+	COMPNAME =  acs_f892n_wfc
+	FILENAME =  cracscomp$acs_f892n_wfc_001.tab
+
+
+Row = 121
+	COMPNAME =  acs_g800l
+	FILENAME =  cracscomp$acs_g800l_001.tab
+
+
+Row = 123
+	COMPNAME =  acs_g800l_hrc
+	FILENAME =  cracscomp$acs_g800l_hrc.tab
+
+
+Row = 124
+	COMPNAME =  acs_g800l_hrc
+	FILENAME =  cracscomp$acs_g800l_hrc.fits
+
+
+Row = 125
+	COMPNAME =  acs_g800l_wfc
+	FILENAME =  cracscomp$acs_g800l_wfc.tab
+
+
+Row = 126
+	COMPNAME =  acs_g800l_wfc
+	FILENAME =  cracscomp$acs_g800l_wfc.fits
+
+
+Row = 127
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_005.tab
+
+
+Row = 129
+	COMPNAME =  acs_hrc_m12
+	FILENAME =  cracscomp$acs_hrc_m12_002.tab
+
+
+Row = 131
+	COMPNAME =  acs_hrc_m3
+	FILENAME =  cracscomp$acs_hrc_m3_002.tab
+
+
+Row = 133
+	COMPNAME =  acs_hrc_win
+	FILENAME =  cracscomp$acs_hrc_win_002.tab
+
+
+Row = 135
+	COMPNAME =  acs_pol_uv
+	FILENAME =  cracscomp$acs_pol_uv_001.tab
+
+
+Row = 137
+	COMPNAME =  acs_pol_v
+	FILENAME =  cracscomp$acs_pol_v_001.tab
+
+
+Row = 139
+	COMPNAME =  acs_pr110l
+	FILENAME =  cracscomp$acs_pr110l_002.tab
+
+
+Row = 141
+	COMPNAME =  acs_pr110l_sbc
+	FILENAME =  cracscomp$acs_pr110l_sbc_001.tab
+
+
+Row = 143
+	COMPNAME =  acs_pr130l
+	FILENAME =  cracscomp$acs_pr130l_002.tab
+
+
+Row = 145
+	COMPNAME =  acs_pr130l_sbc
+	FILENAME =  cracscomp$acs_pr130l_sbc_001.tab
+
+
+Row = 147
+	COMPNAME =  acs_pr200l
+	FILENAME =  cracscomp$acs_pr200l_001.tab
+
+
+Row = 149
+	COMPNAME =  acs_pr200l_hrc
+	FILENAME =  cracscomp$acs_pr200l_hrc.tab
+
+
+Row = 151
+	COMPNAME =  acs_sbc_mama
+	FILENAME =  cracscomp$acs_sbc_mama_002.tab
+
+
+Row = 153
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_004.tab
+
+
+Row = 155
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_004.tab
+
+
+Row = 157
+	COMPNAME =  acs_wfc_ebe_win12f
+	FILENAME =  cracscomp$acs_wfc_ebe_win12f_003.tab
+
+
+Row = 159
+	COMPNAME =  acs_wfc_im123
+	FILENAME =  cracscomp$acs_wfc_im123_002.tab
+
+
+Row = 1316
+	COMPNAME =  stis_0054x29
+	FILENAME =  crstiscomp$stis_0054x29_002.tab
+
+
+Row = 1323
+	COMPNAME =  stis_01x003
+	FILENAME =  crstiscomp$stis_01x003_004.tab
+
+
+Row = 1330
+	COMPNAME =  stis_02a
+	FILENAME =  crstiscomp$stis_02a_003.tab
+
+
+Row = 1333
+	COMPNAME =  stis_02b
+	FILENAME =  crstiscomp$stis_02b_003.tab
+
+
+Row = 1335
+	COMPNAME =  stis_02c
+	FILENAME =  crstiscomp$stis_02c_003.tab
+
+
+Row = 1337
+	COMPNAME =  stis_02d
+	FILENAME =  crstiscomp$stis_02d_003.tab
+
+
+Row = 1339
+	COMPNAME =  stis_02e
+	FILENAME =  crstiscomp$stis_02e_003.tab
+
+
+Row = 1341
+	COMPNAME =  stis_02x005nd
+	FILENAME =  crstiscomp$stis_02x005nd_005.tab
+
+
+Row = 1344
+	COMPNAME =  stis_02x006
+	FILENAME =  crstiscomp$stis_02x006_004.tab
+
+
+Row = 1347
+	COMPNAME =  stis_02x0063a
+	FILENAME =  crstiscomp$stis_02x0063a_003.tab
+
+
+Row = 1350
+	COMPNAME =  stis_02x0063b
+	FILENAME =  crstiscomp$stis_02x0063b_003.tab
+
+
+Row = 1352
+	COMPNAME =  stis_02x0063c
+	FILENAME =  crstiscomp$stis_02x0063c_003.tab
+
+
+Row = 1354
+	COMPNAME =  stis_02x0063d
+	FILENAME =  crstiscomp$stis_02x0063d_003.tab
+
+
+Row = 1356
+	COMPNAME =  stis_02x0063e
+	FILENAME =  crstiscomp$stis_02x0063e_003.tab
+
+
+Row = 1358
+	COMPNAME =  stis_02x009
+	FILENAME =  crstiscomp$stis_02x009_005.tab
+
+
+Row = 1360
+	COMPNAME =  stis_02x02
+	FILENAME =  crstiscomp$stis_02x02_004.tab
+
+
+Row = 1368
+	COMPNAME =  stis_03x005nd
+	FILENAME =  crstiscomp$stis_03x005nd_005.tab
+
+
+Row = 1547
+	COMPNAME =  stis_247
+	FILENAME =  crstiscomp$stis_247_004.tab
+
+
+Row = 1554
+	COMPNAME =  stis_247nd1
+	FILENAME =  crstiscomp$stis_247nd1_003.tab
+
+
+Row = 1556
+	COMPNAME =  stis_247nd2
+	FILENAME =  crstiscomp$stis_247nd2_003.tab
+
+
+Row = 1558
+	COMPNAME =  stis_247nd3
+	FILENAME =  crstiscomp$stis_247nd3_003.tab
+
+
+Row = 1560
+	COMPNAME =  stis_247nd4
+	FILENAME =  crstiscomp$stis_247nd4_003.tab
+
+
+Row = 1911
+	COMPNAME =  stis_50
+	FILENAME =  crstiscomp$stis_50_005.tab
+
+
+Row = 1915
+	COMPNAME =  stis_52x005
+	FILENAME =  crstiscomp$stis_52x005_004.tab
+
+
+Row = 1917
+	COMPNAME =  stis_52x01
+	FILENAME =  crstiscomp$stis_52x01_005.tab
+
+
+Row = 1919
+	COMPNAME =  stis_52x02
+	FILENAME =  crstiscomp$stis_52x02_005.tab
+
+
+Row = 1921
+	COMPNAME =  stis_52x05
+	FILENAME =  crstiscomp$stis_52x05_004.tab
+
+
+Row = 1923
+	COMPNAME =  stis_52x2
+	FILENAME =  crstiscomp$stis_52x2_004.tab
+
+
+Row = 1926
+	COMPNAME =  stis_6x02
+	FILENAME =  crstiscomp$stis_6x02_005.tab
+
+
+Row = 1930
+	COMPNAME =  stis_a2d2
+	FILENAME =  crstiscomp$stis_a2d2_002.tab
+
+
+Row = 1933
+	COMPNAME =  stis_a2d4
+	FILENAME =  crstiscomp$stis_a2d4_002.tab
+
+
+Row = 1935
+	COMPNAME =  stis_a2d8
+	FILENAME =  crstiscomp$stis_a2d8_001.tab
+
+
+Row = 1944
+	COMPNAME =  stis_e140h
+	FILENAME =  crstiscomp$stis_e140h_011.tab
+
+
+Row = 1959
+	COMPNAME =  stis_e140m
+	FILENAME =  crstiscomp$stis_e140m_012.tab
+
+
+Row = 1964
+	COMPNAME =  stis_e230h
+	FILENAME =  crstiscomp$stis_e230h_012.tab
+
+
+Row = 1993
+	COMPNAME =  stis_e230m
+	FILENAME =  crstiscomp$stis_e230m_012.tab
+
+
+Row = 2006
+	COMPNAME =  stis_f25ciii
+	FILENAME =  crstiscomp$stis_f25ciii_007.tab
+
+
+Row = 2008
+	COMPNAME =  stis_f25cn182
+	FILENAME =  crstiscomp$stis_f25cn182_006.tab
+
+
+Row = 2010
+	COMPNAME =  stis_f25cn270
+	FILENAME =  crstiscomp$stis_f25cn270_007.tab
+
+
+Row = 2012
+	COMPNAME =  stis_f25lya
+	FILENAME =  crstiscomp$stis_f25lya_006.tab
+
+
+Row = 2014
+	COMPNAME =  stis_f25mgii
+	FILENAME =  crstiscomp$stis_f25mgii_007.tab
+
+
+Row = 2016
+	COMPNAME =  stis_f25nd3
+	FILENAME =  crstiscomp$stis_f25nd3_004.tab
+
+
+Row = 2018
+	COMPNAME =  stis_f25nd5
+	FILENAME =  crstiscomp$stis_f25nd5_005.tab
+
+
+Row = 2020
+	COMPNAME =  stis_f25qtz
+	FILENAME =  crstiscomp$stis_f25qtz_006.tab
+
+
+Row = 2022
+	COMPNAME =  stis_f25srf2
+	FILENAME =  crstiscomp$stis_f25srf2_006.tab
+
+
+Row = 2024
+	COMPNAME =  stis_f28x50lp
+	FILENAME =  crstiscomp$stis_f28x50lp_002.tab
+
+
+Row = 2025
+	COMPNAME =  stis_f28x50oii
+	FILENAME =  crstiscomp$stis_f28x50oii_005.tab
+
+
+Row = 2027
+	COMPNAME =  stis_f28x50oiii
+	FILENAME =  crstiscomp$stis_f28x50oiii_006.tab
+
+
+Row = 2029
+	COMPNAME =  stis_g140l
+	FILENAME =  crstiscomp$stis_g140l_005.tab
+
+
+Row = 2032
+	COMPNAME =  stis_g140m
+	FILENAME =  crstiscomp$stis_g140m_006.tab
+
+
+Row = 2054
+	COMPNAME =  stis_g230l
+	FILENAME =  crstiscomp$stis_g230l_006.tab
+
+
+Row = 2056
+	COMPNAME =  stis_g230lb
+	FILENAME =  crstiscomp$stis_g230lb_005.tab
+
+
+Row = 2058
+	COMPNAME =  stis_g230m
+	FILENAME =  crstiscomp$stis_g230m_006.tab
+
+
+Row = 2060
+	COMPNAME =  stis_g230mb
+	FILENAME =  crstiscomp$stis_g230mb_007.tab
+
+
+Row = 2100
+	COMPNAME =  stis_g430l
+	FILENAME =  crstiscomp$stis_g430l_007.tab
+
+
+Row = 2102
+	COMPNAME =  stis_g430m
+	FILENAME =  crstiscomp$stis_g430m_007.tab
+
+
+Row = 2119
+	COMPNAME =  stis_g750l
+	FILENAME =  crstiscomp$stis_g750l_007.tab
+
+
+Row = 2124
+	COMPNAME =  stis_g750m
+	FILENAME =  crstiscomp$stis_g750m_007.tab
+
+
+Row = 2156
+	COMPNAME =  stis_mirnuv
+	FILENAME =  crstiscomp$stis_mirnuv_006.tab
+
+
+#####################################################################################
+Checking that k370908lm_tmc.fits contains all rows in k461615bm_tmc.fits
+#####################################################################################
+	WARNING: ROW 62 (one indexed) in k461615bm_tmc.fits not found in k370908lm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 63 (one indexed) in k461615bm_tmc.fits not found in k370908lm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 62
+	COMPNAME =  acs_g800l_hrc
+	FILENAME =  cracscomp$acs_g800l_hrc_001.fits
+
+
+Row = 63
+	COMPNAME =  acs_g800l_wfc
+	FILENAME =  cracscomp$acs_g800l_wfc_001.fits
+
+

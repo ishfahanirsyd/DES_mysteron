@@ -1,0 +1,42 @@
+
+#####################################################################################
+Checking that n3d14532m_tmc.fits contains all rows in n3612121m_tmc.fits
+#####################################################################################
+	All (other) columns matched
+
+
+#####################################################################################
+Checking that n3612121m_tmc.fits contains all rows in n3d14532m_tmc.fits
+#####################################################################################
+	WARNING: ROW 85 (one indexed) in n3d14532m_tmc.fits not found in n3612121m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 86 (one indexed) in n3d14532m_tmc.fits not found in n3612121m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 87 (one indexed) in n3d14532m_tmc.fits not found in n3612121m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 88 (one indexed) in n3d14532m_tmc.fits not found in n3612121m_tmc.fits, COMPNAME was not matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 85
+	COMPNAME =  acs_wfc_aper
+	FILENAME =  cracscomp$acs_wfc_aper_001_syn.fits[aper#]
+
+
+Row = 86
+	COMPNAME =  acs_hrc_aper
+	FILENAME =  cracscomp$acs_hrc_aper_001_syn.fits[aper#]
+
+
+Row = 87
+	COMPNAME =  acs_sbc_aper
+	FILENAME =  cracscomp$acs_sbc_aper_001_syn.fits[aper#]
+
+
+Row = 88
+	COMPNAME =  acs_cor_aper
+	FILENAME =  cracscomp$acs_cor_aper_001_syn.fits[aper#]
+
+

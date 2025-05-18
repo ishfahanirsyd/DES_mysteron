@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that n2a13493m_tmc.fits contains all rows in n261051gm_tmc.fits
+#####################################################################################
+	WARNING: ROW 95 (one indexed) in n261051gm_tmc.fits not found in n2a13493m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 96 (one indexed) in n261051gm_tmc.fits not found in n2a13493m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 95
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_015_syn.fits
+
+
+Row = 96
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_015_syn.fits
+
+
+#####################################################################################
+Checking that n261051gm_tmc.fits contains all rows in n2a13493m_tmc.fits
+#####################################################################################
+	WARNING: ROW 95 (one indexed) in n2a13493m_tmc.fits not found in n261051gm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 96 (one indexed) in n2a13493m_tmc.fits not found in n261051gm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 95
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_016_syn.fits
+
+
+Row = 96
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_016_syn.fits
+
+

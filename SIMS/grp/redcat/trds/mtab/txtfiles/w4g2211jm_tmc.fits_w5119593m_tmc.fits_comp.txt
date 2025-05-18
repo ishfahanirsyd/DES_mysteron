@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that w5119593m_tmc.fits contains all rows in w4g2211jm_tmc.fits
+#####################################################################################
+	WARNING: ROW 178 (one indexed) in w4g2211jm_tmc.fits not found in w5119593m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 178
+	COMPNAME =  cosmcp_g140lc1280
+	FILENAME =  crcoscomp$cos_mcp_g140lc1280_002_syn.fits
+
+
+#####################################################################################
+Checking that w4g2211jm_tmc.fits contains all rows in w5119593m_tmc.fits
+#####################################################################################
+	WARNING: ROW 178 (one indexed) in w5119593m_tmc.fits not found in w4g2211jm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 178
+	COMPNAME =  cosmcp_g140lc1280
+	FILENAME =  crcoscomp$cos_mcp_g140lc1280_003_syn.fits
+
+

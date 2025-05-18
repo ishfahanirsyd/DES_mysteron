@@ -1,0 +1,817 @@
+
+#####################################################################################
+Checking that r451903hm_tmc.fits contains all rows in r3e1646km_tmc.fits
+#####################################################################################
+	WARNING: ROW 1952 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1955 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1956 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1957 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1958 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1959 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1960 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1961 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1962 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1963 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1964 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1965 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1966 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1969 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1970 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1972 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1973 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1974 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1975 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1976 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1977 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1978 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1979 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1980 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1981 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1982 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1983 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1984 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1985 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1986 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1987 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1988 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1989 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1990 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1991 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1992 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1993 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1994 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1995 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1996 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1997 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1998 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2000 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2001 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2002 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2003 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2004 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2005 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2140 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2171 (one indexed) in r3e1646km_tmc.fits not found in r451903hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1952
+	COMPNAME =  stis_e140h
+	FILENAME =  crstiscomp$stis_e140h_013_syn.fits
+
+
+Row = 1955
+	COMPNAME =  stis_e140h_c1234
+	FILENAME =  crstiscomp$stis_e140h_c1234_003_syn.fits
+
+
+Row = 1956
+	COMPNAME =  stis_e140h_c1416
+	FILENAME =  crstiscomp$stis_e140h_c1416_003_syn.fits
+
+
+Row = 1957
+	COMPNAME =  stis_e140h_c1598
+	FILENAME =  crstiscomp$stis_e140h_c1598_003_syn.fits
+
+
+Row = 1958
+	COMPNAME =  stis_e140h_i1271
+	FILENAME =  crstiscomp$stis_e140h_i1271_003_syn.fits
+
+
+Row = 1959
+	COMPNAME =  stis_e140h_i1307
+	FILENAME =  crstiscomp$stis_e140h_i1307_003_syn.fits
+
+
+Row = 1960
+	COMPNAME =  stis_e140h_i1343
+	FILENAME =  crstiscomp$stis_e140h_i1343_003_syn.fits
+
+
+Row = 1961
+	COMPNAME =  stis_e140h_i1380
+	FILENAME =  crstiscomp$stis_e140h_i1380_003_syn.fits
+
+
+Row = 1962
+	COMPNAME =  stis_e140h_i1453
+	FILENAME =  crstiscomp$stis_e140h_i1453_003_syn.fits
+
+
+Row = 1963
+	COMPNAME =  stis_e140h_i1489
+	FILENAME =  crstiscomp$stis_e140h_i1489_003_syn.fits
+
+
+Row = 1964
+	COMPNAME =  stis_e140h_i1526
+	FILENAME =  crstiscomp$stis_e140h_i1526_003_syn.fits
+
+
+Row = 1965
+	COMPNAME =  stis_e140h_i1562
+	FILENAME =  crstiscomp$stis_e140h_i1562_003_syn.fits
+
+
+Row = 1966
+	COMPNAME =  stis_e140m
+	FILENAME =  crstiscomp$stis_e140m_014_syn.fits
+
+
+Row = 1969
+	COMPNAME =  stis_e140m_c1425
+	FILENAME =  crstiscomp$stis_e140m_c1425_003_syn.fits
+
+
+Row = 1970
+	COMPNAME =  stis_e230h
+	FILENAME =  crstiscomp$stis_e230h_014_syn.fits
+
+
+Row = 1972
+	COMPNAME =  stis_e230h_c1763
+	FILENAME =  crstiscomp$stis_e230h_c1763_003_syn.fits
+
+
+Row = 1973
+	COMPNAME =  stis_e230h_c2013
+	FILENAME =  crstiscomp$stis_e230h_c2013_003_syn.fits
+
+
+Row = 1974
+	COMPNAME =  stis_e230h_c2263
+	FILENAME =  crstiscomp$stis_e230h_c2263_003_syn.fits
+
+
+Row = 1975
+	COMPNAME =  stis_e230h_c2513
+	FILENAME =  crstiscomp$stis_e230h_c2513_003_syn.fits
+
+
+Row = 1976
+	COMPNAME =  stis_e230h_c2762
+	FILENAME =  crstiscomp$stis_e230h_c2762_003_syn.fits
+
+
+Row = 1977
+	COMPNAME =  stis_e230h_c3012
+	FILENAME =  crstiscomp$stis_e230h_c3012_003_syn.fits
+
+
+Row = 1978
+	COMPNAME =  stis_e230h_i1813
+	FILENAME =  crstiscomp$stis_e230h_i1813_003_syn.fits
+
+
+Row = 1979
+	COMPNAME =  stis_e230h_i1863
+	FILENAME =  crstiscomp$stis_e230h_i1863_003_syn.fits
+
+
+Row = 1980
+	COMPNAME =  stis_e230h_i1913
+	FILENAME =  crstiscomp$stis_e230h_i1913_003_syn.fits
+
+
+Row = 1981
+	COMPNAME =  stis_e230h_i1963
+	FILENAME =  crstiscomp$stis_e230h_i1963_003_syn.fits
+
+
+Row = 1982
+	COMPNAME =  stis_e230h_i2063
+	FILENAME =  crstiscomp$stis_e230h_i2063_003_syn.fits
+
+
+Row = 1983
+	COMPNAME =  stis_e230h_i2113
+	FILENAME =  crstiscomp$stis_e230h_i2113_003_syn.fits
+
+
+Row = 1984
+	COMPNAME =  stis_e230h_i2163
+	FILENAME =  crstiscomp$stis_e230h_i2163_003_syn.fits
+
+
+Row = 1985
+	COMPNAME =  stis_e230h_i2213
+	FILENAME =  crstiscomp$stis_e230h_i2213_003_syn.fits
+
+
+Row = 1986
+	COMPNAME =  stis_e230h_i2313
+	FILENAME =  crstiscomp$stis_e230h_i2313_003_syn.fits
+
+
+Row = 1987
+	COMPNAME =  stis_e230h_i2363
+	FILENAME =  crstiscomp$stis_e230h_i2363_003_syn.fits
+
+
+Row = 1988
+	COMPNAME =  stis_e230h_i2413
+	FILENAME =  crstiscomp$stis_e230h_i2413_003_syn.fits
+
+
+Row = 1989
+	COMPNAME =  stis_e230h_i2463
+	FILENAME =  crstiscomp$stis_e230h_i2463_003_syn.fits
+
+
+Row = 1990
+	COMPNAME =  stis_e230h_i2563
+	FILENAME =  crstiscomp$stis_e230h_i2563_003_syn.fits
+
+
+Row = 1991
+	COMPNAME =  stis_e230h_i2613
+	FILENAME =  crstiscomp$stis_e230h_i2613_003_syn.fits
+
+
+Row = 1992
+	COMPNAME =  stis_e230h_i2663
+	FILENAME =  crstiscomp$stis_e230h_i2663_003_syn.fits
+
+
+Row = 1993
+	COMPNAME =  stis_e230h_i2713
+	FILENAME =  crstiscomp$stis_e230h_i2713_003_syn.fits
+
+
+Row = 1994
+	COMPNAME =  stis_e230h_i2812
+	FILENAME =  crstiscomp$stis_e230h_i2812_003_syn.fits
+
+
+Row = 1995
+	COMPNAME =  stis_e230h_i2862
+	FILENAME =  crstiscomp$stis_e230h_i2862_003_syn.fits
+
+
+Row = 1996
+	COMPNAME =  stis_e230h_i2912
+	FILENAME =  crstiscomp$stis_e230h_i2912_003_syn.fits
+
+
+Row = 1997
+	COMPNAME =  stis_e230h_i2962
+	FILENAME =  crstiscomp$stis_e230h_i2962_003_syn.fits
+
+
+Row = 1998
+	COMPNAME =  stis_e230m
+	FILENAME =  crstiscomp$stis_e230m_014_syn.fits
+
+
+Row = 2000
+	COMPNAME =  stis_e230m_c1978
+	FILENAME =  crstiscomp$stis_e230m_c1978_003_syn.fits
+
+
+Row = 2001
+	COMPNAME =  stis_e230m_c2707
+	FILENAME =  crstiscomp$stis_e230m_c2707_003_syn.fits
+
+
+Row = 2002
+	COMPNAME =  stis_e230m_i2124
+	FILENAME =  crstiscomp$stis_e230m_i2124_003_syn.fits
+
+
+Row = 2003
+	COMPNAME =  stis_e230m_i2269
+	FILENAME =  crstiscomp$stis_e230m_i2269_003_syn.fits
+
+
+Row = 2004
+	COMPNAME =  stis_e230m_i2415
+	FILENAME =  crstiscomp$stis_e230m_i2415_003_syn.fits
+
+
+Row = 2005
+	COMPNAME =  stis_e230m_i2561
+	FILENAME =  crstiscomp$stis_e230m_i2561_003_syn.fits
+
+
+Row = 2140
+	COMPNAME =  stis_mirvis
+	FILENAME =  crstiscomp$stis_mirvis_007_syn.fits
+
+
+Row = 2171
+	COMPNAME =  stis_nm36
+	FILENAME =  crstiscomp$stis_nm36_006_syn.fits
+
+
+#####################################################################################
+Checking that r3e1646km_tmc.fits contains all rows in r451903hm_tmc.fits
+#####################################################################################
+	WARNING: ROW 1952 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1955 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1956 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1957 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1958 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1959 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1960 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1961 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1962 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1963 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1964 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1965 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1966 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1969 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1970 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1972 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1973 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1974 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1975 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1976 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1977 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1978 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1979 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1980 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1981 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1982 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1983 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1984 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1985 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1986 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1987 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1988 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1989 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1990 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1991 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1992 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1993 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1994 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1995 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1996 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1997 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1998 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2000 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2001 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2002 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2003 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2004 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2005 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2140 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2171 (one indexed) in r451903hm_tmc.fits not found in r3e1646km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1952
+	COMPNAME =  stis_e140h
+	FILENAME =  crstiscomp$stis_e140h_014_syn.fits
+
+
+Row = 1955
+	COMPNAME =  stis_e140h_c1234
+	FILENAME =  crstiscomp$stis_e140h_c1234_004_syn.fits
+
+
+Row = 1956
+	COMPNAME =  stis_e140h_c1416
+	FILENAME =  crstiscomp$stis_e140h_c1416_004_syn.fits
+
+
+Row = 1957
+	COMPNAME =  stis_e140h_c1598
+	FILENAME =  crstiscomp$stis_e140h_c1598_004_syn.fits
+
+
+Row = 1958
+	COMPNAME =  stis_e140h_i1271
+	FILENAME =  crstiscomp$stis_e140h_i1271_004_syn.fits
+
+
+Row = 1959
+	COMPNAME =  stis_e140h_i1307
+	FILENAME =  crstiscomp$stis_e140h_i1307_004_syn.fits
+
+
+Row = 1960
+	COMPNAME =  stis_e140h_i1343
+	FILENAME =  crstiscomp$stis_e140h_i1343_004_syn.fits
+
+
+Row = 1961
+	COMPNAME =  stis_e140h_i1380
+	FILENAME =  crstiscomp$stis_e140h_i1380_004_syn.fits
+
+
+Row = 1962
+	COMPNAME =  stis_e140h_i1453
+	FILENAME =  crstiscomp$stis_e140h_i1453_004_syn.fits
+
+
+Row = 1963
+	COMPNAME =  stis_e140h_i1489
+	FILENAME =  crstiscomp$stis_e140h_i1489_004_syn.fits
+
+
+Row = 1964
+	COMPNAME =  stis_e140h_i1526
+	FILENAME =  crstiscomp$stis_e140h_i1526_004_syn.fits
+
+
+Row = 1965
+	COMPNAME =  stis_e140h_i1562
+	FILENAME =  crstiscomp$stis_e140h_i1562_004_syn.fits
+
+
+Row = 1966
+	COMPNAME =  stis_e140m
+	FILENAME =  crstiscomp$stis_e140m_015_syn.fits
+
+
+Row = 1969
+	COMPNAME =  stis_e140m_c1425
+	FILENAME =  crstiscomp$stis_e140m_c1425_004_syn.fits
+
+
+Row = 1970
+	COMPNAME =  stis_e230h
+	FILENAME =  crstiscomp$stis_e230h_015_syn.fits
+
+
+Row = 1972
+	COMPNAME =  stis_e230h_c1763
+	FILENAME =  crstiscomp$stis_e230h_c1763_004_syn.fits
+
+
+Row = 1973
+	COMPNAME =  stis_e230h_c2013
+	FILENAME =  crstiscomp$stis_e230h_c2013_004_syn.fits
+
+
+Row = 1974
+	COMPNAME =  stis_e230h_c2263
+	FILENAME =  crstiscomp$stis_e230h_c2263_004_syn.fits
+
+
+Row = 1975
+	COMPNAME =  stis_e230h_c2513
+	FILENAME =  crstiscomp$stis_e230h_c2513_004_syn.fits
+
+
+Row = 1976
+	COMPNAME =  stis_e230h_c2762
+	FILENAME =  crstiscomp$stis_e230h_c2762_004_syn.fits
+
+
+Row = 1977
+	COMPNAME =  stis_e230h_c3012
+	FILENAME =  crstiscomp$stis_e230h_c3012_004_syn.fits
+
+
+Row = 1978
+	COMPNAME =  stis_e230h_i1813
+	FILENAME =  crstiscomp$stis_e230h_i1813_004_syn.fits
+
+
+Row = 1979
+	COMPNAME =  stis_e230h_i1863
+	FILENAME =  crstiscomp$stis_e230h_i1863_004_syn.fits
+
+
+Row = 1980
+	COMPNAME =  stis_e230h_i1913
+	FILENAME =  crstiscomp$stis_e230h_i1913_004_syn.fits
+
+
+Row = 1981
+	COMPNAME =  stis_e230h_i1963
+	FILENAME =  crstiscomp$stis_e230h_i1963_004_syn.fits
+
+
+Row = 1982
+	COMPNAME =  stis_e230h_i2063
+	FILENAME =  crstiscomp$stis_e230h_i2063_004_syn.fits
+
+
+Row = 1983
+	COMPNAME =  stis_e230h_i2113
+	FILENAME =  crstiscomp$stis_e230h_i2113_004_syn.fits
+
+
+Row = 1984
+	COMPNAME =  stis_e230h_i2163
+	FILENAME =  crstiscomp$stis_e230h_i2163_004_syn.fits
+
+
+Row = 1985
+	COMPNAME =  stis_e230h_i2213
+	FILENAME =  crstiscomp$stis_e230h_i2213_004_syn.fits
+
+
+Row = 1986
+	COMPNAME =  stis_e230h_i2313
+	FILENAME =  crstiscomp$stis_e230h_i2313_004_syn.fits
+
+
+Row = 1987
+	COMPNAME =  stis_e230h_i2363
+	FILENAME =  crstiscomp$stis_e230h_i2363_004_syn.fits
+
+
+Row = 1988
+	COMPNAME =  stis_e230h_i2413
+	FILENAME =  crstiscomp$stis_e230h_i2413_004_syn.fits
+
+
+Row = 1989
+	COMPNAME =  stis_e230h_i2463
+	FILENAME =  crstiscomp$stis_e230h_i2463_004_syn.fits
+
+
+Row = 1990
+	COMPNAME =  stis_e230h_i2563
+	FILENAME =  crstiscomp$stis_e230h_i2563_004_syn.fits
+
+
+Row = 1991
+	COMPNAME =  stis_e230h_i2613
+	FILENAME =  crstiscomp$stis_e230h_i2613_004_syn.fits
+
+
+Row = 1992
+	COMPNAME =  stis_e230h_i2663
+	FILENAME =  crstiscomp$stis_e230h_i2663_004_syn.fits
+
+
+Row = 1993
+	COMPNAME =  stis_e230h_i2713
+	FILENAME =  crstiscomp$stis_e230h_i2713_004_syn.fits
+
+
+Row = 1994
+	COMPNAME =  stis_e230h_i2812
+	FILENAME =  crstiscomp$stis_e230h_i2812_004_syn.fits
+
+
+Row = 1995
+	COMPNAME =  stis_e230h_i2862
+	FILENAME =  crstiscomp$stis_e230h_i2862_004_syn.fits
+
+
+Row = 1996
+	COMPNAME =  stis_e230h_i2912
+	FILENAME =  crstiscomp$stis_e230h_i2912_004_syn.fits
+
+
+Row = 1997
+	COMPNAME =  stis_e230h_i2962
+	FILENAME =  crstiscomp$stis_e230h_i2962_004_syn.fits
+
+
+Row = 1998
+	COMPNAME =  stis_e230m
+	FILENAME =  crstiscomp$stis_e230m_015_syn.fits
+
+
+Row = 2000
+	COMPNAME =  stis_e230m_c1978
+	FILENAME =  crstiscomp$stis_e230m_c1978_004_syn.fits
+
+
+Row = 2001
+	COMPNAME =  stis_e230m_c2707
+	FILENAME =  crstiscomp$stis_e230m_c2707_004_syn.fits
+
+
+Row = 2002
+	COMPNAME =  stis_e230m_i2124
+	FILENAME =  crstiscomp$stis_e230m_i2124_004_syn.fits
+
+
+Row = 2003
+	COMPNAME =  stis_e230m_i2269
+	FILENAME =  crstiscomp$stis_e230m_i2269_004_syn.fits
+
+
+Row = 2004
+	COMPNAME =  stis_e230m_i2415
+	FILENAME =  crstiscomp$stis_e230m_i2415_004_syn.fits
+
+
+Row = 2005
+	COMPNAME =  stis_e230m_i2561
+	FILENAME =  crstiscomp$stis_e230m_i2561_004_syn.fits
+
+
+Row = 2140
+	COMPNAME =  stis_mirvis
+	FILENAME =  crstiscomp$stis_mirvis_008_syn.fits
+
+
+Row = 2171
+	COMPNAME =  stis_nm36
+	FILENAME =  crstiscomp$stis_nm36_007_syn.fits
+
+

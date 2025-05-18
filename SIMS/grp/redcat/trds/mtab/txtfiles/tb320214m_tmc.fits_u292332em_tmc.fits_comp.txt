@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that u292332em_tmc.fits contains all rows in tb320214m_tmc.fits
+#####################################################################################
+	WARNING: ROW 150 (one indexed) in tb320214m_tmc.fits not found in u292332em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 151 (one indexed) in tb320214m_tmc.fits not found in u292332em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 150
+	COMPNAME =  cosmcp_g140lc1105
+	FILENAME =  crcoscomp$cos_mcp_g140lc1105_006_syn.fits
+
+
+Row = 151
+	COMPNAME =  cosmcp_g140lc1230
+	FILENAME =  crcoscomp$cos_mcp_g140lc1230_006_syn.fits
+
+
+#####################################################################################
+Checking that tb320214m_tmc.fits contains all rows in u292332em_tmc.fits
+#####################################################################################
+	WARNING: ROW 150 (one indexed) in u292332em_tmc.fits not found in tb320214m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 151 (one indexed) in u292332em_tmc.fits not found in tb320214m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 150
+	COMPNAME =  cosmcp_g140lc1105
+	FILENAME =  crcoscomp$cos_mcp_g140lc1105_007_syn.fits
+
+
+Row = 151
+	COMPNAME =  cosmcp_g140lc1230
+	FILENAME =  crcoscomp$cos_mcp_g140lc1230_007_syn.fits
+
+

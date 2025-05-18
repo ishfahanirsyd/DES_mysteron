@@ -1,0 +1,529 @@
+
+#####################################################################################
+Checking that w1i2254fm_tmc.fits contains all rows in vb71653dm_tmc.fits
+#####################################################################################
+	WARNING: ROW 162 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 163 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 164 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 165 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 166 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 167 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 168 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 169 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 170 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 171 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 173 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 174 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 175 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 176 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 177 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 210 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 211 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 212 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 213 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 214 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 215 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 216 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 217 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 218 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 219 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 220 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 221 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 222 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 223 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 224 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 225 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 226 (one indexed) in vb71653dm_tmc.fits not found in w1i2254fm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 162
+	COMPNAME =  cosmcp_g130mc1055
+	FILENAME =  crcoscomp$cos_mcp_g130mc1055_001_syn.fits
+
+
+Row = 163
+	COMPNAME =  cosmcp_g130mc1096
+	FILENAME =  crcoscomp$cos_mcp_g130mc1096_001_syn.fits
+
+
+Row = 164
+	COMPNAME =  cosmcp_g130mc1222
+	FILENAME =  crcoscomp$cos_mcp_g130mc1222_001_syn.fits
+
+
+Row = 165
+	COMPNAME =  cosmcp_g130mc1291
+	FILENAME =  crcoscomp$cos_mcp_g130mc1291_008_syn.fits
+
+
+Row = 166
+	COMPNAME =  cosmcp_g130mc1300
+	FILENAME =  crcoscomp$cos_mcp_g130mc1300_008_syn.fits
+
+
+Row = 167
+	COMPNAME =  cosmcp_g130mc1309
+	FILENAME =  crcoscomp$cos_mcp_g130mc1309_008_syn.fits
+
+
+Row = 168
+	COMPNAME =  cosmcp_g130mc1318
+	FILENAME =  crcoscomp$cos_mcp_g130mc1318_008_syn.fits
+
+
+Row = 169
+	COMPNAME =  cosmcp_g130mc1327
+	FILENAME =  crcoscomp$cos_mcp_g130mc1327_008_syn.fits
+
+
+Row = 170
+	COMPNAME =  cosmcp_g140lc1105
+	FILENAME =  crcoscomp$cos_mcp_g140lc1105_008_syn.fits
+
+
+Row = 171
+	COMPNAME =  cosmcp_g140lc1230
+	FILENAME =  crcoscomp$cos_mcp_g140lc1230_008_syn.fits
+
+
+Row = 173
+	COMPNAME =  cosmcp_g160mc1577
+	FILENAME =  crcoscomp$cos_mcp_g160mc1577_008_syn.fits
+
+
+Row = 174
+	COMPNAME =  cosmcp_g160mc1589
+	FILENAME =  crcoscomp$cos_mcp_g160mc1589_008_syn.fits
+
+
+Row = 175
+	COMPNAME =  cosmcp_g160mc1600
+	FILENAME =  crcoscomp$cos_mcp_g160mc1600_008_syn.fits
+
+
+Row = 176
+	COMPNAME =  cosmcp_g160mc1611
+	FILENAME =  crcoscomp$cos_mcp_g160mc1611_008_syn.fits
+
+
+Row = 177
+	COMPNAME =  cosmcp_g160mc1623
+	FILENAME =  crcoscomp$cos_mcp_g160mc1623_008_syn.fits
+
+
+Row = 210
+	COMPNAME =  cosncm3_g285mc2617
+	FILENAME =  crcoscomp$cosncm3_g285mc2617_006_syn.fits
+
+
+Row = 211
+	COMPNAME =  cosncm3_g285mc2637
+	FILENAME =  crcoscomp$cosncm3_g285mc2637_006_syn.fits
+
+
+Row = 212
+	COMPNAME =  cosncm3_g285mc2657
+	FILENAME =  crcoscomp$cosncm3_g285mc2657_006_syn.fits
+
+
+Row = 213
+	COMPNAME =  cosncm3_g285mc2676
+	FILENAME =  crcoscomp$cosncm3_g285mc2676_006_syn.fits
+
+
+Row = 214
+	COMPNAME =  cosncm3_g285mc2695
+	FILENAME =  crcoscomp$cosncm3_g285mc2695_006_syn.fits
+
+
+Row = 215
+	COMPNAME =  cosncm3_g285mc2709
+	FILENAME =  crcoscomp$cosncm3_g285mc2709_006_syn.fits
+
+
+Row = 216
+	COMPNAME =  cosncm3_g285mc2719
+	FILENAME =  crcoscomp$cosncm3_g285mc2719_006_syn.fits
+
+
+Row = 217
+	COMPNAME =  cosncm3_g285mc2739
+	FILENAME =  crcoscomp$cosncm3_g285mc2739_006_syn.fits
+
+
+Row = 218
+	COMPNAME =  cosncm3_g285mc2850
+	FILENAME =  crcoscomp$cosncm3_g285mc2850_006_syn.fits
+
+
+Row = 219
+	COMPNAME =  cosncm3_g285mc2952
+	FILENAME =  crcoscomp$cosncm3_g285mc2952_006_syn.fits
+
+
+Row = 220
+	COMPNAME =  cosncm3_g285mc2979
+	FILENAME =  crcoscomp$cosncm3_g285mc2979_006_syn.fits
+
+
+Row = 221
+	COMPNAME =  cosncm3_g285mc2996
+	FILENAME =  crcoscomp$cosncm3_g285mc2996_006_syn.fits
+
+
+Row = 222
+	COMPNAME =  cosncm3_g285mc3018
+	FILENAME =  crcoscomp$cosncm3_g285mc3018_006_syn.fits
+
+
+Row = 223
+	COMPNAME =  cosncm3_g285mc3035
+	FILENAME =  crcoscomp$cosncm3_g285mc3035_006_syn.fits
+
+
+Row = 224
+	COMPNAME =  cosncm3_g285mc3057
+	FILENAME =  crcoscomp$cosncm3_g285mc3057_006_syn.fits
+
+
+Row = 225
+	COMPNAME =  cosncm3_g285mc3074
+	FILENAME =  crcoscomp$cosncm3_g285mc3074_006_syn.fits
+
+
+Row = 226
+	COMPNAME =  cosncm3_g285mc3094
+	FILENAME =  crcoscomp$cosncm3_g285mc3094_006_syn.fits
+
+
+#####################################################################################
+Checking that vb71653dm_tmc.fits contains all rows in w1i2254fm_tmc.fits
+#####################################################################################
+	WARNING: ROW 162 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 163 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 164 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 165 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 166 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 167 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 168 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 169 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 170 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 171 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 173 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 174 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 175 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 176 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 177 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 210 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 211 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 212 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 213 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 214 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 215 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 216 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 217 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 218 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 219 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 220 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 221 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 222 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 223 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 224 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 225 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 226 (one indexed) in w1i2254fm_tmc.fits not found in vb71653dm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 162
+	COMPNAME =  cosmcp_g130mc1055
+	FILENAME =  crcoscomp$cos_mcp_g130mc1055_002_syn.fits
+
+
+Row = 163
+	COMPNAME =  cosmcp_g130mc1096
+	FILENAME =  crcoscomp$cos_mcp_g130mc1096_002_syn.fits
+
+
+Row = 164
+	COMPNAME =  cosmcp_g130mc1222
+	FILENAME =  crcoscomp$cos_mcp_g130mc1222_002_syn.fits
+
+
+Row = 165
+	COMPNAME =  cosmcp_g130mc1291
+	FILENAME =  crcoscomp$cos_mcp_g130mc1291_009_syn.fits
+
+
+Row = 166
+	COMPNAME =  cosmcp_g130mc1300
+	FILENAME =  crcoscomp$cos_mcp_g130mc1300_009_syn.fits
+
+
+Row = 167
+	COMPNAME =  cosmcp_g130mc1309
+	FILENAME =  crcoscomp$cos_mcp_g130mc1309_009_syn.fits
+
+
+Row = 168
+	COMPNAME =  cosmcp_g130mc1318
+	FILENAME =  crcoscomp$cos_mcp_g130mc1318_009_syn.fits
+
+
+Row = 169
+	COMPNAME =  cosmcp_g130mc1327
+	FILENAME =  crcoscomp$cos_mcp_g130mc1327_009_syn.fits
+
+
+Row = 170
+	COMPNAME =  cosmcp_g140lc1105
+	FILENAME =  crcoscomp$cos_mcp_g140lc1105_009_syn.fits
+
+
+Row = 171
+	COMPNAME =  cosmcp_g140lc1230
+	FILENAME =  crcoscomp$cos_mcp_g140lc1230_009_syn.fits
+
+
+Row = 173
+	COMPNAME =  cosmcp_g160mc1577
+	FILENAME =  crcoscomp$cos_mcp_g160mc1577_009_syn.fits
+
+
+Row = 174
+	COMPNAME =  cosmcp_g160mc1589
+	FILENAME =  crcoscomp$cos_mcp_g160mc1589_009_syn.fits
+
+
+Row = 175
+	COMPNAME =  cosmcp_g160mc1600
+	FILENAME =  crcoscomp$cos_mcp_g160mc1600_009_syn.fits
+
+
+Row = 176
+	COMPNAME =  cosmcp_g160mc1611
+	FILENAME =  crcoscomp$cos_mcp_g160mc1611_009_syn.fits
+
+
+Row = 177
+	COMPNAME =  cosmcp_g160mc1623
+	FILENAME =  crcoscomp$cos_mcp_g160mc1623_009_syn.fits
+
+
+Row = 210
+	COMPNAME =  cosncm3_g285mc2617
+	FILENAME =  crcoscomp$cosncm3_g285mc2617_007_syn.fits
+
+
+Row = 211
+	COMPNAME =  cosncm3_g285mc2637
+	FILENAME =  crcoscomp$cosncm3_g285mc2637_007_syn.fits
+
+
+Row = 212
+	COMPNAME =  cosncm3_g285mc2657
+	FILENAME =  crcoscomp$cosncm3_g285mc2657_007_syn.fits
+
+
+Row = 213
+	COMPNAME =  cosncm3_g285mc2676
+	FILENAME =  crcoscomp$cosncm3_g285mc2676_007_syn.fits
+
+
+Row = 214
+	COMPNAME =  cosncm3_g285mc2695
+	FILENAME =  crcoscomp$cosncm3_g285mc2695_007_syn.fits
+
+
+Row = 215
+	COMPNAME =  cosncm3_g285mc2709
+	FILENAME =  crcoscomp$cosncm3_g285mc2709_007_syn.fits
+
+
+Row = 216
+	COMPNAME =  cosncm3_g285mc2719
+	FILENAME =  crcoscomp$cosncm3_g285mc2719_007_syn.fits
+
+
+Row = 217
+	COMPNAME =  cosncm3_g285mc2739
+	FILENAME =  crcoscomp$cosncm3_g285mc2739_007_syn.fits
+
+
+Row = 218
+	COMPNAME =  cosncm3_g285mc2850
+	FILENAME =  crcoscomp$cosncm3_g285mc2850_007_syn.fits
+
+
+Row = 219
+	COMPNAME =  cosncm3_g285mc2952
+	FILENAME =  crcoscomp$cosncm3_g285mc2952_007_syn.fits
+
+
+Row = 220
+	COMPNAME =  cosncm3_g285mc2979
+	FILENAME =  crcoscomp$cosncm3_g285mc2979_007_syn.fits
+
+
+Row = 221
+	COMPNAME =  cosncm3_g285mc2996
+	FILENAME =  crcoscomp$cosncm3_g285mc2996_007_syn.fits
+
+
+Row = 222
+	COMPNAME =  cosncm3_g285mc3018
+	FILENAME =  crcoscomp$cosncm3_g285mc3018_007_syn.fits
+
+
+Row = 223
+	COMPNAME =  cosncm3_g285mc3035
+	FILENAME =  crcoscomp$cosncm3_g285mc3035_007_syn.fits
+
+
+Row = 224
+	COMPNAME =  cosncm3_g285mc3057
+	FILENAME =  crcoscomp$cosncm3_g285mc3057_007_syn.fits
+
+
+Row = 225
+	COMPNAME =  cosncm3_g285mc3074
+	FILENAME =  crcoscomp$cosncm3_g285mc3074_007_syn.fits
+
+
+Row = 226
+	COMPNAME =  cosncm3_g285mc3094
+	FILENAME =  crcoscomp$cosncm3_g285mc3094_007_syn.fits
+
+

@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that p1s1748hm_tmc.fits contains all rows in o9k1612hm_tmc.fits
+#####################################################################################
+	All (other) columns matched
+
+
+#####################################################################################
+Checking that o9k1612hm_tmc.fits contains all rows in p1s1748hm_tmc.fits
+#####################################################################################
+	WARNING: ROW 1259 (one indexed) in p1s1748hm_tmc.fits not found in o9k1612hm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1260 (one indexed) in p1s1748hm_tmc.fits not found in o9k1612hm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1261 (one indexed) in p1s1748hm_tmc.fits not found in o9k1612hm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1262 (one indexed) in p1s1748hm_tmc.fits not found in o9k1612hm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1263 (one indexed) in p1s1748hm_tmc.fits not found in o9k1612hm_tmc.fits, COMPNAME was not matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1259
+	COMPNAME =  sdss_g
+	FILENAME =  crnonhstcomp$sdss_g_005_syn.fits
+
+
+Row = 1260
+	COMPNAME =  sdss_i
+	FILENAME =  crnonhstcomp$sdss_i_005_syn.fits
+
+
+Row = 1261
+	COMPNAME =  sdss_r
+	FILENAME =  crnonhstcomp$sdss_r_005_syn.fits
+
+
+Row = 1262
+	COMPNAME =  sdss_u
+	FILENAME =  crnonhstcomp$sdss_u_005_syn.fits
+
+
+Row = 1263
+	COMPNAME =  sdss_z
+	FILENAME =  crnonhstcomp$sdss_z_005_syn.fits
+
+

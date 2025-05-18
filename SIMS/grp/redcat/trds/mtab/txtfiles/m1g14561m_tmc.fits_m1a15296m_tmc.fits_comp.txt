@@ -1,0 +1,21 @@
+
+#####################################################################################
+Checking that m1a15296m_tmc.fits contains all rows in m1g14561m_tmc.fits
+#####################################################################################
+	WARNING: ROW 96 (one indexed) in m1g14561m_tmc.fits not found in m1a15296m_tmc.fits, COMPNAME was not matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 96
+	COMPNAME =  acs_hrc_coron
+	FILENAME =  cracscomp$acs_hrc_coron_001_syn.fits
+
+
+#####################################################################################
+Checking that m1g14561m_tmc.fits contains all rows in m1a15296m_tmc.fits
+#####################################################################################
+	All (other) rows matched

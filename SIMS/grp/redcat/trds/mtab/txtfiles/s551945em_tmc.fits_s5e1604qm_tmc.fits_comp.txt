@@ -1,0 +1,217 @@
+
+#####################################################################################
+Checking that s5e1604qm_tmc.fits contains all rows in s551945em_tmc.fits
+#####################################################################################
+	WARNING: ROW 216 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2277 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2279 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2310 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2311 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2312 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2351 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2378 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2379 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2380 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2381 (one indexed) in s551945em_tmc.fits not found in s5e1604qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 216
+	COMPNAME =  cos_mirrorb
+	FILENAME =  crcoscomp$cos_mirrorb_006_syn.fits
+
+
+Row = 2277
+	COMPNAME =  wfc3_ir_cor
+	FILENAME =  crwfc3comp$wfc3_ir_cor_002_syn.fits
+
+
+Row = 2279
+	COMPNAME =  wfc3_ir_dn
+	FILENAME =  crwfc3comp$wfc3_ir_dn_001_syn.fits
+
+
+Row = 2310
+	COMPNAME =  wfc3_uvis_ccd1
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd1_001_syn.fits
+
+
+Row = 2311
+	COMPNAME =  wfc3_uvis_ccd2
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd2_001_syn.fits
+
+
+Row = 2312
+	COMPNAME =  wfc3_uvis_cor
+	FILENAME =  crwfc3comp$wfc3_uvis_cor_001_syn.fits
+
+
+Row = 2351
+	COMPNAME =  wfc3_uvis_f775w
+	FILENAME =  crwfc3comp$wfc3_uvis_f775w_002_syn.fits
+
+
+Row = 2378
+	COMPNAME =  wfc3_uvis_iwin
+	FILENAME =  crwfc3comp$wfc3_uvis_iwin_001_syn.fits
+
+
+Row = 2379
+	COMPNAME =  wfc3_uvis_mir1
+	FILENAME =  crwfc3comp$wfc3_uvis_mir1_001_syn.fits
+
+
+Row = 2380
+	COMPNAME =  wfc3_uvis_mir2
+	FILENAME =  crwfc3comp$wfc3_uvis_mir2_001_syn.fits
+
+
+Row = 2381
+	COMPNAME =  wfc3_uvis_owin
+	FILENAME =  crwfc3comp$wfc3_uvis_owin_001_syn.fits
+
+
+#####################################################################################
+Checking that s551945em_tmc.fits contains all rows in s5e1604qm_tmc.fits
+#####################################################################################
+	WARNING: ROW 207 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 217 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 221 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 224 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2280 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2282 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2313 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2314 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2315 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2354 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2381 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2382 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2383 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2384 (one indexed) in s5e1604qm_tmc.fits not found in s551945em_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 207
+	COMPNAME =  cos_fuv_correction
+	FILENAME =  crcoscomp$cos_fuv_correction_001_syn.fits
+
+
+Row = 217
+	COMPNAME =  cos_mirrorb
+	FILENAME =  crcoscomp$cos_mirrorb_007_syn.fits
+
+
+Row = 221
+	COMPNAME =  cos_nuv_correction
+	FILENAME =  crcoscomp$cos_nuv_correction_001_syn.fits
+
+
+Row = 224
+	COMPNAME =  cos_psa
+	FILENAME =  crcoscomp$cos_psa_001_syn.fits
+
+
+Row = 2280
+	COMPNAME =  wfc3_ir_cor
+	FILENAME =  crwfc3comp$wfc3_ir_cor_003_syn.fits
+
+
+Row = 2282
+	COMPNAME =  wfc3_ir_dn
+	FILENAME =  crwfc3comp$wfc3_ir_dn_002_syn.fits
+
+
+Row = 2313
+	COMPNAME =  wfc3_uvis_ccd1
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd1_002_syn.fits
+
+
+Row = 2314
+	COMPNAME =  wfc3_uvis_ccd2
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd2_002_syn.fits
+
+
+Row = 2315
+	COMPNAME =  wfc3_uvis_cor
+	FILENAME =  crwfc3comp$wfc3_uvis_cor_002_syn.fits
+
+
+Row = 2354
+	COMPNAME =  wfc3_uvis_f775w
+	FILENAME =  crwfc3comp$wfc3_uvis_f775w_003_syn.fits
+
+
+Row = 2381
+	COMPNAME =  wfc3_uvis_iwin
+	FILENAME =  crwfc3comp$wfc3_uvis_iwin_002_syn.fits
+
+
+Row = 2382
+	COMPNAME =  wfc3_uvis_mir1
+	FILENAME =  crwfc3comp$wfc3_uvis_mir1_002_syn.fits
+
+
+Row = 2383
+	COMPNAME =  wfc3_uvis_mir2
+	FILENAME =  crwfc3comp$wfc3_uvis_mir2_002_syn.fits
+
+
+Row = 2384
+	COMPNAME =  wfc3_uvis_owin
+	FILENAME =  crwfc3comp$wfc3_uvis_owin_002_syn.fits
+
+

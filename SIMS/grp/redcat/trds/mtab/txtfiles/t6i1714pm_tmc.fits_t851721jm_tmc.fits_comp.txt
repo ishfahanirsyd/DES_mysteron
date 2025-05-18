@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that t851721jm_tmc.fits contains all rows in t6i1714pm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2587 (one indexed) in t6i1714pm_tmc.fits not found in t851721jm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2587
+	COMPNAME =  wfpc2_lrf
+	FILENAME =  crwfpc2comp$wfpc2_lrf_004_syn.fits[wave#]
+
+
+#####################################################################################
+Checking that t6i1714pm_tmc.fits contains all rows in t851721jm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2587 (one indexed) in t851721jm_tmc.fits not found in t6i1714pm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2587
+	COMPNAME =  wfpc2_lrf
+	FILENAME =  crwfpc2comp$wfpc2_lrf_005_syn.fits[wave#]
+
+

@@ -1,0 +1,120 @@
+
+#####################################################################################
+Checking that m7t1443mm_tmc.fits contains all rows in m8k15208m_tmc.fits
+#####################################################################################
+	WARNING: ROW 79 (one indexed) in m8k15208m_tmc.fits not found in m7t1443mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 80 (one indexed) in m8k15208m_tmc.fits not found in m7t1443mm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 84 (one indexed) in m8k15208m_tmc.fits not found in m7t1443mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 92 (one indexed) in m8k15208m_tmc.fits not found in m7t1443mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 93 (one indexed) in m8k15208m_tmc.fits not found in m7t1443mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 94 (one indexed) in m8k15208m_tmc.fits not found in m7t1443mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1846 (one indexed) in m8k15208m_tmc.fits not found in m7t1443mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 79
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_010_syn.fits
+
+
+Row = 80
+	COMPNAME =  acs_hrc_coron
+	FILENAME =  cracscomp$acs_hrc_coron_001_syn.fits
+
+
+Row = 84
+	COMPNAME =  acs_pol_uv
+	FILENAME =  cracscomp$acs_pol_uv_004_syn.fits
+
+
+Row = 92
+	COMPNAME =  acs_sbc_mama
+	FILENAME =  cracscomp$acs_sbc_mama_006_syn.fits
+
+
+Row = 93
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_010_syn.fits
+
+
+Row = 94
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_014_syn.fits
+
+
+Row = 1846
+	COMPNAME =  stis_a2d4
+	FILENAME =  crstiscomp$stis_a2d4_005_syn.fits
+
+
+#####################################################################################
+Checking that m8k15208m_tmc.fits contains all rows in m7t1443mm_tmc.fits
+#####################################################################################
+	WARNING: ROW 79 (one indexed) in m7t1443mm_tmc.fits not found in m8k15208m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 83 (one indexed) in m7t1443mm_tmc.fits not found in m8k15208m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 91 (one indexed) in m7t1443mm_tmc.fits not found in m8k15208m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 92 (one indexed) in m7t1443mm_tmc.fits not found in m8k15208m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 93 (one indexed) in m7t1443mm_tmc.fits not found in m8k15208m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1848 (one indexed) in m7t1443mm_tmc.fits not found in m8k15208m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 79
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_009_syn.fits
+
+
+Row = 83
+	COMPNAME =  acs_pol_uv
+	FILENAME =  cracscomp$acs_pol_uv_003_syn.fits
+
+
+Row = 91
+	COMPNAME =  acs_sbc_mama
+	FILENAME =  cracscomp$acs_sbc_mama_005_syn.fits
+
+
+Row = 92
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_008_syn.fits
+
+
+Row = 93
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_010_syn.fits
+
+
+Row = 1848
+	COMPNAME =  stis_a2d4
+	FILENAME =  crstiscomp$stis_a2d4_004_syn.fits
+
+

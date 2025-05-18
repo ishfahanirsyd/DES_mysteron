@@ -1,0 +1,9 @@
+des_root: $DESSIMS/coadding 
+rates_root: $DESSIMS/mass_assembly/output_mass_assembly_adjusted/
+Spatial:
+  r_max: 1.2
+  n_years: 2.3
+  photz_chipfracs:
+    X3: 45/59
+    C3: 48/59
+    E2: 45/59

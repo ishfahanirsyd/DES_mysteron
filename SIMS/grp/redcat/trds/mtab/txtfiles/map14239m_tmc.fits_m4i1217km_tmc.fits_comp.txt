@@ -1,0 +1,285 @@
+
+#####################################################################################
+Checking that m4i1217km_tmc.fits contains all rows in map14239m_tmc.fits
+#####################################################################################
+	WARNING: ROW 80 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 85 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 86 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 94 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 96 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 97 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1194 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1195 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1223 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1224 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1253 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1254 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 1849 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2047 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2048 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2050 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2051 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2055 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2056 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2058 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2059 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2067 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2068 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2069 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2070 (one indexed) in map14239m_tmc.fits not found in m4i1217km_tmc.fits, COMPNAME was not matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 80
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_010_syn.fits
+
+
+Row = 85
+	COMPNAME =  acs_pol_uv
+	FILENAME =  cracscomp$acs_pol_uv_005_syn.fits
+
+
+Row = 86
+	COMPNAME =  acs_pol_v
+	FILENAME =  cracscomp$acs_pol_v_004_syn.fits
+
+
+Row = 94
+	COMPNAME =  acs_sbc_mama
+	FILENAME =  cracscomp$acs_sbc_mama_006_syn.fits
+
+
+Row = 96
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_010_syn.fits
+
+
+Row = 97
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_014_syn.fits
+
+
+Row = 1194
+	COMPNAME =  nic1_primary
+	FILENAME =  crnicmoscomp$nic_primary_001_syn.fits
+
+
+Row = 1195
+	COMPNAME =  nic1_sec
+	FILENAME =  crnicmoscomp$nic_secondary_001_syn.fits
+
+
+Row = 1223
+	COMPNAME =  nic2_primary
+	FILENAME =  crnicmoscomp$nic_primary_001_syn.fits
+
+
+Row = 1224
+	COMPNAME =  nic2_sec
+	FILENAME =  crnicmoscomp$nic_secondary_001_syn.fits
+
+
+Row = 1253
+	COMPNAME =  nic3_primary
+	FILENAME =  crnicmoscomp$nic_primary_001_syn.fits
+
+
+Row = 1254
+	COMPNAME =  nic3_sec
+	FILENAME =  crnicmoscomp$nic_secondary_001_syn.fits
+
+
+Row = 1849
+	COMPNAME =  stis_a2d4
+	FILENAME =  crstiscomp$stis_a2d4_005_syn.fits
+
+
+Row = 2047
+	COMPNAME =  stis_ng11
+	FILENAME =  crstiscomp$stis_ng11_008_syn.fits
+
+
+Row = 2048
+	COMPNAME =  stis_ng11#
+	FILENAME =  crstiscomp$stis_ng11_008_syn.fits[MJD#]
+
+
+Row = 2050
+	COMPNAME =  stis_ng12
+	FILENAME =  crstiscomp$stis_ng12_008_syn.fits
+
+
+Row = 2051
+	COMPNAME =  stis_ng12#
+	FILENAME =  crstiscomp$stis_ng12_008_syn.fits[MJD#]
+
+
+Row = 2055
+	COMPNAME =  stis_ng21
+	FILENAME =  crstiscomp$stis_ng21_008_syn.fits
+
+
+Row = 2056
+	COMPNAME =  stis_ng21#
+	FILENAME =  crstiscomp$stis_ng21_008_syn.fits[MJD#]
+
+
+Row = 2058
+	COMPNAME =  stis_ng22
+	FILENAME =  crstiscomp$stis_ng22_008_syn.fits
+
+
+Row = 2059
+	COMPNAME =  stis_ng22#
+	FILENAME =  crstiscomp$stis_ng22_008_syn.fits[MJD#]
+
+
+Row = 2067
+	COMPNAME =  stis_nm16
+	FILENAME =  crstiscomp$stis_nm16_006_syn.fits
+
+
+Row = 2068
+	COMPNAME =  stis_nm16#
+	FILENAME =  crstiscomp$stis_nm16_006_syn.fits[MJD#]
+
+
+Row = 2069
+	COMPNAME =  stis_nm26
+	FILENAME =  crstiscomp$stis_nm26_009_syn.fits
+
+
+Row = 2070
+	COMPNAME =  stis_nm26#
+	FILENAME =  crstiscomp$stis_nm26_009_syn.fits[MJD#]
+
+
+#####################################################################################
+Checking that map14239m_tmc.fits contains all rows in m4i1217km_tmc.fits
+#####################################################################################
+	WARNING: ROW 84 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 85 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 94 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1840 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2038 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2040 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2044 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2046 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2054 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2055 (one indexed) in m4i1217km_tmc.fits not found in map14239m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 84
+	COMPNAME =  acs_pol_uv
+	FILENAME =  cracscomp$acs_pol_uv_004_syn.fits
+
+
+Row = 85
+	COMPNAME =  acs_pol_v
+	FILENAME =  cracscomp$acs_pol_v_003_syn.fits
+
+
+Row = 94
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_012_syn.fits
+
+
+Row = 1840
+	COMPNAME =  stis_a2d4
+	FILENAME =  crstiscomp$stis_a2d4_004_syn.fits
+
+
+Row = 2038
+	COMPNAME =  stis_ng11
+	FILENAME =  crstiscomp$stis_ng11_007_syn.fits
+
+
+Row = 2040
+	COMPNAME =  stis_ng12
+	FILENAME =  crstiscomp$stis_ng12_007_syn.fits
+
+
+Row = 2044
+	COMPNAME =  stis_ng21
+	FILENAME =  crstiscomp$stis_ng21_007_syn.fits
+
+
+Row = 2046
+	COMPNAME =  stis_ng22
+	FILENAME =  crstiscomp$stis_ng22_007_syn.fits
+
+
+Row = 2054
+	COMPNAME =  stis_nm16
+	FILENAME =  crstiscomp$stis_nm16_004_syn.fits
+
+
+Row = 2055
+	COMPNAME =  stis_nm26
+	FILENAME =  crstiscomp$stis_nm26_004_syn.fits
+
+

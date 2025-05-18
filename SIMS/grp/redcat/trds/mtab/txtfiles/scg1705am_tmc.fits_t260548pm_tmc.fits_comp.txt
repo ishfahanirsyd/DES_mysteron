@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that t260548pm_tmc.fits contains all rows in scg1705am_tmc.fits
+#####################################################################################
+	All (other) columns matched
+
+
+#####################################################################################
+Checking that scg1705am_tmc.fits contains all rows in t260548pm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2529 (one indexed) in t260548pm_tmc.fits not found in scg1705am_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2530 (one indexed) in t260548pm_tmc.fits not found in scg1705am_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2531 (one indexed) in t260548pm_tmc.fits not found in scg1705am_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2532 (one indexed) in t260548pm_tmc.fits not found in scg1705am_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2533 (one indexed) in t260548pm_tmc.fits not found in scg1705am_tmc.fits, COMPNAME was not matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2529
+	COMPNAME =  wfpc2_f160an15
+	FILENAME =  crwfpc2comp$wfpc2_f160an15_001_syn.fits
+
+
+Row = 2530
+	COMPNAME =  wfpc2_f160ap15
+	FILENAME =  crwfpc2comp$wfpc2_f160ap15_001_syn.fits
+
+
+Row = 2531
+	COMPNAME =  wfpc2_f160aw
+	FILENAME =  crwfpc2comp$wfpc2_f160aw_001_syn.fits
+
+
+Row = 2532
+	COMPNAME =  wfpc2_f160bn15
+	FILENAME =  crwfpc2comp$wfpc2_f160bn15_001_syn.fits
+
+
+Row = 2533
+	COMPNAME =  wfpc2_f160bp15
+	FILENAME =  crwfpc2comp$wfpc2_f160bp15_001_syn.fits
+
+

@@ -1,0 +1,21 @@
+appName: AURA
+logLevel: WARN
+
+Luminosity:
+  Schechter:
+    Lstar: 1.e+10
+    alpha: -1.25
+
+Spatial:
+  r_max: 1.2
+  Lambda: D08_z
+  cosmo:
+    delta: 1.5
+
+  des:
+    n_fields:
+      1
+    n_ccds:
+      59
+    n_years:
+      2.3
