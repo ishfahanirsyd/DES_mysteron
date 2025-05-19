@@ -96,10 +96,6 @@ def sim_worker(args):
     c['mB_model']['params']['age_step']['mag'] = float(age_step)
     sim.config = c
 
-    # Ensure the key is specified when reading the HDF5 file
-    #df = pd.read_hdf(os.path.join('/Users/ishfahanirusyda/master_thesis/sims/SNe/for_BBC/', cfg['save']['dir'],
-        #'%s_test_SN_sim_%.2f_%.2f_%.2f.h5' % (model_name, rv_lo, rv_hi, age_step)))
-
     # Process the DataFrame as needed
     #n_samples_arr = sim._get_z_dist(des5yr['zHD'],n=cfg['n_samples'])
     # get array of zs
@@ -208,10 +204,3 @@ if __name__=='__main__':
         open(os.path.join(os.environ['DESSIMS'],'sims', 'SNe', 'for_BBC', '%s/param_name_map.pkl' % (cfg['save']['dir'])), 'wb'))
 
 
-""" question
-- What is the input to the script? (config file)
-- What is .dat input file in aura? it's age distribution of SNe file from specific z, rv, and tf. i dont know where should i get it from
-  i got it
-
--still needs ozdes efficiency files
-- what is Rv_lo and Rv_hi?"""

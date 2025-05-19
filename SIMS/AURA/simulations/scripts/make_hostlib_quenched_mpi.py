@@ -14,7 +14,8 @@ import warnings
 from astropy.utils.exceptions import AstropyWarning
 from tables import NaturalNameWarning
 import pysynphot as S
-S.locations.default_cdbs = "/Users/ishfahanirusyda/DES/SIMS/grp/redcat/trds"
+S.locations.default_cdbs = os.path.join(os.environ["DESSIMS"], "grp", "redcat", "trds")
+print("loc",S.locations.default_cdbs)
 warnings.filterwarnings('ignore', category=NaturalNameWarning)
 
 np.seterr(all='ignore')
