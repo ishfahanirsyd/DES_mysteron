@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that r2k1920am_tmc.fits contains all rows in r1j2146sm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2228 (one indexed) in r1j2146sm_tmc.fits not found in r2k1920am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2228
+	COMPNAME =  wfc3_ir_qe
+	FILENAME =  crwfc3comp$wfc3_ir_qe_001_syn.fits
+
+
+#####################################################################################
+Checking that r1j2146sm_tmc.fits contains all rows in r2k1920am_tmc.fits
+#####################################################################################
+	WARNING: ROW 2228 (one indexed) in r2k1920am_tmc.fits not found in r1j2146sm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2228
+	COMPNAME =  wfc3_ir_qe
+	FILENAME =  crwfc3comp$wfc3_ir_qe_002_syn.fits
+
+

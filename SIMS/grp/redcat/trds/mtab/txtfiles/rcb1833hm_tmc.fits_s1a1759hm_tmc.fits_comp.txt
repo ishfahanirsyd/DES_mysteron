@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that s1a1759hm_tmc.fits contains all rows in rcb1833hm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2178 (one indexed) in rcb1833hm_tmc.fits not found in s1a1759hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2178
+	COMPNAME =  stis_g750m
+	FILENAME =  crstiscomp$stis_g750m_009_syn.fits
+
+
+#####################################################################################
+Checking that rcb1833hm_tmc.fits contains all rows in s1a1759hm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2178 (one indexed) in s1a1759hm_tmc.fits not found in rcb1833hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2178
+	COMPNAME =  stis_g750m
+	FILENAME =  crstiscomp$stis_g750m_010_syn.fits
+
+

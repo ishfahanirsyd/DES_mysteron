@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that rb11630im_tmc.fits contains all rows in rao19579m_tmc.fits
+#####################################################################################
+	WARNING: ROW 2208 (one indexed) in rao19579m_tmc.fits not found in rb11630im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2235 (one indexed) in rao19579m_tmc.fits not found in rb11630im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2208
+	COMPNAME =  wfc3_ir_cor
+	FILENAME =  crwfc3comp$wfc3_ir_cor_001_syn.fits
+
+
+Row = 2235
+	COMPNAME =  wfc3_ir_qe
+	FILENAME =  crwfc3comp$wfc3_ir_qe_002_syn.fits
+
+
+#####################################################################################
+Checking that rao19579m_tmc.fits contains all rows in rb11630im_tmc.fits
+#####################################################################################
+	WARNING: ROW 2208 (one indexed) in rb11630im_tmc.fits not found in rao19579m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2235 (one indexed) in rb11630im_tmc.fits not found in rao19579m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2208
+	COMPNAME =  wfc3_ir_cor
+	FILENAME =  crwfc3comp$wfc3_ir_cor_002_syn.fits
+
+
+Row = 2235
+	COMPNAME =  wfc3_ir_qe
+	FILENAME =  crwfc3comp$wfc3_ir_qe_003_syn.fits
+
+

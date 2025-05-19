@@ -1,0 +1,113 @@
+
+#####################################################################################
+Checking that m6e1130bm_tmc.fits contains all rows in m7p1157am_tmc.fits
+#####################################################################################
+	WARNING: ROW 2240 (one indexed) in m7p1157am_tmc.fits not found in m6e1130bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2241 (one indexed) in m7p1157am_tmc.fits not found in m6e1130bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2242 (one indexed) in m7p1157am_tmc.fits not found in m6e1130bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2243 (one indexed) in m7p1157am_tmc.fits not found in m6e1130bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2244 (one indexed) in m7p1157am_tmc.fits not found in m6e1130bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2245 (one indexed) in m7p1157am_tmc.fits not found in m6e1130bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2240
+	COMPNAME =  nic1_primary
+	FILENAME =  crnicmoscomp$nic_primary_001_syn.fits
+
+
+Row = 2241
+	COMPNAME =  nic3_primary
+	FILENAME =  crnicmoscomp$nic_primary_001_syn.fits
+
+
+Row = 2242
+	COMPNAME =  nic2_primary
+	FILENAME =  crnicmoscomp$nic_primary_001_syn.fits
+
+
+Row = 2243
+	COMPNAME =  nic2_sec
+	FILENAME =  crnicmoscomp$nic_secondary_001_syn.fits
+
+
+Row = 2244
+	COMPNAME =  nic3_sec
+	FILENAME =  crnicmoscomp$nic_secondary_001_syn.fits
+
+
+Row = 2245
+	COMPNAME =  nic1_sec
+	FILENAME =  crnicmoscomp$nic_secondary_001_syn.fits
+
+
+#####################################################################################
+Checking that m7p1157am_tmc.fits contains all rows in m6e1130bm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2240 (one indexed) in m6e1130bm_tmc.fits not found in m7p1157am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2241 (one indexed) in m6e1130bm_tmc.fits not found in m7p1157am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2242 (one indexed) in m6e1130bm_tmc.fits not found in m7p1157am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2243 (one indexed) in m6e1130bm_tmc.fits not found in m7p1157am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2244 (one indexed) in m6e1130bm_tmc.fits not found in m7p1157am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2245 (one indexed) in m6e1130bm_tmc.fits not found in m7p1157am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2240
+	COMPNAME =  nic1_primary
+	FILENAME =  crnicmoscomp$nic_primary.fits
+
+
+Row = 2241
+	COMPNAME =  nic3_primary
+	FILENAME =  crnicmoscomp$nic_primary.fits
+
+
+Row = 2242
+	COMPNAME =  nic2_primary
+	FILENAME =  crnicmoscomp$nic_primary.fits
+
+
+Row = 2243
+	COMPNAME =  nic2_sec
+	FILENAME =  crnicmoscomp$nic_secondary.fits
+
+
+Row = 2244
+	COMPNAME =  nic3_sec
+	FILENAME =  crnicmoscomp$nic_secondary.fits
+
+
+Row = 2245
+	COMPNAME =  nic1_sec
+	FILENAME =  crnicmoscomp$nic_secondary.fits
+
+

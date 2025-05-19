@@ -1,0 +1,81 @@
+
+#####################################################################################
+Checking that r8m1948mm_tmc.fits contains all rows in r7u17514m_tmc.fits
+#####################################################################################
+	WARNING: ROW 1576 (one indexed) in r7u17514m_tmc.fits not found in r8m1948mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1577 (one indexed) in r7u17514m_tmc.fits not found in r8m1948mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1578 (one indexed) in r7u17514m_tmc.fits not found in r8m1948mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1579 (one indexed) in r7u17514m_tmc.fits not found in r8m1948mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1576
+	COMPNAME =  stis_247nd1
+	FILENAME =  crstiscomp$stis_247nd1_006_syn.fits
+
+
+Row = 1577
+	COMPNAME =  stis_247nd2
+	FILENAME =  crstiscomp$stis_247nd2_005_syn.fits
+
+
+Row = 1578
+	COMPNAME =  stis_247nd3
+	FILENAME =  crstiscomp$stis_247nd3_005_syn.fits
+
+
+Row = 1579
+	COMPNAME =  stis_247nd4
+	FILENAME =  crstiscomp$stis_247nd4_006_syn.fits
+
+
+#####################################################################################
+Checking that r7u17514m_tmc.fits contains all rows in r8m1948mm_tmc.fits
+#####################################################################################
+	WARNING: ROW 1576 (one indexed) in r8m1948mm_tmc.fits not found in r7u17514m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1577 (one indexed) in r8m1948mm_tmc.fits not found in r7u17514m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1578 (one indexed) in r8m1948mm_tmc.fits not found in r7u17514m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 1579 (one indexed) in r8m1948mm_tmc.fits not found in r7u17514m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 1576
+	COMPNAME =  stis_247nd1
+	FILENAME =  crstiscomp$stis_247nd1_007_syn.fits
+
+
+Row = 1577
+	COMPNAME =  stis_247nd2
+	FILENAME =  crstiscomp$stis_247nd2_006_syn.fits
+
+
+Row = 1578
+	COMPNAME =  stis_247nd3
+	FILENAME =  crstiscomp$stis_247nd3_006_syn.fits
+
+
+Row = 1579
+	COMPNAME =  stis_247nd4
+	FILENAME =  crstiscomp$stis_247nd4_007_syn.fits
+
+

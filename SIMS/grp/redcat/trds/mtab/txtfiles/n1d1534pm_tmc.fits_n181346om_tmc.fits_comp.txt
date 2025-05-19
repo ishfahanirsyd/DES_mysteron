@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that n181346om_tmc.fits contains all rows in n1d1534pm_tmc.fits
+#####################################################################################
+	WARNING: ROW 81 (one indexed) in n1d1534pm_tmc.fits not found in n181346om_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 81
+	COMPNAME =  acs_hrc_coron
+	FILENAME =  cracscomp$acs_hrc_coron_002_syn.fits
+
+
+#####################################################################################
+Checking that n1d1534pm_tmc.fits contains all rows in n181346om_tmc.fits
+#####################################################################################
+	WARNING: ROW 81 (one indexed) in n181346om_tmc.fits not found in n1d1534pm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 81
+	COMPNAME =  acs_hrc_coron
+	FILENAME =  cracscomp$acs_hrc_coron_001_syn.fits
+
+

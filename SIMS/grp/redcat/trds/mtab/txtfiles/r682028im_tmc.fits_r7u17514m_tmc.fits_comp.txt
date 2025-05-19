@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that r7u17514m_tmc.fits contains all rows in r682028im_tmc.fits
+#####################################################################################
+	WARNING: ROW 2137 (one indexed) in r682028im_tmc.fits not found in r7u17514m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2176 (one indexed) in r682028im_tmc.fits not found in r7u17514m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2137
+	COMPNAME =  stis_mirfuv
+	FILENAME =  crstiscomp$stis_mirfuv_005_syn.fits
+
+
+Row = 2176
+	COMPNAME =  stis_nm36_mjd
+	FILENAME =  crstiscomp$stis_nm36_mjd_006_syn.fits[mjd#]
+
+
+#####################################################################################
+Checking that r682028im_tmc.fits contains all rows in r7u17514m_tmc.fits
+#####################################################################################
+	WARNING: ROW 2137 (one indexed) in r7u17514m_tmc.fits not found in r682028im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2176 (one indexed) in r7u17514m_tmc.fits not found in r682028im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2137
+	COMPNAME =  stis_mirfuv
+	FILENAME =  crstiscomp$stis_mirfuv_006_syn.fits
+
+
+Row = 2176
+	COMPNAME =  stis_nm36_mjd
+	FILENAME =  crstiscomp$stis_nm36_mjd_007_syn.fits[mjd#]
+
+

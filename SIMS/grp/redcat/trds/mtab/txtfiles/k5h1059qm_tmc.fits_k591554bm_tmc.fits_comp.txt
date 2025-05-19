@@ -1,0 +1,49 @@
+
+#####################################################################################
+Checking that k591554bm_tmc.fits contains all rows in k5h1059qm_tmc.fits
+#####################################################################################
+	WARNING: ROW 85 (one indexed) in k5h1059qm_tmc.fits not found in k591554bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 87 (one indexed) in k5h1059qm_tmc.fits not found in k591554bm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 85
+	COMPNAME =  acs_pr110l
+	FILENAME =  cracscomp$acs_pr110l_005_syn.fits
+
+
+Row = 87
+	COMPNAME =  acs_pr130l
+	FILENAME =  cracscomp$acs_pr130l_006_syn.fits
+
+
+#####################################################################################
+Checking that k5h1059qm_tmc.fits contains all rows in k591554bm_tmc.fits
+#####################################################################################
+	WARNING: ROW 85 (one indexed) in k591554bm_tmc.fits not found in k5h1059qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 87 (one indexed) in k591554bm_tmc.fits not found in k5h1059qm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 85
+	COMPNAME =  acs_pr110l
+	FILENAME =  cracscomp$acs_pr110l_004_syn.fits
+
+
+Row = 87
+	COMPNAME =  acs_pr130l
+	FILENAME =  cracscomp$acs_pr130l_005_syn.fits
+
+

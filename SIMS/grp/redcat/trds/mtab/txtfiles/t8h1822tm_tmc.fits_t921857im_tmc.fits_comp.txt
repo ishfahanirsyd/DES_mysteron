@@ -1,0 +1,65 @@
+
+#####################################################################################
+Checking that t921857im_tmc.fits contains all rows in t8h1822tm_tmc.fits
+#####################################################################################
+	WARNING: ROW 2537 (one indexed) in t8h1822tm_tmc.fits not found in t921857im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2538 (one indexed) in t8h1822tm_tmc.fits not found in t921857im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2539 (one indexed) in t8h1822tm_tmc.fits not found in t921857im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2537
+	COMPNAME =  wfpc2_f185w
+	FILENAME =  crwfpc2comp$wfpc2_f185w_005_syn.fits
+
+
+Row = 2538
+	COMPNAME =  wfpc2_f218w
+	FILENAME =  crwfpc2comp$wfpc2_f218w_006_syn.fits
+
+
+Row = 2539
+	COMPNAME =  wfpc2_f255w
+	FILENAME =  crwfpc2comp$wfpc2_f255w_006_syn.fits
+
+
+#####################################################################################
+Checking that t8h1822tm_tmc.fits contains all rows in t921857im_tmc.fits
+#####################################################################################
+	WARNING: ROW 2537 (one indexed) in t921857im_tmc.fits not found in t8h1822tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2538 (one indexed) in t921857im_tmc.fits not found in t8h1822tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2539 (one indexed) in t921857im_tmc.fits not found in t8h1822tm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2537
+	COMPNAME =  wfpc2_f185w
+	FILENAME =  crwfpc2comp$wfpc2_f185w_006_syn.fits
+
+
+Row = 2538
+	COMPNAME =  wfpc2_f218w
+	FILENAME =  crwfpc2comp$wfpc2_f218w_007_syn.fits
+
+
+Row = 2539
+	COMPNAME =  wfpc2_f255w
+	FILENAME =  crwfpc2comp$wfpc2_f255w_007_syn.fits
+
+

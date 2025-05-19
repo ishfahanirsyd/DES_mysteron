@@ -1,0 +1,56 @@
+
+#####################################################################################
+Checking that mcu1524gm_tmc.fits contains all rows in n1215512m_tmc.fits
+#####################################################################################
+	WARNING: ROW 2048 (one indexed) in n1215512m_tmc.fits not found in mcu1524gm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2051 (one indexed) in n1215512m_tmc.fits not found in mcu1524gm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2056 (one indexed) in n1215512m_tmc.fits not found in mcu1524gm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2059 (one indexed) in n1215512m_tmc.fits not found in mcu1524gm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2068 (one indexed) in n1215512m_tmc.fits not found in mcu1524gm_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2070 (one indexed) in n1215512m_tmc.fits not found in mcu1524gm_tmc.fits, COMPNAME was not matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2048
+	COMPNAME =  stis_ng11#
+	FILENAME =  crstiscomp$stis_ng11_009_syn.fits[MJD#]
+
+
+Row = 2051
+	COMPNAME =  stis_ng12#
+	FILENAME =  crstiscomp$stis_ng12_009_syn.fits[MJD#]
+
+
+Row = 2056
+	COMPNAME =  stis_ng21#
+	FILENAME =  crstiscomp$stis_ng21_009_syn.fits[MJD#]
+
+
+Row = 2059
+	COMPNAME =  stis_ng22#
+	FILENAME =  crstiscomp$stis_ng22_009_syn.fits[MJD#]
+
+
+Row = 2068
+	COMPNAME =  stis_nm16#
+	FILENAME =  crstiscomp$stis_nm16_006_syn.fits[MJD#]
+
+
+Row = 2070
+	COMPNAME =  stis_nm26#
+	FILENAME =  crstiscomp$stis_nm26_009_syn.fits[MJD#]
+
+
+#####################################################################################
+Checking that n1215512m_tmc.fits contains all rows in mcu1524gm_tmc.fits
+#####################################################################################
+	All (other) rows matched

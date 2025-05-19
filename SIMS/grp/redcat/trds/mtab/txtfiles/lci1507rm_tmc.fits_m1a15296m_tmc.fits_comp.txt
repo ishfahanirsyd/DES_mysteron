@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that m1a15296m_tmc.fits contains all rows in lci1507rm_tmc.fits
+#####################################################################################
+	WARNING: ROW 83 (one indexed) in lci1507rm_tmc.fits not found in m1a15296m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 83
+	COMPNAME =  acs_pol_uv
+	FILENAME =  cracscomp$acs_pol_uv_003_syn.fits
+
+
+#####################################################################################
+Checking that lci1507rm_tmc.fits contains all rows in m1a15296m_tmc.fits
+#####################################################################################
+	WARNING: ROW 83 (one indexed) in m1a15296m_tmc.fits not found in lci1507rm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 83
+	COMPNAME =  acs_pol_uv
+	FILENAME =  cracscomp$acs_pol_uv_004_syn.fits
+
+

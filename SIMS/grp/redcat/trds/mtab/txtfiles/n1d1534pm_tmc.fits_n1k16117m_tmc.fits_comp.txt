@@ -1,0 +1,752 @@
+
+#####################################################################################
+Checking that n1k16117m_tmc.fits contains all rows in n1d1534pm_tmc.fits
+#####################################################################################
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2260, 2260
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2260, 2260
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2260, 2264
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in n3612121m_tmc.fits:  (2260,) 
+ 	 Dimension in n3d14532m_tmc.fits:  (2264,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in n3612121m_tmc.fits:  (2260,) 
+ 	 Dimension in n3d14532m_tmc.fits:  (2264,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2271, 2271
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2271, 2263
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in o5a1822rm_tmc.fits:  (2271,) 
+ 	 Dimension in o7d1209tm_tmc.fits:  (2263,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in o5a1822rm_tmc.fits:  (2271,) 
+ 	 Dimension in o7d1209tm_tmc.fits:  (2263,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2263, 2263
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2263, 2268
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in o9k1612hm_tmc.fits:  (2263,) 
+ 	 Dimension in p1s1748hm_tmc.fits:  (2268,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in o9k1612hm_tmc.fits:  (2263,) 
+ 	 Dimension in p1s1748hm_tmc.fits:  (2268,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2268, 2268
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2268, 2268
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2268, 2267
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in q3u2145om_tmc.fits:  (2268,) 
+ 	 Dimension in qbk1959fm_tmc.fits:  (2267,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in q3u2145om_tmc.fits:  (2268,) 
+ 	 Dimension in qbk1959fm_tmc.fits:  (2267,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2267, 2374
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in qbk1959fm_tmc.fits:  (2267,) 
+ 	 Dimension in qc80137im_tmc.fits:  (2374,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in qbk1959fm_tmc.fits:  (2267,) 
+ 	 Dimension in qc80137im_tmc.fits:  (2374,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2374, 144
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in qc80137im_tmc.fits:  (2374,) 
+ 	 Dimension in qc80137km_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in qc80137im_tmc.fits:  (2374,) 
+ 	 Dimension in qc80137km_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 144, 2463
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in qc80137km_tmt.fits:  (144,) 
+ 	 Dimension in r1j2146sm_tmc.fits:  (2463,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in qc80137km_tmt.fits:  (144,) 
+ 	 Dimension in r1j2146sm_tmc.fits:  (2463,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2463, 2463
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2463, 144
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in r2k1920am_tmc.fits:  (2463,) 
+ 	 Dimension in r2k1920bm_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in r2k1920am_tmc.fits:  (2463,) 
+ 	 Dimension in r2k1920bm_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 144, 2463
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in r2k1920bm_tmt.fits:  (144,) 
+ 	 Dimension in r3e1646km_tmc.fits:  (2463,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in r2k1920bm_tmt.fits:  (144,) 
+ 	 Dimension in r3e1646km_tmc.fits:  (2463,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2463, 2463
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2463, 2463
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2463, 2467
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in r5h1830dm_tmc.fits:  (2463,) 
+ 	 Dimension in r682028im_tmc.fits:  (2467,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in r5h1830dm_tmc.fits:  (2463,) 
+ 	 Dimension in r682028im_tmc.fits:  (2467,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2467, 2467
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2467, 2467
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2467, 2470
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in r8m1948mm_tmc.fits:  (2467,) 
+ 	 Dimension in r9k1532dm_tmc.fits:  (2470,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in r8m1948mm_tmc.fits:  (2467,) 
+ 	 Dimension in r9k1532dm_tmc.fits:  (2470,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2470
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2470
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2470
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2470
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2470
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2470
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2470
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2470, 2475
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in rbc2352gm_tmc.fits:  (2470,) 
+ 	 Dimension in rbg2236hm_tmc.fits:  (2475,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in rbc2352gm_tmc.fits:  (2470,) 
+ 	 Dimension in rbg2236hm_tmc.fits:  (2475,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2475, 2549
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in rbg2236hm_tmc.fits:  (2475,) 
+ 	 Dimension in rbt03565m_tmc.fits:  (2549,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in rbg2236hm_tmc.fits:  (2475,) 
+ 	 Dimension in rbt03565m_tmc.fits:  (2549,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2549, 2537
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in rbt03565m_tmc.fits:  (2549,) 
+ 	 Dimension in rc21827tm_tmc.fits:  (2537,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in rbt03565m_tmc.fits:  (2549,) 
+ 	 Dimension in rc21827tm_tmc.fits:  (2537,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2537, 2537
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2537, 2537
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2537, 2537
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2537, 2537
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2537, 2537
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2537, 144
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in s3i1812lm_tmc.fits:  (2537,) 
+ 	 Dimension in s3i1813qm_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in s3i1812lm_tmc.fits:  (2537,) 
+ 	 Dimension in s3i1813qm_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 144, 2539
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in s3i1813qm_tmt.fits:  (144,) 
+ 	 Dimension in s4416143m_tmc.fits:  (2539,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in s3i1813qm_tmt.fits:  (144,) 
+ 	 Dimension in s4416143m_tmc.fits:  (2539,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2539, 2539
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2539, 2539
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2539, 2539
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2539, 2542
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in s551945em_tmc.fits:  (2539,) 
+ 	 Dimension in s5e1604qm_tmc.fits:  (2542,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in s551945em_tmc.fits:  (2539,) 
+ 	 Dimension in s5e1604qm_tmc.fits:  (2542,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2542, 144
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in s5e1604qm_tmc.fits:  (2542,) 
+ 	 Dimension in s5e1604rm_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in s5e1604qm_tmc.fits:  (2542,) 
+ 	 Dimension in s5e1604rm_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 144, 2538
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in s5e1604rm_tmt.fits:  (144,) 
+ 	 Dimension in s5s19011m_tmc.fits:  (2538,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in s5e1604rm_tmt.fits:  (144,) 
+ 	 Dimension in s5s19011m_tmc.fits:  (2538,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2538, 2542
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in s5s19011m_tmc.fits:  (2538,) 
+ 	 Dimension in s8i22541m_tmc.fits:  (2542,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in s5s19011m_tmc.fits:  (2538,) 
+ 	 Dimension in s8i22541m_tmc.fits:  (2542,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2542, 2665
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in s8i22541m_tmc.fits:  (2542,) 
+ 	 Dimension in scg1705am_tmc.fits:  (2665,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in s8i22541m_tmc.fits:  (2542,) 
+ 	 Dimension in scg1705am_tmc.fits:  (2665,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2665, 2670
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in scg1705am_tmc.fits:  (2665,) 
+ 	 Dimension in t260548pm_tmc.fits:  (2670,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in scg1705am_tmc.fits:  (2665,) 
+ 	 Dimension in t260548pm_tmc.fits:  (2670,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2670
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2670
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2670
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2670
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2670
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2731
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in t9m1635am_tmc.fits:  (2670,) 
+ 	 Dimension in ta91352hm_tmc.fits:  (2731,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in t9m1635am_tmc.fits:  (2670,) 
+ 	 Dimension in ta91352hm_tmc.fits:  (2731,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2731, 2670
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in ta91352hm_tmc.fits:  (2731,) 
+ 	 Dimension in tad1851am_tmc.fits:  (2670,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in ta91352hm_tmc.fits:  (2731,) 
+ 	 Dimension in tad1851am_tmc.fits:  (2670,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 144
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in tad1851am_tmc.fits:  (2670,) 
+ 	 Dimension in tae17277m_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in tad1851am_tmc.fits:  (2670,) 
+ 	 Dimension in tae17277m_tmt.fits:  (144,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 144, 2670
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in tae17277m_tmt.fits:  (144,) 
+ 	 Dimension in tb320214m_tmc.fits:  (2670,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in tae17277m_tmt.fits:  (144,) 
+ 	 Dimension in tb320214m_tmc.fits:  (2670,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2670
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2670
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2670, 2673
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in u4c18498m_tmc.fits:  (2670,) 
+ 	 Dimension in u921754nm_tmc.fits:  (2673,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in u4c18498m_tmc.fits:  (2670,) 
+ 	 Dimension in u921754nm_tmc.fits:  (2673,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2673, 2673
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2673, 2673
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2673, 2673
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2673, 2673
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2673, 2673
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2673, 2674
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in v8h1925fm_tmc.fits:  (2673,) 
+ 	 Dimension in v9n1603lm_tmc.fits:  (2674,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in v8h1925fm_tmc.fits:  (2673,) 
+ 	 Dimension in v9n1603lm_tmc.fits:  (2674,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2674, 2674
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2674, 2674
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2674, 2674
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2674, 2674
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2674, 2680
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in w3c2231lm_tmc.fits:  (2674,) 
+ 	 Dimension in w3j2015lm_tmc.fits:  (2680,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in w3c2231lm_tmc.fits:  (2674,) 
+ 	 Dimension in w3j2015lm_tmc.fits:  (2680,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2680, 2680
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2680, 2680
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2680, 2680
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2680, 2680
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2680, 2680
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2680, 2875
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in w7r1653cm_tmc.fits:  (2680,) 
+ 	 Dimension in wa316539m_tmc.fits:  (2875,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in w7r1653cm_tmc.fits:  (2680,) 
+ 	 Dimension in wa316539m_tmc.fits:  (2875,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2875, 2875
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2875, 2875
+
+
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2875, 2827
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in wb51926pm_tmc.fits:  (2875,) 
+ 	 Dimension in x131724qm_tmc.fits:  (2827,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in wb51926pm_tmc.fits:  (2875,) 
+ 	 Dimension in x131724qm_tmc.fits:  (2827,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2827, 2828
+
+
+Column dimensions don't match for column COMPNAME. 
+ 	 Dimension in x131724qm_tmc.fits:  (2827,) 
+ 	 Dimension in x3p22366m_tmc.fits:  (2828,)
+Would you like to continue comparing columns? (y) 
+Column dimensions don't match for column FILENAME. 
+ 	 Dimension in x131724qm_tmc.fits:  (2827,) 
+ 	 Dimension in x3p22366m_tmc.fits:  (2828,)
+Would you like to continue comparing columns? (y) 
+Comparing columns:  ['COMPNAME', 'FILENAME'] 
+
+
+Total number of rows in old table and new table respectively: 2828, 2828
+

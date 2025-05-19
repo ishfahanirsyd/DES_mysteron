@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that rcb1833hm_tmc.fits contains all rows in rca1813lm_tmc.fits
+#####################################################################################
+	WARNING: ROW 216 (one indexed) in rca1813lm_tmc.fits not found in rcb1833hm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 216
+	COMPNAME =  cos_mirrorb
+	FILENAME =  crcoscomp$cos_mirrorb_004_syn.fits
+
+
+#####################################################################################
+Checking that rca1813lm_tmc.fits contains all rows in rcb1833hm_tmc.fits
+#####################################################################################
+	WARNING: ROW 216 (one indexed) in rcb1833hm_tmc.fits not found in rca1813lm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 216
+	COMPNAME =  cos_mirrorb
+	FILENAME =  crcoscomp$cos_mirrorb_005_syn.fits
+
+

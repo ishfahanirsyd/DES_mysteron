@@ -1,0 +1,33 @@
+
+#####################################################################################
+Checking that v631340km_tmc.fits contains all rows in ub31649mm_tmc.fits
+#####################################################################################
+	WARNING: ROW 87 (one indexed) in ub31649mm_tmc.fits not found in v631340km_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 87
+	COMPNAME =  acs_pol_v
+	FILENAME =  cracscomp$acs_pol_v_004_syn.fits
+
+
+#####################################################################################
+Checking that ub31649mm_tmc.fits contains all rows in v631340km_tmc.fits
+#####################################################################################
+	WARNING: ROW 87 (one indexed) in v631340km_tmc.fits not found in ub31649mm_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 87
+	COMPNAME =  acs_pol_v
+	FILENAME =  cracscomp$acs_pol_v_005_syn.fits
+
+

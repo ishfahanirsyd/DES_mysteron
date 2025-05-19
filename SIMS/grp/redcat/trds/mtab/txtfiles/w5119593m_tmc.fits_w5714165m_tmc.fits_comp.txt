@@ -1,0 +1,65 @@
+
+#####################################################################################
+Checking that w5714165m_tmc.fits contains all rows in w5119593m_tmc.fits
+#####################################################################################
+	WARNING: ROW 86 (one indexed) in w5119593m_tmc.fits not found in w5714165m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 103 (one indexed) in w5119593m_tmc.fits not found in w5714165m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 105 (one indexed) in w5119593m_tmc.fits not found in w5714165m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 86
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_013_syn.fits
+
+
+Row = 103
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_019_syn.fits
+
+
+Row = 105
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_019_syn.fits
+
+
+#####################################################################################
+Checking that w5119593m_tmc.fits contains all rows in w5714165m_tmc.fits
+#####################################################################################
+	WARNING: ROW 86 (one indexed) in w5714165m_tmc.fits not found in w5119593m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 103 (one indexed) in w5714165m_tmc.fits not found in w5119593m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 105 (one indexed) in w5714165m_tmc.fits not found in w5119593m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 86
+	COMPNAME =  acs_hrc_ccd
+	FILENAME =  cracscomp$acs_hrc_ccd_mjd_015_syn.fits
+
+
+Row = 103
+	COMPNAME =  acs_wfc_ccd1
+	FILENAME =  cracscomp$acs_wfc_ccd1_mjd_021_syn.fits
+
+
+Row = 105
+	COMPNAME =  acs_wfc_ccd2
+	FILENAME =  cracscomp$acs_wfc_ccd2_mjd_021_syn.fits
+
+

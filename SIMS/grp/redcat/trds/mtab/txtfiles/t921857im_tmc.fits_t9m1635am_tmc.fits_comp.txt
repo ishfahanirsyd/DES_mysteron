@@ -1,0 +1,81 @@
+
+#####################################################################################
+Checking that t9m1635am_tmc.fits contains all rows in t921857im_tmc.fits
+#####################################################################################
+	WARNING: ROW 2017 (one indexed) in t921857im_tmc.fits not found in t9m1635am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2029 (one indexed) in t921857im_tmc.fits not found in t9m1635am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2207 (one indexed) in t921857im_tmc.fits not found in t9m1635am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2208 (one indexed) in t921857im_tmc.fits not found in t9m1635am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2017
+	COMPNAME =  stis_ccd
+	FILENAME =  crstiscomp$stis_ccd_004_syn.fits
+
+
+Row = 2029
+	COMPNAME =  stis_e140h_c1598
+	FILENAME =  crstiscomp$stis_e140h_c1598_004_syn.fits
+
+
+Row = 2207
+	COMPNAME =  stis_mama1
+	FILENAME =  crstiscomp$stis_mama1_004_syn.fits
+
+
+Row = 2208
+	COMPNAME =  stis_mama2
+	FILENAME =  crstiscomp$stis_mama2_004_syn.fits
+
+
+#####################################################################################
+Checking that t921857im_tmc.fits contains all rows in t9m1635am_tmc.fits
+#####################################################################################
+	WARNING: ROW 2017 (one indexed) in t9m1635am_tmc.fits not found in t921857im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2029 (one indexed) in t9m1635am_tmc.fits not found in t921857im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2207 (one indexed) in t9m1635am_tmc.fits not found in t921857im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2208 (one indexed) in t9m1635am_tmc.fits not found in t921857im_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2017
+	COMPNAME =  stis_ccd
+	FILENAME =  crstiscomp$stis_ccd_005_syn.fits
+
+
+Row = 2029
+	COMPNAME =  stis_e140h_c1598
+	FILENAME =  crstiscomp$stis_e140h_c1598_005_syn.fits
+
+
+Row = 2207
+	COMPNAME =  stis_mama1
+	FILENAME =  crstiscomp$stis_mama1_005_syn.fits
+
+
+Row = 2208
+	COMPNAME =  stis_mama2
+	FILENAME =  crstiscomp$stis_mama2_005_syn.fits
+
+

@@ -1,0 +1,955 @@
+
+#####################################################################################
+Checking that scg1705am_tmc.fits contains all rows in s8i22541m_tmc.fits
+#####################################################################################
+	WARNING: ROW 207 (one indexed) in s8i22541m_tmc.fits not found in scg1705am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 221 (one indexed) in s8i22541m_tmc.fits not found in scg1705am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 224 (one indexed) in s8i22541m_tmc.fits not found in scg1705am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2313 (one indexed) in s8i22541m_tmc.fits not found in scg1705am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2314 (one indexed) in s8i22541m_tmc.fits not found in scg1705am_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	All (other) columns matched
+
+
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 207
+	COMPNAME =  cos_fuv_correction
+	FILENAME =  crcoscomp$cos_fuv_correction_001_syn.fits
+
+
+Row = 221
+	COMPNAME =  cos_nuv_correction
+	FILENAME =  crcoscomp$cos_nuv_correction_001_syn.fits
+
+
+Row = 224
+	COMPNAME =  cos_psa
+	FILENAME =  crcoscomp$cos_psa_001_syn.fits
+
+
+Row = 2313
+	COMPNAME =  wfc3_uvis_ccd1
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd1_002_syn.fits
+
+
+Row = 2314
+	COMPNAME =  wfc3_uvis_ccd2
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd2_002_syn.fits
+
+
+#####################################################################################
+Checking that s8i22541m_tmc.fits contains all rows in scg1705am_tmc.fits
+#####################################################################################
+	WARNING: ROW 2310 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2311 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, FILENAME was not matched
+		['COMPNAME']  were matched
+
+	WARNING: ROW 2315 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2316 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2318 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2319 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2321 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2322 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2324 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2325 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2327 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2328 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2330 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2331 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2333 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2334 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2336 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2337 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2339 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2340 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2342 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2343 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2345 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2346 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2348 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2349 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2351 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2352 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2354 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2355 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2357 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2358 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2360 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2361 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2363 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2364 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2366 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2367 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2369 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2370 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2372 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2373 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2375 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2376 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2378 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2379 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2381 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2382 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2384 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2385 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2387 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2388 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2390 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2391 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2393 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2394 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2396 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2397 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2399 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2400 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2402 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2403 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2405 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2406 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2408 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2409 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2411 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2412 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2414 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2415 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2417 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2418 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2420 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2421 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2423 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2424 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2426 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2427 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2429 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2430 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2432 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2433 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2435 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2436 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2438 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2439 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2441 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2442 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2444 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2445 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2447 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2448 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2450 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2451 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2453 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2454 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2456 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2457 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2459 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2460 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2462 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2463 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2465 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2466 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2468 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2469 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2471 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2472 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2474 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2475 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2477 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2478 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2480 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2481 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2483 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2484 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2486 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2487 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2489 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2490 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2492 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2493 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2495 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2496 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2498 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2499 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2500 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	WARNING: ROW 2501 (one indexed) in scg1705am_tmc.fits not found in s8i22541m_tmc.fits, COMPNAME was not matched
+
+	All (other) rows matched
+-------------------------------------------------
+FULL REPORT:
+-------------------------------------------------
+Row = 2310
+	COMPNAME =  wfc3_uvis_ccd1
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd1_003_syn.fits
+
+
+Row = 2311
+	COMPNAME =  wfc3_uvis_ccd2
+	FILENAME =  crwfc3comp$wfc3_uvis_ccd2_003_syn.fits
+
+
+Row = 2315
+	COMPNAME =  wfc3_uvis_f200lpf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f200lpf1_001_syn.fits
+
+
+Row = 2316
+	COMPNAME =  wfc3_uvis_f200lpf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f200lpf2_001_syn.fits
+
+
+Row = 2318
+	COMPNAME =  wfc3_uvis_f218wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f218wf1_001_syn.fits
+
+
+Row = 2319
+	COMPNAME =  wfc3_uvis_f218wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f218wf2_001_syn.fits
+
+
+Row = 2321
+	COMPNAME =  wfc3_uvis_f225wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f225wf1_001_syn.fits
+
+
+Row = 2322
+	COMPNAME =  wfc3_uvis_f225wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f225wf2_001_syn.fits
+
+
+Row = 2324
+	COMPNAME =  wfc3_uvis_f275wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f275wf1_001_syn.fits
+
+
+Row = 2325
+	COMPNAME =  wfc3_uvis_f275wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f275wf2_001_syn.fits
+
+
+Row = 2327
+	COMPNAME =  wfc3_uvis_f280nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f280nf1_001_syn.fits
+
+
+Row = 2328
+	COMPNAME =  wfc3_uvis_f280nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f280nf2_001_syn.fits
+
+
+Row = 2330
+	COMPNAME =  wfc3_uvis_f300xf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f300xf1_001_syn.fits
+
+
+Row = 2331
+	COMPNAME =  wfc3_uvis_f300xf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f300xf2_001_syn.fits
+
+
+Row = 2333
+	COMPNAME =  wfc3_uvis_f336wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f336wf1_001_syn.fits
+
+
+Row = 2334
+	COMPNAME =  wfc3_uvis_f336wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f336wf2_001_syn.fits
+
+
+Row = 2336
+	COMPNAME =  wfc3_uvis_f343nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f343nf1_001_syn.fits
+
+
+Row = 2337
+	COMPNAME =  wfc3_uvis_f343nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f343nf2_001_syn.fits
+
+
+Row = 2339
+	COMPNAME =  wfc3_uvis_f350lpf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f350lpf1_001_syn.fits
+
+
+Row = 2340
+	COMPNAME =  wfc3_uvis_f350lpf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f350lpf2_001_syn.fits
+
+
+Row = 2342
+	COMPNAME =  wfc3_uvis_f373nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f373nf1_001_syn.fits
+
+
+Row = 2343
+	COMPNAME =  wfc3_uvis_f373nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f373nf2_001_syn.fits
+
+
+Row = 2345
+	COMPNAME =  wfc3_uvis_f390mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f390mf1_001_syn.fits
+
+
+Row = 2346
+	COMPNAME =  wfc3_uvis_f390mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f390mf2_001_syn.fits
+
+
+Row = 2348
+	COMPNAME =  wfc3_uvis_f390wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f390wf1_001_syn.fits
+
+
+Row = 2349
+	COMPNAME =  wfc3_uvis_f390wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f390wf2_001_syn.fits
+
+
+Row = 2351
+	COMPNAME =  wfc3_uvis_f395nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f395nf1_001_syn.fits
+
+
+Row = 2352
+	COMPNAME =  wfc3_uvis_f395nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f395nf2_001_syn.fits
+
+
+Row = 2354
+	COMPNAME =  wfc3_uvis_f410mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f410mf1_001_syn.fits
+
+
+Row = 2355
+	COMPNAME =  wfc3_uvis_f410mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f410mf2_001_syn.fits
+
+
+Row = 2357
+	COMPNAME =  wfc3_uvis_f438wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f438wf1_001_syn.fits
+
+
+Row = 2358
+	COMPNAME =  wfc3_uvis_f438wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f438wf2_001_syn.fits
+
+
+Row = 2360
+	COMPNAME =  wfc3_uvis_f467mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f467mf1_001_syn.fits
+
+
+Row = 2361
+	COMPNAME =  wfc3_uvis_f467mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f467mf2_001_syn.fits
+
+
+Row = 2363
+	COMPNAME =  wfc3_uvis_f469nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f469nf1_001_syn.fits
+
+
+Row = 2364
+	COMPNAME =  wfc3_uvis_f469nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f469nf2_001_syn.fits
+
+
+Row = 2366
+	COMPNAME =  wfc3_uvis_f475wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f475wf1_001_syn.fits
+
+
+Row = 2367
+	COMPNAME =  wfc3_uvis_f475wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f475wf2_001_syn.fits
+
+
+Row = 2369
+	COMPNAME =  wfc3_uvis_f475xf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f475xf1_001_syn.fits
+
+
+Row = 2370
+	COMPNAME =  wfc3_uvis_f475xf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f475xf2_001_syn.fits
+
+
+Row = 2372
+	COMPNAME =  wfc3_uvis_f487nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f487nf1_001_syn.fits
+
+
+Row = 2373
+	COMPNAME =  wfc3_uvis_f487nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f487nf2_001_syn.fits
+
+
+Row = 2375
+	COMPNAME =  wfc3_uvis_f502nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f502nf1_001_syn.fits
+
+
+Row = 2376
+	COMPNAME =  wfc3_uvis_f502nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f502nf2_001_syn.fits
+
+
+Row = 2378
+	COMPNAME =  wfc3_uvis_f547mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f547mf1_001_syn.fits
+
+
+Row = 2379
+	COMPNAME =  wfc3_uvis_f547mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f547mf2_001_syn.fits
+
+
+Row = 2381
+	COMPNAME =  wfc3_uvis_f555wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f555wf1_001_syn.fits
+
+
+Row = 2382
+	COMPNAME =  wfc3_uvis_f555wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f555wf2_001_syn.fits
+
+
+Row = 2384
+	COMPNAME =  wfc3_uvis_f600lpf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f600lpf1_001_syn.fits
+
+
+Row = 2385
+	COMPNAME =  wfc3_uvis_f600lpf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f600lpf2_001_syn.fits
+
+
+Row = 2387
+	COMPNAME =  wfc3_uvis_f606wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f606wf1_001_syn.fits
+
+
+Row = 2388
+	COMPNAME =  wfc3_uvis_f606wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f606wf2_001_syn.fits
+
+
+Row = 2390
+	COMPNAME =  wfc3_uvis_f621mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f621mf1_001_syn.fits
+
+
+Row = 2391
+	COMPNAME =  wfc3_uvis_f621mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f621mf2_001_syn.fits
+
+
+Row = 2393
+	COMPNAME =  wfc3_uvis_f625wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f625wf1_001_syn.fits
+
+
+Row = 2394
+	COMPNAME =  wfc3_uvis_f625wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f625wf2_001_syn.fits
+
+
+Row = 2396
+	COMPNAME =  wfc3_uvis_f631nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f631nf1_001_syn.fits
+
+
+Row = 2397
+	COMPNAME =  wfc3_uvis_f631nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f631nf2_001_syn.fits
+
+
+Row = 2399
+	COMPNAME =  wfc3_uvis_f645nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f645nf1_001_syn.fits
+
+
+Row = 2400
+	COMPNAME =  wfc3_uvis_f645nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f645nf2_001_syn.fits
+
+
+Row = 2402
+	COMPNAME =  wfc3_uvis_f656nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f656nf1_001_syn.fits
+
+
+Row = 2403
+	COMPNAME =  wfc3_uvis_f656nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f656nf2_001_syn.fits
+
+
+Row = 2405
+	COMPNAME =  wfc3_uvis_f657nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f657nf1_001_syn.fits
+
+
+Row = 2406
+	COMPNAME =  wfc3_uvis_f657nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f657nf2_001_syn.fits
+
+
+Row = 2408
+	COMPNAME =  wfc3_uvis_f658nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f658nf1_001_syn.fits
+
+
+Row = 2409
+	COMPNAME =  wfc3_uvis_f658nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f658nf2_001_syn.fits
+
+
+Row = 2411
+	COMPNAME =  wfc3_uvis_f665nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f665nf1_001_syn.fits
+
+
+Row = 2412
+	COMPNAME =  wfc3_uvis_f665nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f665nf2_001_syn.fits
+
+
+Row = 2414
+	COMPNAME =  wfc3_uvis_f673nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f673nf1_001_syn.fits
+
+
+Row = 2415
+	COMPNAME =  wfc3_uvis_f673nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f673nf2_001_syn.fits
+
+
+Row = 2417
+	COMPNAME =  wfc3_uvis_f680nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f680nf1_001_syn.fits
+
+
+Row = 2418
+	COMPNAME =  wfc3_uvis_f680nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f680nf2_001_syn.fits
+
+
+Row = 2420
+	COMPNAME =  wfc3_uvis_f689mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f689mf1_001_syn.fits
+
+
+Row = 2421
+	COMPNAME =  wfc3_uvis_f689mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f689mf2_001_syn.fits
+
+
+Row = 2423
+	COMPNAME =  wfc3_uvis_f763mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f763mf1_001_syn.fits
+
+
+Row = 2424
+	COMPNAME =  wfc3_uvis_f763mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f763mf2_001_syn.fits
+
+
+Row = 2426
+	COMPNAME =  wfc3_uvis_f775wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f775wf1_001_syn.fits
+
+
+Row = 2427
+	COMPNAME =  wfc3_uvis_f775wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f775wf2_001_syn.fits
+
+
+Row = 2429
+	COMPNAME =  wfc3_uvis_f814wf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f814wf1_001_syn.fits
+
+
+Row = 2430
+	COMPNAME =  wfc3_uvis_f814wf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f814wf2_001_syn.fits
+
+
+Row = 2432
+	COMPNAME =  wfc3_uvis_f845mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f845mf1_001_syn.fits
+
+
+Row = 2433
+	COMPNAME =  wfc3_uvis_f845mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f845mf2_001_syn.fits
+
+
+Row = 2435
+	COMPNAME =  wfc3_uvis_f850lpf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f850lpf1_001_syn.fits
+
+
+Row = 2436
+	COMPNAME =  wfc3_uvis_f850lpf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f850lpf2_001_syn.fits
+
+
+Row = 2438
+	COMPNAME =  wfc3_uvis_f953nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_f953nf1_001_syn.fits
+
+
+Row = 2439
+	COMPNAME =  wfc3_uvis_f953nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_f953nf2_001_syn.fits
+
+
+Row = 2441
+	COMPNAME =  wfc3_uvis_fq232nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq232nf1_001_syn.fits
+
+
+Row = 2442
+	COMPNAME =  wfc3_uvis_fq232nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq232nf2_001_syn.fits
+
+
+Row = 2444
+	COMPNAME =  wfc3_uvis_fq243nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq243nf1_001_syn.fits
+
+
+Row = 2445
+	COMPNAME =  wfc3_uvis_fq243nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq243nf2_001_syn.fits
+
+
+Row = 2447
+	COMPNAME =  wfc3_uvis_fq378nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq378nf1_001_syn.fits
+
+
+Row = 2448
+	COMPNAME =  wfc3_uvis_fq378nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq378nf2_001_syn.fits
+
+
+Row = 2450
+	COMPNAME =  wfc3_uvis_fq387nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq387nf1_001_syn.fits
+
+
+Row = 2451
+	COMPNAME =  wfc3_uvis_fq387nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq387nf2_001_syn.fits
+
+
+Row = 2453
+	COMPNAME =  wfc3_uvis_fq422mf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq422mf1_001_syn.fits
+
+
+Row = 2454
+	COMPNAME =  wfc3_uvis_fq422mf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq422mf2_001_syn.fits
+
+
+Row = 2456
+	COMPNAME =  wfc3_uvis_fq436nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq436nf1_001_syn.fits
+
+
+Row = 2457
+	COMPNAME =  wfc3_uvis_fq436nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq436nf2_001_syn.fits
+
+
+Row = 2459
+	COMPNAME =  wfc3_uvis_fq437nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq437nf1_001_syn.fits
+
+
+Row = 2460
+	COMPNAME =  wfc3_uvis_fq437nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq437nf2_001_syn.fits
+
+
+Row = 2462
+	COMPNAME =  wfc3_uvis_fq492nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq492nf1_001_syn.fits
+
+
+Row = 2463
+	COMPNAME =  wfc3_uvis_fq492nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq492nf2_001_syn.fits
+
+
+Row = 2465
+	COMPNAME =  wfc3_uvis_fq508nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq508nf1_001_syn.fits
+
+
+Row = 2466
+	COMPNAME =  wfc3_uvis_fq508nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq508nf2_001_syn.fits
+
+
+Row = 2468
+	COMPNAME =  wfc3_uvis_fq575nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq575nf1_001_syn.fits
+
+
+Row = 2469
+	COMPNAME =  wfc3_uvis_fq575nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq575nf2_001_syn.fits
+
+
+Row = 2471
+	COMPNAME =  wfc3_uvis_fq619nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq619nf1_001_syn.fits
+
+
+Row = 2472
+	COMPNAME =  wfc3_uvis_fq619nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq619nf2_001_syn.fits
+
+
+Row = 2474
+	COMPNAME =  wfc3_uvis_fq634nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq634nf1_001_syn.fits
+
+
+Row = 2475
+	COMPNAME =  wfc3_uvis_fq634nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq634nf2_001_syn.fits
+
+
+Row = 2477
+	COMPNAME =  wfc3_uvis_fq672nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq672nf1_001_syn.fits
+
+
+Row = 2478
+	COMPNAME =  wfc3_uvis_fq672nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq672nf2_001_syn.fits
+
+
+Row = 2480
+	COMPNAME =  wfc3_uvis_fq674nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq674nf1_001_syn.fits
+
+
+Row = 2481
+	COMPNAME =  wfc3_uvis_fq674nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq674nf2_001_syn.fits
+
+
+Row = 2483
+	COMPNAME =  wfc3_uvis_fq727nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq727nf1_001_syn.fits
+
+
+Row = 2484
+	COMPNAME =  wfc3_uvis_fq727nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq727nf2_001_syn.fits
+
+
+Row = 2486
+	COMPNAME =  wfc3_uvis_fq750nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq750nf1_001_syn.fits
+
+
+Row = 2487
+	COMPNAME =  wfc3_uvis_fq750nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq750nf2_001_syn.fits
+
+
+Row = 2489
+	COMPNAME =  wfc3_uvis_fq889nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq889nf1_001_syn.fits
+
+
+Row = 2490
+	COMPNAME =  wfc3_uvis_fq889nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq889nf2_001_syn.fits
+
+
+Row = 2492
+	COMPNAME =  wfc3_uvis_fq906nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq906nf1_001_syn.fits
+
+
+Row = 2493
+	COMPNAME =  wfc3_uvis_fq906nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq906nf2_001_syn.fits
+
+
+Row = 2495
+	COMPNAME =  wfc3_uvis_fq924nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq924nf1_001_syn.fits
+
+
+Row = 2496
+	COMPNAME =  wfc3_uvis_fq924nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq924nf2_001_syn.fits
+
+
+Row = 2498
+	COMPNAME =  wfc3_uvis_fq937nf1
+	FILENAME =  crwfc3comp$wfc3_uvis_fq937nf1_001_syn.fits
+
+
+Row = 2499
+	COMPNAME =  wfc3_uvis_fq937nf2
+	FILENAME =  crwfc3comp$wfc3_uvis_fq937nf2_001_syn.fits
+
+
+Row = 2500
+	COMPNAME =  wfc3_uvis_g280f1
+	FILENAME =  crwfc3comp$wfc3_uvis_g280f1_001_syn.fits
+
+
+Row = 2501
+	COMPNAME =  wfc3_uvis_g280f2
+	FILENAME =  crwfc3comp$wfc3_uvis_g280f2_001_syn.fits
+
+
