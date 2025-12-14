@@ -11,7 +11,7 @@ This repository contains code for simulating supernovae and host galaxies by usi
 
 - **Output**:  
   `$DESSIMS`
-  (the output is in another Github repo)
+  (the output is in another Github repo: [GitHub](https://github.com/ishfahanirsyd/DES_output))
 
 ---
 
@@ -37,7 +37,7 @@ $filters       = $DESSIMS/filters
 ```
 
 --- 
-# SIMULATE STAR FORMATION HISTORY
+# 1. SIMULATE STAR FORMATION HISTORY
 
 How to run: `python  mass_assembly_quenched_mpi.py output_dir_name`
 
@@ -83,7 +83,7 @@ Dir: `$AURA/simulations/scripts/mass_assembly_adjusted.py`
 Final output used in the thesis: `$mass_assembly/SFH_mpi/sfh_25_50`
 
 ----
-# SIMULATE HOST GALAXIES
+# 2. SIMULATE HOST GALAXIES
 Output from this part goes to: `$hostlib`
 
 ## MPI version
@@ -95,20 +95,20 @@ Output:
 
 Dir: `$AURA$/simulations/scripts/make_hostlib_quenched_mpi.py`
 
-### running the code
+#### Running the code
 - With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py –neb -o /output-directory`
 - Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py -o /output-directory`
 
-## nonMPI 
+## nonMPI version
 (takes all simulated galaxies from step 1 in each time steps)
 
 Dir: `$AURA/simulations/scripts/make_hostlib_quenched.py`
 
-### running the code:
+#### Running the code:
 - With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py –neb -o output-directory`
 - Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py -o output-directory`
 
-### Modified version (mainly used)
+## Modified version (mainly used)
 Output:
 - One HDF5 file per key (stored separately)
 
@@ -116,7 +116,7 @@ If this version is used, the output must be passed to **Combine Hostlib** before
 
 Dir: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
 
-### running the code:
+#### Running the code:
 - With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py –neb -o output-directory`
 - Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py -o output-directory`
 
@@ -124,7 +124,6 @@ Dir: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
 Example of output directory: `/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`
 
 When creating the output directory, a subdirectory named `SN_ages` must also be created inside it. This subdirectory is used to store the age distribution of supernovae.
-
 
 Final output used in the thesis: `$hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`
 
