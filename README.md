@@ -40,22 +40,36 @@ $filters       = $DESSIMS/filters
 # Simulate Star Formation History
 
 How to run: `python  mass_assembly_quenched_mpi.py output_dir_name`
+
 Example output dir: `/SFH_mpi/sfh_25_50`
 
 
-Set up:
+## Set up:
+
 `--config config/config_rates.yaml`
+
 Path to the configuration file (also defines the output base directory).
+
 `--output test`
+
 Name of the output directory.
+
 `--dt 0.5`
+
 Time step (in Myr) used to iterate and update the galaxy star formation rate.
+
 `--early_step 25`
+
 Seeding interval for galaxies in the early Universe (every 25 Myr).
+
 `--late_step 50`
+
 Seeding interval for galaxies in the late Universe (every 50 Myr).
+
 `--n 100`
+
 Number of galaxies seeded.
+
 
 ---
 ### nonMPI version
