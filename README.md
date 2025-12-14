@@ -1,17 +1,16 @@
 # MYSTERON Simulation Setup
 
-This repository contains scripts and configurations for simulating supernovae and host galaxies by using Galaxy-driven model (Wiseman, 2022) on Mysteron.
+This repository contains code for simulating supernovae and host galaxies by using Galaxy-driven model (Wiseman, 2022) on Mysteron.
 
 ---
 
 ## Directory Structure
 
 - **Code (SIMS)**:  
-  `/priv/debass/software/DES/SIMS/AURA/simulations/scripts`
-  (this repo only contains `/priv/debass/software/DES`)
+  `$DESCODE`
 
 - **Output**:  
-  `/priv/debass/DES/SIMS` or `$DESSIMS`
+  `$DESSIMS`
   (the output is in another Github repo)
 
 ---
@@ -27,7 +26,7 @@ Activate the conda environment:
 ## shortcut
 
 ```bash
-$DESHOME        = /priv/debass/DES
+$DESHOME (base)
 $DESSIMS       = $DESHOME/SIMS
 $AURA          = $DESSIMS/AURA
 $config        = $DESSIMS/config
@@ -58,3 +57,15 @@ Seeding interval for galaxies in the late Universe (every 50 Myr).
 --n 100
 Number of galaxies seeded.
 ```
+--
+### nonMPI version
+Dir: $AURA/simulations/scripts/mass_assembly_quenched.py
+### MPI version (mainly used)
+Dir: $AURA/simulations/scripts/mass_assembly_quenched_mpi.py
+### Modified code: modified some steps from earlier version to run faster
+Dir: $AURA/simulations/scripts/mass_assembly_adjusted.py
+
+--
+Final output used in the thesis: $mass_assembly/SFH_mpi/sfh_25_50
+
+---
