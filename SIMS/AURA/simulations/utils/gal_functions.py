@@ -51,7 +51,7 @@ def schechter(z,logM,SF):
     elif z>=1 and z<1.25:
         return double_schechter_T14(logM,**zfourge[SF][1])
 
-def ozdes_efficiency(dir='/Users/ishfahanirusyda/master_thesis/eff/'):
+def ozdes_efficiency(dir='/priv/debass/software/DES/SIMS/efficiencies'):
     import numpy.polynomial.polynomial as poly
     from scipy.interpolate import interp1d
     fs = ['C12','X12','S12','E12','C3','X3']
@@ -93,15 +93,23 @@ def ozdes_efficiency(dir='/Users/ishfahanirusyda/master_thesis/eff/'):
 
     return mean_eff_func,std_eff_func
 
-def interpolate_zdf(zdf,marr):
+def interpolate_zdf_oldver(zdf,marr):
     '''Function to iterpolate SFH data frame onto a log-linear mass grid '''
     #print('line0 gb',zdf.columns)
     # Temporarily adjust display options
-    zdf['U'] = np.array([zdf['U'][i][0] for i in range(len(zdf['U']))])
-    zdf['B'] = np.array([zdf['B'][i][0] for i in range(len(zdf['B']))])
-    zdf['V'] = np.array([zdf['V'][i][0] for i in range(len(zdf['V']))])
-    zdf['R'] = np.array([zdf['R'][i][0] for i in range(len(zdf['R']))])
-    zdf['I'] = np.array([zdf['I'][i][0] for i in range(len(zdf['I']))])
+    # CLi - adjusted to run with and without lists of floats
+    try:
+        zdf['U'] = np.array([zdf['U'][i][0] for i in range(len(zdf['U']))])
+        zdf['B'] = np.array([zdf['B'][i][0] for i in range(len(zdf['B']))])
+        zdf['V'] = np.array([zdf['V'][i][0] for i in range(len(zdf['V']))])
+        zdf['R'] = np.array([zdf['R'][i][0] for i in range(len(zdf['R']))])
+        zdf['I'] = np.array([zdf['I'][i][0] for i in range(len(zdf['I']))])
+    except:
+        zdf['U'] = np.array([zdf['U'][i] for i in range(len(zdf['U']))])
+        zdf['B'] = np.array([zdf['B'][i] for i in range(len(zdf['B']))])
+        zdf['V'] = np.array([zdf['V'][i] for i in range(len(zdf['V']))])
+        zdf['R'] = np.array([zdf['R'][i] for i in range(len(zdf['R']))])
+        zdf['I'] = np.array([zdf['I'][i] for i in range(len(zdf['I']))])
     gb =zdf.groupby(pd.cut(zdf['mass'],bins=marr)).mean(numeric_only = True)
     #print(pd.cut(zdf['mass'],bins=marr))
     #print('line1 gb',gb.columns)
@@ -126,3 +134,43 @@ def interpolate_zdf(zdf,marr):
     #gb.reset_index(drop=True, inplace=True)
 
     return gb
+
+def interpolate_zdf(zdf, marr):
+    """Interpolate SFH data frame onto a log-linear mass grid, safely handling non-numeric columns."""
+    
+
+    # Split numeric and non-numeric columns
+    numeric_cols = zdf.select_dtypes(include=[np.number]).columns
+    non_numeric_cols = zdf.select_dtypes(exclude=[np.number]).columns
+
+    # Group and take mean only for numeric columns
+    gb = zdf.groupby(pd.cut(zdf['mass'], bins=marr))[numeric_cols].agg(np.nanmean)
+
+    # Optionally, you could also keep the first value of non-numeric columns per bin
+    for col in non_numeric_cols:
+        gb[col] = zdf.groupby(pd.cut(zdf['mass'], bins=marr))[col].first()
+
+    gb.dropna(subset=['mass'], inplace=True)
+    gb.reset_index(drop=True, inplace=True)
+    return gb   
+
+def make_z_pdf(zbins, power=1.4):
+    """
+    Create a normalized probability distribution for SN redshifts.
+
+    Parameters
+    ----------
+    zbins : array-like
+        Allowed redshift bin centers (must match flux_df keys).
+    power : float
+        Exponent for the distribution (z^power).
+
+    Returns
+    -------
+    pdf : np.ndarray
+        Normalized probabilities for each bin.
+    """
+    zbins = np.array(zbins, dtype=float)
+    pdf = zbins**power
+    pdf /= pdf.sum()
+    return pdf

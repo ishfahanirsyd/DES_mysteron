@@ -1,8 +1,8 @@
-
-hostlib_fn: $hostlib/output_hostlib/all_model_params_BC03_z0.15_0.85_av0.00_1.00_rv_rand_full_age_dists_neb_U-2.00_res_2_beta_1.14.h5
+hostlib_fn: $hostlib/output_hostlib/SFH_mpi/sfh_25_50/all_model_params_quench_BC03_z_rv_rand_full_age_dists_neb_U-2.00_res_5_beta_1.14.h5
 config:
   root_dir: $DESSIMS
-  efficiency_dir: $efficiencies
+  efficiency_dir: $DESCODE/SIMS/efficiencies
+
 SN_rv_model:
   model: mass_rv_step
   params:
@@ -56,7 +56,7 @@ mB_model:
       loc: 10
     age_step:
       mag: 0.0
-      loc: 1
+      loc: 0.75
 
 mu_res_fitter:
   fitter: fit_mu_res_nostep

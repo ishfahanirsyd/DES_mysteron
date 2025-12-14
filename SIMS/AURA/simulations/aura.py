@@ -32,6 +32,8 @@ idx = pd.IndexSlice
 age_grid = np.arange(0,13.7,0.0005)
 
 age_grid_index = ['%.4f'%a for a in age_grid]
+
+
 class Sim(SN_Model):
     def __init__(self,conf_path,cosmo='default'):
         '''
@@ -52,10 +54,17 @@ class Sim(SN_Model):
 
         eff_dir = self.config['config']['efficiency_dir']
         if eff_dir[0] == '$':
-            self.eff_dir = os.environ.get(eff_dir[1:])
+            i = 1
+            varname_eff = ''
+            while i < len(eff_dir) and eff_dir[i] != '/':
+                varname_eff += eff_dir[i]
+                i += 1
+            env_value_eff = os.environ.get(varname_eff)
+            if env_value_eff is None:
+                raise ValueError(f"Environment variable '{varname_eff}' is not set.")
+            self.eff_dir = env_value_eff + eff_dir[i:]
         else:
             self.eff_dir = eff_dir
-
         hostlib_fn = self.config['hostlib_fn']
         if hostlib_fn[0] == '$':
             i = 1
@@ -130,8 +139,8 @@ class Sim(SN_Model):
         #mstar = 10.66
         #self.flux_df['phi']= self.flux_df['mass'].apply(lambda x: double_schechter(np.log10(x),mstar,phi_star_1,alpha_1,phi_star_2,alpha_2))
         # classifies galaxy so passive or star forming
-        self.flux_df['SF'] = (np.repeat([0],len(self.flux_df['ssfr']))) * (np.log10(self.flux_df['ssfr'].values)>-10.0) + (np.repeat([1],len(self.flux_df['ssfr']))) * \
-                        (np.log10(self.flux_df['ssfr'].values)<=-10.)
+        self.flux_df['SF'] = (np.repeat([0],len(self.flux_df['ssfr']))) * (np.log10(self.flux_df['ssfr'].values)>-11.0) + (np.repeat([1],len(self.flux_df['ssfr']))) * \
+                        (np.log10(self.flux_df['ssfr'].values)<=-11.)
         #the output is 0 for star forming and 1 for passive
         # calculate stellar mass density phi which depends on the stellar mass, z and SF (is it quenched or not)
         self.flux_df['phi']= self.flux_df[['z','mass','SF']].apply(lambda x: schechter(x[0],np.log10(x[1]),x[2]),axis=1)
@@ -152,7 +161,7 @@ class Sim(SN_Model):
         # this means at the same z and mass galaxy has the same properties, but the fluxes and colours are different depends on Av
         self.multi_df = self.flux_df.set_index([z_str,mass_str,Av_str,])
 
-    def _get_z_dist(self,z_vals,n=50,frac_low_z=0.0,zbins=[]):
+    def _get_z_dist(self,z_vals,n=25000,frac_low_z=0.0,zbins=[]):
         '''
 
         :param z_vals: an array of redshifts that will have the same distribution that you want the simulation to have. This can be observed or simulated data.
@@ -211,10 +220,11 @@ class Sim(SN_Model):
         if n_samples == 0:
             return pd.DataFrame(columns=self.sim_df.columns)
         args = {}
-        z_key = '%.5f' % z
-        if z_key not in self.multi_df.index.get_level_values(0):
-            print(f"Warning: Redshift {z_key} not found in multi_df. Skipping...")
-            return pd.DataFrame(columns=self.sim_df.columns)
+
+        #z_key = '%.5f' % z
+        #if z_key not in self.multi_df.index.get_level_values(0):
+            #print(f"Warning: Redshift {z_key} not found in multi_df. Skipping...")
+            #return pd.DataFrame(columns=self.sim_df.columns)
 
 
         args['n'] = int(n_samples)
@@ -268,17 +278,20 @@ class Sim(SN_Model):
         m_inds = ['%.2f' % m for m in new_zdf['mass'].unique()]
         #calculate SN rates for each galaxy mass 
         # sample galaxy masses based on rates
-        m_rates = []
-        m_rates_float = []
-        for m in m_inds:
-            m_df = new_zdf.loc[m]
-            mav_inds = (m, '%.5f' % (m_df.Av.unique()[0]))
-            #print(new_zdf.loc[mav_inds,'N_SN_int'])
-            m_rates.append(new_zdf.loc[mav_inds,'N_SN_int'])
-            m_rates_float.append(new_zdf.loc[m,'N_SN_float'])
+        #m_rates = []
+        #m_rates_float = []
+        #for m in m_inds:
+            #m_df = new_zdf.loc[m]
+            #mav_inds = (m, '%.5f' % (m_df.Av.unique()[0]))
+            ##print(new_zdf.loc[mav_inds,'N_SN_int'])
+            #m_rates.append(new_zdf.loc[mav_inds,'N_SN_int'])
+            #m_rates_float.append(new_zdf.loc[m,'N_SN_float'])
 
+        m_rates_s = new_zdf.groupby(level=0, sort=False)['N_SN_int'].mean()
+        m_inds = m_rates_s.index
+        m_rates = m_rates_s.values
 
-        m_samples = np.random.choice(m_inds, p=m_rates / np.sum(m_rates), size=int(n_samples))
+        m_samples = np.random.choice(m_inds, p = m_rates / np.sum(m_rates), size=int(n_samples))
         # Now we have our masses, but each one needs some reddening. For now, we just select Av at random from the possible Avs in each galaxy
         # The stellar population arrays are identical no matter what the Av is.
 
@@ -304,6 +317,7 @@ class Sim(SN_Model):
             self.hostlib_fn = env_value + hostlib_fn[i:]
         else:
             self.hostlib_fn = hostlib_fn
+            
         age_dists = []
         for n,g in z_df.groupby(pd.cut(z_df['mass'],bins=marr)):
             age_df = pd.DataFrame(index=age_grid_index)
@@ -318,18 +332,18 @@ class Sim(SN_Model):
                         split_z = os.path.split(self.hostlib_fn)[1].split('z')
                         split_rv = os.path.split(self.hostlib_fn)[1].split('rv')
                         #print('split_rv', split_rv)
-                        ext = split_z[0]+'z_'+'%.5f_'%z+'rv'+split_rv[1][:-3]+'_%.1f'%tf+'.dat'
+                        ext = split_z[0]+'z_'+'%.5f_'%z+'rv'+split_rv[1][:-12]+'_%.1f'%tf+'_combined.dat'
                         #print('ext', ext)
-                        new_fn = os.path.join(os.path.split(self.hostlib_fn)[0],ext)
+                        new_fn = os.path.join(os.path.split(self.hostlib_fn)[0],'SN_ages', ext)
                         sub_gb = pd.read_csv(new_fn,sep=' ',names=['SN_ages','SN_age_dist'])
                     else:
                         tf = sub_gb['t_f']
                         split_z = os.path.split(self.hostlib_fn)[1].split('z')
                         split_rv = os.path.split(self.hostlib_fn)[1].split('rv')
                         #print('split_rv', split_rv)
-                        ext = split_z[0]+'z_'+'%.5f_'%z+'rv'+split_rv[1][:-3]+'_%.1f'%tf+'.dat' #????
+                        ext = split_z[0]+'z_'+'%.5f_'%z+'rv'+split_rv[1][:-12]+'_%.1f'%tf+'_combined.dat' #????
                         #print('ext', ext)
-                        new_fn = os.path.join(os.path.split(self.hostlib_fn)[0],ext)
+                        new_fn = os.path.join(os.path.split(self.hostlib_fn)[0],'SN_ages', ext)
                         sub_gb = pd.read_csv(new_fn,sep=' ',names=['SN_ages','SN_age_dist'])
                     age_inds = ['%.4f'%a for a in sub_gb['SN_ages']]
                     age_df.loc[age_inds,'%.2f'%(float(k))] = sub_gb['SN_age_dist'].values/np.nansum( sub_gb['SN_age_dist'].values)
@@ -343,7 +357,9 @@ class Sim(SN_Model):
         new_zdf['SN_age_dist']=age_dists
         #print('zdf column',new_zdf.columns)
         # Now we sample from our galaxy mass distribution, given the expected rate of SNe at each galaxy mass
-        gals_df = new_zdf.loc[m_av0_samples,['z','mass','ssfr','m_g','m_r','m_i','m_z','U', 'B', 'V', 'R', 'I','U_R','mean_age','Av','pred_rate_total']]
+        # Modified to include EW_OII
+        #gals_df = new_zdf.loc[m_av0_samples,['z','mass','ssfr','m_g','m_r','m_i','m_z','U', 'B', 'V', 'R', 'I','U_R','mean_age','Av','pred_rate_total']]
+        gals_df = new_zdf.loc[m_av0_samples,['z','mass','ssfr','m_g','m_r','m_i','m_z','U', 'B', 'V', 'R', 'I','U_R','mean_age','Av','pred_rate_total','EW_OII']]
         print('gals_df', np.max(gals_df['U_R']), 'end of gals_df')
         # sample the SN ages from the age distribution of each galaxy mass
         sn_ages = [np.random.choice(new_zdf.loc[i,'SN_ages'],p=new_zdf.loc[i,'SN_age_dist']) for i in m_av0_samples]
@@ -353,6 +369,8 @@ class Sim(SN_Model):
         args['mass'] = gals_df.mass.values
         args['ssfr'] = gals_df.ssfr.values
         args['sfr'] = args['mass']*args['ssfr']
+        # CLi add EW_OII
+        args['EW_OII']=gals_df.EW_OII.values
         args['mean_ages'] = gals_df.mean_age.values
         args['SN_age'] = np.array(sn_ages)
         args['rv'] = self.rv_func(args,self.config['SN_rv_model']['params'])
@@ -364,11 +382,12 @@ class Sim(SN_Model):
             args['host_Av'] = self.host_Av_func(args, self.config['Host_Av_model']['params'])
 
 
+        ## CLi The following line seems to be a duplicate. Perhaps delete.
         args['host_Av'] = self.host_Av_func(args,self.config['Host_Av_model']['params'])
         m_av_samples_inds = [[m_samples[i],'%.5f'%(args['host_Av'][i])] for i in range(len(args['host_Av']))]
         gals_df = new_zdf.loc[m_av_samples_inds]
-        args['U-R'] = gals_df['U'].values - gals_df['R'].values #gal_df['U_R'].values
-        print('UR', args['U-R'])
+        args['U-R'] = gals_df['U_R'].values #gal_df['U_R'].values
+        #print('UR', args['U-R'])
         #args['U-R'] = gals_df['U_R'].values #gal_df['U_R'].values
         for band in ['g','r','i','z']:
             args['m_%s'%band] = gals_df['m_%s'%band].values
@@ -379,12 +398,13 @@ class Sim(SN_Model):
         mean_eff_func,std_eff_func = ozdes_efficiency(self.eff_dir)
         spec_eff = mean_eff_func(args['m_r'])
         #print('m_r',args['m_r'])
-        #print('spec_eff',spec_eff)
+        #print('spec_eff',spec_eff, 'of', args['m_r'])
         spec_eff_std = std_eff_func(args['m_r'])
         #print('spec_eff_std',spec_eff_std)
         effs = np.clip(np.random.normal(spec_eff,spec_eff_std),a_min=0,a_max=1)
         #print('len(effs)',effs)
         args['eff_mask'] = [np.random.choice([0,1],p=[1-effs[i],effs[i]]) for i in range(len(effs))]
+        #print('eff_mask',args['eff_mask'])
 
         args = self.colour_func(args,self.config['SN_colour_model']['params'])
         args = self.x1_func(args,self.config['x1_model']['params'])

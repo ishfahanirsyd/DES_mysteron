@@ -1,8 +1,12 @@
+#!/usr/bin/env python
+
 import numpy as np
 import pandas as pd
+import glob
 from tqdm import tqdm
 import sys, os
-sys.path.insert(0, os.path.abspath("../../..")) 
+# CLi - remove
+# sys.path.insert(0, os.path.abspath("../../..")) 
 from dust_extinction.parameter_averages import F19
 from AURA.simulations.spectral_utils import load_spectrum, convert_escma_fluxes_to_griz_mags,interpolate_SFH,interpolate_SFH_pegase
 from AURA.simulations.synspec import SynSpec, phi_t_pl
@@ -25,27 +29,28 @@ beta_x1hi = -1.68
 norm_x1hi = 0.51E-13
 beta_x1lo = -0.79
 norm_x1lo = 1.19E-13
-beta = -1.14
+beta = -1.13
 #beta=-1.5
 dtd_norm = 2.08E-13
 
 def parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i','--input',help='Filename for input SFHs', default='%s/output_mass_assembly_adjusted/SFHs_alt_0.5_quenched_all_bursts.h5'  % (os.environ["mass_assembly"]))
+    parser.add_argument('-i','--input',help='Filename for input SFHs', default='%s/SFH_mpi/sfh_25_50/SFHs_alt_0.5_quenched_all_bursts.h5'  % (os.environ["mass_assembly"]))
+    parser.add_argument('-o','--output',help='Output directory',default='test')
     parser.add_argument('-z','--z',help='Redshift',default=0.5,type=str)
-    parser.add_argument('-zl','--zlo',help='Redshift lower end',default=0.15,type=float)
-    parser.add_argument('-zh','--zhi',help='Redshift upper end',default=1.25,type=float)
-    parser.add_argument('-zs','--zstep',help='Redshift step',default=0.15,type=float)
+    parser.add_argument('-zl','--zlo',help='Redshift lower end',default=0.0,type=float)
+    parser.add_argument('-zh','--zhi',help='Redshift upper end',default=1.1,type=float)
+    parser.add_argument('-zs','--zstep',help='Redshift step',default=0.05,type=float)
     parser.add_argument('-al','--av_lo',help='Lowest Av',default=0,type=float)
-    parser.add_argument('-ah','--av_hi',help='Highest Av',default=1,type=float)
+    parser.add_argument('-ah','--av_hi',help='Highest Av',default=1.5,type=float)
     parser.add_argument('-na','--n_av',help='Av step',default=20,type=int)
     parser.add_argument('-at','--av_step_type',help='Av step type (lin or log)',default='lin')
     parser.add_argument('-u','--logU',help='Ionisation parameter',default=-2,type=float)
-    parser.add_argument('-tr','--time_res',help='SFH time resolution',default=5,type=int)
+    parser.add_argument('-tr','--time_res',help='SFH time resolution',default=1,type=int)
     parser.add_argument('-t','--templates',help='Template library to use [BC03, PEGASE]',default='BC03',type=str)
     parser.add_argument('-tf','--templates_fn',help='Filename of templates',type=str,default='None')
     parser.add_argument('-ne','--neb',action='store_true')
-    parser.add_argument('-b','--beta',help='Absolute value of the slope of the DTD',default=1.14,type=float)
+    parser.add_argument('-b','--beta',help='Absolute value of the slope of the DTD',default=1.13,type=float)
     args = parser.parse_args()
     return args
 
@@ -62,7 +67,10 @@ def run(args):
 
     nfilt = len(filt_obj_list)
 
-    aura_dir = '%s/templates/' % os.environ["DESSIMS"]
+#    aura_dir = '%s/templates/' % os.environ["DESSIMS"]
+    aura_dir = '%s/' % os.environ["AURA"]
+    outputDir= os.path.join(os.environ["hostlib"],args.output)
+
     #------------------------------------------------------------------------
     # BC03 SSPs as mc_spec Spectrum objects
     f1 = open(aura_dir+'bc03/bc03_logt_list.dat')
@@ -73,7 +81,9 @@ def run(args):
         ntemp = len(bc03_logt_array)
         bc03_logt_float_array =np.array([float(x) for x in (bc03_logt_array)])
 
-        bc03_dir = '%s/templates/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
+        # CLi
+#        bc03_dir = '%s/templates/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
+        bc03_dir = '%s/AURA/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
         template_obj_list = []
         nLy_list = []   
         for i in range(ntemp):
@@ -107,15 +117,16 @@ def run(args):
             sfh_df = sfh_df[sfh_df['z']>z]
             results = []
             if len(sfh_df)>0:
-
                 for i in tqdm(sfh_df.index.unique()):
                     #print('the value of i is', i)
                     sfh_iter_df = sfh_df.loc[i]
                     mtot=sfh_iter_df['m_tot'].iloc[-1]
                     age = sfh_iter_df['age'].iloc[-1]
                     #print('Mass: ',np.log10(mtot),'age: ',age)
+           
                     ssfr = np.sum(sfh_iter_df['m_formed'].iloc[-500:])/((250*1E+6)*mtot)
                     sfr = ssfr*mtot
+                    #reverse the order of the ages
                     sfh_iter_df['stellar_age'] = sfh_iter_df.age.values[::-1]
                     ages = sfh_iter_df['stellar_age']/1000
                     #print('ages;', ages)
@@ -124,6 +135,7 @@ def run(args):
                     pred_rate_x1hi =np.sum(sfh_iter_df['m_formed']*dtd_x1hi)
                     dtd_x1lo = phi_t_pl(ages,0.04,beta_x1lo,norm_x1lo)
                     pred_rate_x1lo =np.sum(sfh_iter_df['m_formed']*dtd_x1lo)
+
                     dtd_total =phi_t_pl(ages,0.04,-1*args.beta,dtd_norm)
                     SN_age_dist = sfh_iter_df['m_formed']*dtd_total
                     pred_rate_total = np.sum(SN_age_dist)
@@ -137,6 +149,7 @@ def run(args):
                     else:
                         mu_Rv = 3.47
                         #avs_SBL = np.clip(np.random.normal(av_means_mlo,av_sigma(np.log10(mtot)),size=20),a_min=0,a_max=None)
+                    # the output is normalized SFH in BC03 ages bin
                     if args.templates == 'BC03':
                         sfh_coeffs_PW21 = interpolate_SFH(sfh_iter_df,mtot,bc03_logt_float_array)
                         print('succesfully interpolated')
@@ -150,7 +163,8 @@ def run(args):
                     arr = np.zeros((len(ages),2))
                     arr[:,0] = ages
                     arr[:,1] = SN_age_dist
-                    np.savetxt('%s/output_hostlib/all_model_params_quench_%s_z_%.5f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.1f.dat' % (os.environ["hostlib"],args.templates, z, args.logU, args.time_res, args.beta, tf),arr)
+                    np.savetxt('%s/all_model_params_quench_%s_z_%.5f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.1f.dat' % (
+                            outputDir,args.templates, z, args.logU, args.time_res, args.beta, tf),arr)
                     for Av in av_arr:
                         #print('av;', Av)
                         Rv = np.min([np.max([2.0,np.random.normal(mu_Rv,0.5)]),6.0])
@@ -161,23 +175,49 @@ def run(args):
                         #                           key='main')
                         galid_string = 'all_model_params_quench_%s_z_%.5f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.1f_%.3f_%.3f'%(args.templates,z,args.logU,args.time_res,args.beta,tf,Av,Rv)
 
+                        # CLi U_R is SDSS u-r in the Vega system!
+                        # Other SDSS filters are in AB
 
-                        U_R,fluxes,colours= s.calculate_model_fluxes_pw(z,sfh_coeffs_PW21,dust={'Av':Av,'Rv':Rv,'delta':'none','law':'CCM89'},
-                                                                neb=args.neb,logU=args.logU,mtot=mtot,age=age,specsavename=galid_string)
-                        obs_flux  = list(fluxes.values())#+cosmo.distmod(z).value
-                        U,B,V,R,I,sdssu,sdssg,sdssr,sdssi,sdssz = (colours[i] for i in colours.keys())
-
-                        results.append([z, mtot, ssfr, mwsa, Av, Rv, delta, U_R[0], pred_rate_x1hi, pred_rate_x1lo, pred_rate_total, tf,obs_flux[0][0], obs_flux[1][0], obs_flux[2][0], obs_flux[3][0], U, B, V, R, I, sdssu, sdssg, sdssr, sdssi, sdssz, galid_string])
+                        # Need to check other filters
+                        # Some of the colours and magnitudes and colours are returned as lists of a single float. Should just return a float
+                        U_R,fluxes,colours,EW_OII= s.calculate_model_fluxes_pw(z,sfh_coeffs_PW21,dust={'Av':Av,'Rv':Rv,'delta':'none','law':'CCM89'},
+                                                                neb=args.neb,logU=args.logU,mtot=mtot,age=age,specsavename=galid_string,savespec=True)
+                        # CLi moved from a list containing a single float to a float
+                        #obs_flux  = list(fluxes.values())#+cosmo.distmod(z).value
+                        desg,desr,desi,desz  = (fluxes[i][0] for i in fluxes.keys())
+                        #U,B,V,R,I,sdssu,sdssg,sdssr,sdssi,sdssz = (colours[i] for i in colours.keys())
+                        U,B,V,R,I,sdssu,sdssg,sdssr,sdssi,sdssz = (colours[i][0] for i in colours.keys())
+                        results.append([z, mtot, ssfr, mwsa, Av, Rv, delta, U_R[0], pred_rate_x1hi, pred_rate_x1lo, pred_rate_total, tf, desg, desr, desi, desz, U, B, V, R, I, sdssu, sdssg, sdssr, sdssi, sdssz, galid_string,EW_OII])
 
                 df = pd.DataFrame(results,columns=['z','mass','ssfr','mean_age','Av','Rv','delta','U_R','pred_rate_x1_hi',
                                                 'pred_rate_x1_lo','pred_rate_total','t_f',
-                                                'm_g','m_r','m_i','m_z','U','B','V','R','I','sdssu','sdssg','sdssr','sdssi','sdssz','galid_spec'])
-        #df['g_r'] = df['m_g'] - df['m_r']
+                                                'm_g','m_r','m_i','m_z','U','B','V','R','I','sdssu','sdssg','sdssr','sdssi','sdssz','galid_spec','EW_OII'])
+                #df['g_r'] = df['m_g'] - df['m_r']
                 df['g_r'] = df['m_g'] - df['m_r']
                 print('saving file',i)
-                df.to_hdf('%s/output_hostlib/all_model_params_quench_%s_z%.5f_%.5f_av%.2f_%.2f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.5f_%i_sdss_u_r.h5' % (os.environ["hostlib"], args.templates, args.zlo, args.zhi, av_arr[0], av_arr[-1],args.logU, args.time_res, args.beta, z, tf),key='main')
+                df.to_hdf('%s/all_model_params_quench_%s_z%.5f_%.5f_av%.2f_%.2f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.5f_%i_sdss_u_r.h5' % 
+                          (outputDir, args.templates, args.zlo, args.zhi, av_arr[0], av_arr[-1],args.logU, args.time_res, args.beta, z, tf),key='main')
                 #df.to_hdf('/Users/ishfahani/master_thesis/hostlib_nonmpi/all_model_params_quench_%s_z%.5f_%.5f_av%.2f_%.2f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.5f_%i_sdss_u_r.h5'%(args.templates,args.zlo,args.zhi,av_arr[0],av_arr[-1],args.logU,args.time_res,args.beta,z,tf),
                     #key='%3.0f'%tf)
+    
+    # Initialize empty DataFrame
+    all_df = pd.DataFrame()
+
+    # Loop over files
+    for fn in glob.glob(os.path.join(
+        outputDir, 
+        'all_model_params_quench_BC03_z*_*_av*_*_rv_rand_full_age_dists_neb_U-2.00_res_1_beta_1.13_*_*_sdss_u_r.h5')):
+        print("Reading file:", fn)
+        df = pd.read_hdf(fn, key='/main')  # read each file
+        all_df = pd.concat([all_df, df], ignore_index=True)  # accumulate
+
+    # Save all combined data to a single key
+    all_df.to_hdf(
+        '%s/all_model_params_quench_%s_z_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f.h5' % 
+            (outputDir, args.templates, args.logU, args.time_res, args.beta),
+        key='main',
+        mode='w'  # overwrite existing file
+    )
     print("Done!")
 if __name__=="__main__":
     args = parser()

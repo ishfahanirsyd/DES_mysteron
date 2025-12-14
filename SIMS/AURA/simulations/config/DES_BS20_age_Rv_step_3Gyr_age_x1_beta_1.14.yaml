@@ -1,22 +1,17 @@
 #hostlib_fn: /media/data3/wiseman/des/AURA/sims/hostlibs/all_model_params_BC03_z0.15_0.85_av0.00_1.00_rv_rand_full_age_dists_neb_U-2.00_res_2_beta_1.14.h5
-hostlib_fn: $hostlib/output_hostlib/all_model_params_quench_BC03_z_rv_rand_full_age_dists_neb_U-2.00_res_3_beta_1.14.h5
+hostlib_fn: $hostlib/output_hostlib/SFH_mpi/all_model_params_quench_BC03_z_rv_rand_full_age_dists_neb_U-2.00_res_5_beta_1.14.h5
 config:
   root_dir: $DESSIMS
-  efficiency_dir: $efficiencies
+  efficiency_dir: $DESCODE/SIMS/efficiencies
 #hostlib_fn: /Users/ishfahanirusyda/master_thesis/output_hostlib/all_model_params_quench_BC03_z_rv_rand_full_age_dists_neb_U-2.00_res_3_beta_1.14.h5
 #config:
   #root_dir: $DESSIMS #what is this?
   #efficiency_dir: /Users/ishfahanirusyda/master_thesis/eff/ #what is this?
 
 SN_rv_model:
-  model: age_rv_step
+  model: rv_constant
   params:
-    rv_young: 3.75
-    rv_old: 1.5
-    rv_sig_young: 1.0
-    rv_sig_old: 1.0
-    age_split: 3
-    rv_min: 1.2
+    rv: 2.5
     
 Host_Av_model:
   model: choose_Av_SN_E_Rv_step

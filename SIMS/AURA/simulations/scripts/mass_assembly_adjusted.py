@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import numpy as np
 import pandas as pd
 from astropy.cosmology import z_at_value
@@ -59,10 +61,6 @@ def draw_pQ(M, z):
 def draw_pQ_alt(M, z, f):
     return np.random.uniform(0, 1, M.shape) > pQ_Mz_alt(M, z) + f
 
-#def draw_pQ_alt(M, z, f):
-    #pq = np.minimum(1, pQ_Mz_alt(M, z) + f)
-    #return np.random.uniform(0, 1, M.shape) < pq
-
 
 def pQ_Mz_ft(M, z, isq, mqs, pq):    
     hold = draw_pQ(M[isq == False], z)
@@ -74,6 +72,7 @@ def pQ_Mz_ft(M, z, isq, mqs, pq):
     return isq, pq, mqs
 
 def pmin_z(z):
+    #return np.max([0.03,(1-((z-10)/10)**2)])
     return 0
 
 
@@ -84,12 +83,6 @@ def pQ_Mz_ft2(M, z, isq, pq):
 
     return isq, pq
 
-
-
-
-# def sfr_Mz_alt(M, z, isq, mqs, pq):
-#     isqs, pqs, mqs = pQ_Mz_ft(M, z, isq, mqs, pq)
-#     return pqs * psi_Mz_alt(M, z), isqs, mqs, pqs
 
 def sfr_Mz_alt(M, z, isq, pq):
     isq, pq = pQ_Mz_ft2(M, z, isq, pq)
@@ -171,7 +164,7 @@ def script_worker(worker_args):
 
 def main(args):
     #path to save the output
-    save_dir = os.path.join(os.path.abspath("../../.."), 'mass_assembly/output_mass_assembly_adjusted')
+    save_dir = os.path.join(os.environ['DESSIMS'], 'mass_assembly/SFH_adj')
     if args.test:
         save_dir = save_dir + '\\test_smaller_bursts'
     if not os.path.isdir(save_dir):

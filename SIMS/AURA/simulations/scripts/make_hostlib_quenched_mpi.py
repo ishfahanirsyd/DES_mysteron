@@ -1,9 +1,13 @@
+#!/usr/bin/env python
+
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 import glob
 import sys, os
-sys.path.insert(0, os.path.abspath("../../..")) 
+# CLi
+# Commented out, as we will run this from other directories
+#sys.path.insert(0, os.path.abspath("../../..")) 
 from dust_extinction.parameter_averages import F19
 from AURA.simulations.spectral_utils import load_spectrum, convert_escma_fluxes_to_griz_mags,interpolate_SFH,interpolate_SFH_pegase
 from AURA.simulations.synspec import SynSpec, phi_t_pl
@@ -30,23 +34,24 @@ beta_x1hi = -1.68
 norm_x1hi = 0.51E-13
 beta_x1lo = -0.79
 norm_x1lo = 1.19E-13
-beta = -1.14
+beta = -1.13
 #beta=-1.5
 dtd_norm = 2.08E-13
 
 def parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i','--input',help='Filename for input SFHs', default='%s/output_mass_assembly_adjusted/SFHs_alt_0.5_quenched_all_bursts.h5'  % (os.environ["mass_assembly"]))
+    parser.add_argument('-i','--input',help='Filename for input SFHs', default='%s/SFH_mpi/sfh_25_50/SFHs_alt_0.5_quenched_all_bursts.h5'  % (os.environ["mass_assembly"]))
+    parser.add_argument('-o','--output',help='Output directory',default='test')
     parser.add_argument('-z','--z',help='Redshift',default=0.5,type=str)
-    parser.add_argument('-zl','--zlo',help='Redshift lower end',default=0.15,type=float)
-    parser.add_argument('-zh','--zhi',help='Redshift upper end',default=0.7,type=float)
+    parser.add_argument('-zl','--zlo',help='Redshift lower end',default=0.00,type=float)
+    parser.add_argument('-zh','--zhi',help='Redshift upper end',default=1.1,type=float)
     parser.add_argument('-zs','--zstep',help='Redshift step',default=0.05,type=float)
     parser.add_argument('-al','--av_lo',help='Lowest Av',default=0,type=float)
     parser.add_argument('-ah','--av_hi',help='Highest Av',default=1.5,type=float)
-    parser.add_argument('-na','--n_av',help='Av step',default=15,type=int)
+    parser.add_argument('-na','--n_av',help='Av step',default=20,type=int)
     parser.add_argument('-at','--av_step_type',help='Av step type (lin or log)',default='lin')
     parser.add_argument('-u','--logU',help='Ionisation parameter',default=-2,type=float)
-    parser.add_argument('-tr','--time_res',help='SFH time resolution',default=3,type=int)
+    parser.add_argument('-tr','--time_res',help='SFH time resolution',default=1,type=int)
     parser.add_argument('-t','--templates',help='Template library to use [BC03, PEGASE]',default='BC03',type=str)
     parser.add_argument('-tf','--templates_fn',help='Filename of templates',type=str,default='None')
     parser.add_argument('-ne','--neb',action='store_true')
@@ -57,11 +62,13 @@ def parser():
 def sed_worker(worker_args):
     #get the parameters from the worker_args
     sfh_df,args,av_arr,z,tf,s,bc03_logt_float_array,counter= [worker_args[i] for i in range(8)]
+    outputDir= os.path.join(os.environ["hostlib"],args.output)
     print('Starting %i'%counter)
     try:
         results = []
         # iterate through the SFHs for galaxies of different final masses
         # important! here only use one SFH 
+        ## CLi We might want to explore options to use more than one
         i = np.random.randint(0,len(sfh_df.index.unique()))
         sfh_iter_df = sfh_df.loc[i]
         #print(sfh_iter_df)
@@ -100,7 +107,7 @@ def sed_worker(worker_args):
         #choose spectral template, which then used to get SED based on SFH, metallicity, IMF 
         if args.templates == 'BC03':
             sfh_coeffs_PW21 = interpolate_SFH(sfh_iter_df,mtot,bc03_logt_float_array)
-            print('sfhprint', len(sfh_coeffs_PW21))
+            #print('sfhprint', len(sfh_coeffs_PW21))
             template=None
         elif args.templates =='PEGASE':
             if args.templates_fn =='None':
@@ -112,8 +119,8 @@ def sed_worker(worker_args):
         arr = np.zeros((len(ages),2))
         arr[:,0] = ages
         arr[:,1] = SN_age_dist
-        print(arr)
-        np.savetxt('%s/output_hostlib/all_model_params_quench_%s_z_%.5f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.1f.dat' % (os.environ["hostlib"],args.templates, z, args.logU, args.time_res, args.beta, tf),arr)
+        #print(arr)
+        np.savetxt('%s/all_model_params_quench_%s_z_%.5f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.1f.dat' % (outputDir,args.templates, z, args.logU, args.time_res, args.beta, tf),arr)
 
         for Av in av_arr:
             Rv = np.min([np.max([2.0,np.random.normal(mu_Rv,0.5)]),6.0])
@@ -124,23 +131,33 @@ def sed_worker(worker_args):
             #                           key='main')
             galid_string = 'all_model_params_quench_%s_z_%.5f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.1f_%.3f_%.3f'%(args.templates,z,args.logU,args.time_res,args.beta,tf,Av,Rv)
 
-            U_R,fluxes,colours= s.calculate_model_fluxes_pw(z,sfh_coeffs_PW21,dust={'Av':Av,'Rv':Rv,'delta':'none','law':'CCM89'},
-                                                    neb=args.neb,logU=args.logU,mtot=mtot,age=age,specsavename=galid_string)
-            obs_flux  = list(fluxes.values())#+cosmo.distmod(z).value
-            U,B,V,R,I,sdssu,sdssg,sdssr,sdssi,sdssz = (colours[i] for i in colours.keys())
+            ## CLi
+            U_R,fluxes,colours,EW_OII= s.calculate_model_fluxes_pw(z,sfh_coeffs_PW21,dust={'Av':Av,'Rv':Rv,'delta':'none','law':'CCM89'},
+                                                    neb=args.neb,logU=args.logU,mtot=mtot,age=age,specsavename=galid_string,savespec=True,sfr=sfr)
+            
+            #U_R,fluxes,colours= s.calculate_model_fluxes_pw(z,sfh_coeffs_PW21,dust={'Av':Av,'Rv':Rv,'delta':'none','law':'CCM89'},
+            #                                        neb=args.neb,logU=args.logU,mtot=mtot,age=age,specsavename=galid_string,savespec=True)
+            
+            # CLi moved from a list containing a single float to a float
+            #obs_flux  = list(fluxes.values())#+cosmo.distmod(z).value
+            desg,desr,desi,desz  = (fluxes[i][0] for i in fluxes.keys())
+            #U,B,V,R,I,sdssu,sdssg,sdssr,sdssi,sdssz = (colours[i] for i in colours.keys())
+            U,B,V,R,I,sdssu,sdssg,sdssr,sdssi,sdssz = (colours[i][0] for i in colours.keys())
+            
 
-            results.append([z, mtot, ssfr, mwsa, Av, Rv, delta, U_R[0], pred_rate_x1hi, pred_rate_x1lo, pred_rate_total, tf,obs_flux[0][0], obs_flux[1][0], obs_flux[2][0], obs_flux[3][0], U, B, V, R, I, sdssu, sdssg, sdssr, sdssi, sdssz, galid_string])
+            results.append([z, mtot, ssfr, mwsa, Av, Rv, delta, U_R[0], pred_rate_x1hi, pred_rate_x1lo, pred_rate_total, tf, desg, desr, desi, desz, U, B, V, R, I, sdssu, sdssg, sdssr, sdssi, sdssz, galid_string,EW_OII])
 
         df = pd.DataFrame(results,columns=['z','mass','ssfr','mean_age','Av','Rv','delta','U_R','pred_rate_x1_hi',
                                                 'pred_rate_x1_lo','pred_rate_total','t_f',
-                                                'm_g','m_r','m_i','m_z','U','B','V','R','I','sdssu','sdssg','sdssr','sdssi','sdssz','galid_spec'])
-        #df['g_r'] = df['m_g'] - df['m_r']
+                                                'm_g','m_r','m_i','m_z','U','B','V','R','I','sdssu','sdssg','sdssr','sdssi','sdssz','galid_spec','EW_OII'])
+
 
     except Exception as e:
         print(f"Error in worker {counter}: {e}")
         return
     print('Saving %i'%counter)
-    df.to_hdf('%s/output_hostlib/all_model_params_quench_%s_z%.5f_%.5f_av%.2f_%.2f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.5f_%i_sdss_u_r.h5' % (os.environ["hostlib"], args.templates, args.zlo, args.zhi, av_arr[0], av_arr[-1],args.logU, args.time_res, args.beta, z, tf),key='main')
+    df.to_hdf('%s/all_model_params_quench_%s_z%.5f_%.5f_av%.2f_%.2f_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f_%.5f_%i_sdss_u_r.h5' % 
+              (outputDir, args.templates, args.zlo, args.zhi, av_arr[0], av_arr[-1],args.logU, args.time_res, args.beta, z, tf),key='main')
     print('Returning %i'%counter)
     return
 
@@ -158,7 +175,9 @@ def run(args):
 
     nfilt = len(filt_obj_list)
 
-    aura_dir = '%s/templates/' % os.environ["DESSIMS"]
+#    aura_dir = '%s/templates/' % os.environ["DESSIMS"]
+    aura_dir = '%s/' % os.environ["AURA"]
+    outputDir= os.path.join(os.environ["hostlib"],args.output)
     #------------------------------------------------------------------------
     # BC03 SSPs as mc_spec Spectrum objects
     f1 = open(aura_dir+'/bc03/bc03_logt_list.dat')
@@ -169,7 +188,9 @@ def run(args):
         ntemp = len(bc03_logt_array)
         bc03_logt_float_array =np.array([float(x) for x in (bc03_logt_array)])
         #print('bc03',bc03_logt_float_array)
-        bc03_dir = '%s/templates/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
+        # CLi
+        # bc03_dir = '%s/templates/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
+        bc03_dir = '%s/AURA/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
         template_obj_list = []
         nLy_list = []
         for i in range(ntemp):
@@ -213,6 +234,7 @@ def run(args):
             if len(sfh_df)>0:
                 worker_args.append([sfh_df,args,av_arr,z,tf,s,bc03_logt_float_array,counter])
         pool_size = 8
+        #pool_size=1 # For testing
         pool = MyPool(processes=pool_size)
         print('Sending %i jobs'%len(worker_args))
         results =pool.map_async(sed_worker,worker_args)
@@ -225,17 +247,16 @@ def run(args):
 
     # Loop over files
     for fn in glob.glob(os.path.join(
-        os.environ["hostlib"], 
-        'output_hostlib', 
-        'all_model_params_quench_BC03_z*_*_av*_*_rv_rand_full_age_dists_neb_U-2.00_res_3_beta_1.14_*_*_sdss_u_r.h5')):
+        outputDir,
+        'all_model_params_quench_BC03_z*_*_av*_*_rv_rand_full_age_dists_neb_U-2.00_res_*_beta_1.14_*_*_sdss_u_r.h5')):
         print("Reading file:", fn)
         df = pd.read_hdf(fn, key='/main')  # read each file
         all_df = pd.concat([all_df, df], ignore_index=True)  # accumulate
 
     # Save all combined data to a single key
     all_df.to_hdf(
-        '%s/output_hostlib/all_model_params_quench_%s_z_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f.h5' % (
-            os.environ["hostlib"], args.templates, args.logU, args.time_res, args.beta),
+        '%s/all_model_params_quench_%s_z_rv_rand_full_age_dists_neb_U%.2f_res_%i_beta_%.2f.h5' % (
+            outputDir, args.templates, args.logU, args.time_res, args.beta),
         key='main',
         mode='w'  # overwrite existing file
     )

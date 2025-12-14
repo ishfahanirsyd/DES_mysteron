@@ -15,7 +15,6 @@ def phi_t(t,tp,alpha,s):
     '''Functional form of the delay time distribution'''
     return (t/tp)**alpha / ((t/tp)**(alpha-s)+1)
 
-
 def psi_Mz(M,z):
     #print("Nominal SFRs: \n",2.00*np.exp(1.33*z)*(M/1E+10)**0.7)
     return 2.00*np.exp(1.33*z)*(M/1E+10)**0.7
@@ -35,27 +34,22 @@ def sfr_Mz(M,z):
 
 
 def psi_Mz_alt(M,z):
-    #print("Alternate SFRs: \n",36.4*(M/1E+10)**0.7 * np.exp(1.9*z)/(np.exp(1.7*z)+np.exp(0.2*z)))
     #return 36.4*(M/1E+10)**0.7 * np.exp(1.9*z)/(np.exp(1.7*z)+np.exp(0.2*z))
     return ((np.array(M)/1E+10)**0.7) * np.exp(1.9*(z))/(np.exp(1.7*(z-2))+np.exp(0.2*(z-2)))
 
 def logMQ_z_alt_init(z):
-
     #print ("Quenching masses: \n",10.077 + 0.636*z)
     return (13.077 + 0.636*z) * (z<=2) + (13.077 + 0.636*2) * (z>2)
 
-
 def pQ_Mz_alt_init(M,z):
-
     #print("Quenching function: \n",0.5*(1-erf((np.log10(M)-logMQ_z_alt(z))/1.5)))
     return 0.5*(1-erf((np.log10(M)-logMQ_z_alt_init(z))/1.1))
 
 def logMQ_z_alt(z):
-
     #print ("Quenching masses: \n",10.077 + 0.636*z)
     return (10.077 + 0.636*z) * (z<=2) + (10.077 + 0.636*2) * (z>2)
-def pQ_Mz_alt(M,z,Mq):
 
+def pQ_Mz_alt(M,z,Mq):
     #print("Quenching function: \n",0.5*(1-erf((np.log10(M)-logMQ_z_alt(z))/1.5)))
     return (1-erf((np.log10(M)-(np.log10(Mq)-0.85))/0.5)) #0.5*
 
@@ -65,9 +59,8 @@ def draw_pQ(M,z):
     pq = pQ_Mz_alt_init(M,z)
 
     isq = np.random.choice(p_arr,p=[pq,1-pq])
-    #print(z,np.log10(M),pq,isq)
-    return isq
 
+    return isq
 
 def pmin_z(z):
     return 1-((z-10)/10)**2
@@ -76,7 +69,6 @@ def pQ_Mz_ft(M,z,isq,mqs):
     pq = []
     isqs = []
     isq=np.array(isq)
-    #print(len(isq[isq==True]))
     for counter,m in enumerate(M):
 
         if isq[counter]:
@@ -93,7 +85,6 @@ def pQ_Mz_ft(M,z,isq,mqs):
             else:
                 pq.append(1)
                 isqs.append(False)
-    #print(isqs,pq)
     return isqs,pq,mqs
 
 
@@ -101,7 +92,6 @@ def pQ_Mz_ft2(M,z,isq):
     pq = []
     isqs = []
     isq=np.array(isq)
-    #print(len(isq[isq==True]))
     for counter,m in enumerate(M):
 
         if isq[counter]:
@@ -134,14 +124,13 @@ def parser():
     parser.add_argument('-es','--early_step',help='Early Universe T_F step (Myr)',default=1000,type=float)
     parser.add_argument('-ls','--late_step',help='Late Universe T_F step (Myr)',default=1000, type=float)
     parser.add_argument('-ts','--tstart',help='Epoch to start the tracks (working backwards) (yr)',default = 0,type=float)
-    parser.add_argument('-c','--config',help='Config filename',default='/Users/ishfahani/master_thesis/des_sn_hosts/config/config_rates.yaml')
+    parser.add_argument('-c','--config',help='Config filename',default = os.path.join(os.environ['config'], 'config_rates.yaml'))
     parser.add_argument('-n','--n',help='Number of iterations of each galaxy',default=100,type=float)
     args = parser.parse_args()
     return args
 
 def main(args):
     config = yaml.safe_load(open(args.config))
-    #config=yaml.load(open(args.config))
     save_dir = config['rates_root']+'SFH_nonmpi/'
     dt = args.dt
     N=args.n
@@ -173,17 +162,14 @@ def main(args):
                 z_t = 0
             zs.append(z_t)
             #print("current redshift: %.2f"%z_t)
-            m_created, is_quenched,mqs = sfr_Mz_alt(m,z_t,is_quenched,mqs)
+            m_created, is_quenched, mqs = sfr_Mz_alt(m,z_t,is_quenched,mqs)
             m_created = np.array(m_created)*dt*1E+6
             [m_formed[n].append(m_created[n]) for n in range(N)]
-            #print("Mass formed in the last %3f Myr: %2g Msun"%(dt,m_created))
-            #print("Mass formed at each epoch so far: ",m_formed)
             taus = ages[:counter+1][::-1]
             #print("Time since epochs of star formation: ",taus)
             f_ml= fml_t(taus)
             #print("Fractional mass lost since each epoch",f_ml)
             ml = f_ml * np.array([m_formed[n] for n in range(N)])
-            #m_lost_tot = np.concatenate([m_lost_tot,[0]])
 
             if counter>1:
                 #print('trying to subtract m_lost_tot',m_lost_tot,'from ml ',ml)
@@ -193,22 +179,14 @@ def main(args):
             #print("New mass loss this cycle",new_ml)
             m_lost_tot = [ml[n] for n in range(N)]
             #print("Current array of masses lost",[ "{:0.2e}".format(x) for x in m_lost_tot ])
-            #ml_tot = ml - m_lost
-            #m_lost = ml_tot
             m = [m[n] + m_created[n] - new_ml[n] for n in range(N)]
             #print("Final mass of this epoch: %.1e"%m)
-            #print("#"*100)
             [m_arr[n].append(m[n]) for n in range(N)]
-        #print (m_formed)
-        #print(m_lost_tot)
 
         final_age_weights = [m_formed[n] - m_lost_tot[n] for n in range(N)]
 
-        #print([np.log10(m_arr[n][-1]) for n in range(N)])
-
         print("Saving to: ",os.path.join(save_dir,'SFHs_alt_%.1f_Qerf_1.1_newQmass_test.h5'%dt))
         df = pd.DataFrame()
-        #print(track)
 
         for n in range(N):
 

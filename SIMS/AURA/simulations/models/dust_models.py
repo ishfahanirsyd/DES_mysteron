@@ -22,6 +22,27 @@ def age_rv_step(age, rv_young=3.0, rv_old=2.0, rv_sig_young=0.5, rv_sig_old=0.5,
     return np.clip((norm_young.rvs(size=len(age)) * (age < age_split)) + (
                 norm_old.rvs(size=len(age)) * (age > age_split)),a_min=rv_min,a_max=None)
 
+def rv_constant(age, rv_value=2.5):
+    """
+    Assign a constant R_V value for all entries.
+
+    :param age: Array of ages (not used, only to match signature)
+    :param rv_value: Constant R_V value to assign
+    :return: Array filled with constant R_V
+    :rtype: array
+    """
+    return np.full_like(age, fill_value=rv_value, dtype=float)
+
+def rv_constant_gauss(age,rv= 2.75, rv_sig= 1.0):
+    """
+    Assign a constant R_V value for all entries.
+
+    :param age: Array of ages (not used, only to match signature)
+    :param rv_value: Constant R_V value to assign
+    :return: Array filled with constant R_V
+    :rtype: array
+    """
+    return norm(rv,rv_sig).rvs(size=len(age))
 
 def mass_rv_step(mass, rv_low=3.0, rv_high=2.0, rv_sig_low=0.5, rv_sig_high=0.5, mass_split=10,rv_min=1.2):
     """
@@ -86,7 +107,7 @@ def age_rv_linear(age, Rv_low=3.0, Rv_high=2.0, Rv_sig_low=0.5, Rv_sig_high=1, a
         Rvs.append(np.random.normal(rv_mu,rv_sig))
     return np.clip(np.array(Rvs),a_min=rv_min,a_max=None)
 
-def E_exp(TauE,n=1):
+def E_exp(TauE, n):
     '''
     Returns n values of the reddening E(B-V) for a given mean reddening tau.
     :param tau:
@@ -96,7 +117,7 @@ def E_exp(TauE,n=1):
     :return: E
     :rtype: array
     '''
-    E = expon(scale=TauE,size=n)
+    E = expon(scale=TauE).rvs(size=n)
     return E
 
 def E_exp_mass(mass,Tau_low,Tau_high,mass_split=10):

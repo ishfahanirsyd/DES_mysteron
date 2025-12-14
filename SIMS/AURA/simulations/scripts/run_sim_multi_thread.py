@@ -1,6 +1,9 @@
+#!/usr/bin/env python
+
 import sys
 import os
-sys.path.insert(0, os.path.abspath("../../.."))
+# CLi, commented out
+# sys.path.insert(0, os.path.abspath("../../.."))
 from AURA.simulations import aura
 from AURA.simulations.utils.plotter import *
 from AURA.simulations.utils.plotter_paper import *
@@ -61,7 +64,7 @@ def prep_df_for_BBC(df):
            'zCMBERR', 'zHEL', 'zHELERR','x0', 'x0ERR','COV_x1_x0', 'COV_c_x0', 'COV_x1_c',
              'VPEC', 'VPECERR', 'PKMJD', 'PKMJDERR', 'FITPROB',
            'PROB_SNNTRAINV19_z_TRAINDES_V19', 'HOST_LOGMASS', 'HOST_LOG_SFR',
-           'HOST_LOG_sSFR', 'distmod', 'mass', 'ssfr', 'sfr', 'mean_ages',
+           'HOST_LOG_sSFR', 'distmod', 'mass', 'EW_OII','ssfr', 'sfr', 'mean_ages',
            'SN_age', 'rv', 'E', 'host_Av', 'U-R', 'c', 'c_noise', 'c_int', 'x1','x1_int','x1_noise'
            #'prog_age'
             ]
@@ -97,18 +100,19 @@ def sim_worker(args):
     sim.config = c
 
     # Process the DataFrame as needed
-    #n_samples_arr = sim._get_z_dist(des5yr['zHD'],n=cfg['n_samples'])
     # get array of zs
     zs = np.linspace(0,1,100)
-    zs_cubed = zs**2.5
+    #changed to 1.5, from 2.5
+    zs_cubed = zs**1.5
     # randomly sample redshifts from the distribution
     numbers = np.random.choice(zs,p=zs_cubed/np.sum(zs_cubed),size=cfg['n_samples'])
     #define the bins of redshifts (the one we used), should be the same as the one from hostlib
-    zarr = np.arange(0.10,0.7,0.05)  # updated the start and end values to match new zs range
+    # CLi for test purposes
+    zarr = np.arange(0.1,0.8,0.1)
     # N_samples_arr is the number of samples to be drawn from the distribution
     # of redshifts. The distribution is defined by the zarr array and the numbers array.
-    #calculate the number of samples to allocate to each redshift bin
-    n_samples_arr = sim._get_z_dist(numbers,n=cfg['n_samples'],frac_low_z=0.0,zbins=zarr+0.05)  # updated frac_low_z to match new zs range
+    # calculate the number of samples to allocate to each redshift bin
+    n_samples_arr = sim._get_z_dist(numbers,n=cfg['n_samples'],frac_low_z=0.0,zbins=zarr+0.02)  # updated frac_low_z to match new zs range
     print("n_samples_arr",n_samples_arr)
     base_dir = os.environ['DESSIMS']
 
@@ -126,26 +130,24 @@ def sim_worker(args):
     # Define save path and call the simulation
     savepath = os.path.join(for_bbc_dir, '%s_test_SN_sim_%.2f_%.2f_%.2f.h5' % (model_name, rv_lo, rv_hi, age_step))
     sim.sample_SNe(zarr, n_samples_arr, savepath=savepath)
-    #print("column", sim.sim_df.columns)
-    #print("hello", list(sim.sim_df.columns.values)) 
-    #print( sim.sim_df.columns().values().tolist())
+
     
     sim.sim_df = sim.sim_df[(sim.sim_df['x1']<3)&(sim.sim_df['x1']>-3)&(sim.sim_df['c']>-0.3)&\
                             (sim.sim_df['c']<0.3)&(sim.sim_df['x1_err']<1)&\
-                            (sim.sim_df['c_err']<0.1)   # uncomment to include a colour error cut
+                            (sim.sim_df['c_err']<0.1)   
                             ]
-     # Example: Print the values in the 'z' column
     sim.sim_df = sim.sim_df[sim.sim_df['mB']<25]
     #all generated file has eff_mask=0, so in this cut it got rid of all the generated SNe
+    print(len(sim.sim_df), "SNe before eff_mask cut")
     sim.sim_df = sim.sim_df[sim.sim_df['eff_mask']==1]
-    
-    sim.sim_df = sim.sim_df[sim.sim_df['z']<=0.7]
+    print(len(sim.sim_df), "SNe after eff_mask cut")
+    sim.sim_df = sim.sim_df[sim.sim_df['z']<=1.1]  
     sim.sim_df.to_hdf(os.path.join(os.environ['DESSIMS'],'sims', 'SNe', 'for_BBC', cfg['save']['dir'],'%s_test_SN_sim_%.2f_%.2f_%.2f.h5' % (model_name, rv_lo, rv_hi, age_step)), key='sim')
     
 def multi_sim(args):
-
-    pool_size = 8
-    pool = MyPool(processes=pool_size)
+    #pool_size = 1 # - for test purposes
+    pool_size = 12
+    #pool = MyPool(processes=pool_size)
     for _ in tqdm(pool.imap_unordered(sim_worker,args),total=len(args)):
         pass
     pool.close()
@@ -164,12 +166,11 @@ if __name__=='__main__':
     Rv_lo_grid = np.arange(cfg['Rv_lo']['lo'],cfg['Rv_lo']['hi'],cfg['Rv_lo']['step'])
     Rv_hi_grid = np.arange(cfg['Rv_hi']['lo'],cfg['Rv_hi']['hi'],cfg['Rv_hi']['step'])
     age_step_grid = np.arange(cfg['age_step']['lo'],cfg['age_step']['hi'],cfg['age_step']['step'])
-    print("Rv_lo_grid", Rv_lo_grid)
+    # print("Rv_lo_grid", Rv_lo_grid)
     args = []
     for rv_lo in Rv_lo_grid:
         for rv_hi in Rv_hi_grid:
             for age_step in age_step_grid:
-                #in each grid, assign Rv_lo, Rv_hi and age_step and the config file
                 args.append([rv_hi,rv_lo,age_step,cfg])
     multi_sim(args)
     print('Simulations complete. Now converting to BBC format')
@@ -191,7 +192,7 @@ if __name__=='__main__':
     model_config = os.path.split(pth)[-1]
     model_name = model_config.split('.')[0]
     for rv_lo in Rv_lo_grid:
-        for rv_hi in Rv_hi_grid:
+        for rv_hi in Rv_hi_grid: 
             for age_step in age_step_grid:
                 df = pd.read_hdf(os.path.join(os.environ['DESSIMS'],'sims', 'SNe', 'for_BBC', cfg['save']['dir'],'%s_test_SN_sim_%.2f_%.2f_%.2f.h5' % (model_name, rv_lo, rv_hi, age_step)))
                 df,cols = prep_df_for_BBC(df)

@@ -58,7 +58,7 @@ mB_model:
     M0: -19.375
     sigma_int: 0.08
     mass_step:
-      mag: 0.0
+      mag: 0.05
       loc: 10
     age_step:
       mag: 0.0

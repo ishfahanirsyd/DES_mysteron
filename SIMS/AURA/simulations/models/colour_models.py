@@ -1,6 +1,6 @@
 from scipy.stats import norm
 from .distributions import asymmetric_gaussian
-
+import numpy as np
 
 
 def c_int_gauss(mu,sig,n=1):

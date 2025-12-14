@@ -33,7 +33,9 @@ def get_color_band(band_name):
 #load vega spectrum
 from astropy.io import fits
 import os, sys
-dir = os.path.abspath("../../")
+# CLi
+#dir = os.path.abspath("../../")
+dir=os.path.join(os.environ['DESCODE'],'SIMS/AURA')
 vega = fits.open(os.path.join(dir, 'what_the_flux/alpha_lyr_stis_006.fits'))   
 w_Vega_full, f_Vega_full = vega[1].data['WAVELENGTH'], vega[1].data['FLUX']
 mask_Vega = (w_Vega_full>500.)&(w_Vega_full<25000)

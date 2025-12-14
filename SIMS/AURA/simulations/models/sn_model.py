@@ -1,5 +1,5 @@
 import numpy as np
-from .dust_models import age_rv_step, mass_rv_step, age_rv_linear, mass_rv_linear, E_exp, E_exp_mass, E_exp_age, random_rv, E_calc, E_from_host_random, E_two_component
+from .dust_models import age_rv_step, mass_rv_step, age_rv_linear, mass_rv_linear, E_exp, E_exp_mass, E_exp_age, random_rv, E_calc, E_from_host_random, E_two_component, rv_constant, rv_constant_gauss
 from .colour_models import c_int_asymm, c_int_gauss, c_int_plus_dust
 from .stretch_models import x1_int_asymm, x1_twogauss_age, x1_twogauss_fix, x1_int_linear_gauss, x1_int_linear_gauss_plus_delta,x1_linear_plus_old,x1_linear_plus_young
 from .host_dust import choose_Av_SN_E_rv_fix, choose_Av_custom, choose_Av_SN_E_Rv_norm, choose_Av_SN_E_Rv_step
@@ -14,6 +14,12 @@ class SN_Model():
 
     def age_rv_step(self,args,params):
         return age_rv_step(args['mean_ages']/1000, params['rv_young'], params['rv_old'], params['rv_sig_young'], params['rv_sig_old'], params['age_split'],params['rv_min'])
+    
+    def rv_constant(self,args,params):
+        return rv_constant(args['mean_ages']/1000, params['rv'])
+
+    def rv_constant_gauss(self,args,params):
+        return rv_constant_gauss(args['mean_ages']/1000, params['rv'], params['rv_sig'])
 
     def mass_rv_step(self,args,params):
         return mass_rv_step(np.log10(args['mass']), params['rv_low'], params['rv_high'], params['rv_sig_low'], params['rv_sig_high'], params['mass_split'],params['rv_min'])

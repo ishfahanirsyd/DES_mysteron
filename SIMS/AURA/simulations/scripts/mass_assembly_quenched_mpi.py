@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import numpy as np
 import pandas as pd
 from astropy.cosmology import z_at_value
@@ -12,9 +14,11 @@ import argparse
 import yaml
 import glob
 import sys, os
-sys.path.insert(0, os.path.abspath("../../..")) 
-from AURA.utils.utils import MyPool
+# CLi
+# Commented out, as we will run this from other directories
+#sys.path.insert(0, os.path.abspath("../../..")) 
 
+from AURA.utils.utils import MyPool
 
 def phi_t(t,tp,alpha,s):
     '''Functional form of the delay time distribution'''
@@ -22,17 +26,14 @@ def phi_t(t,tp,alpha,s):
 
 
 def psi_Mz(M,z):
-    #print("Nominal SFRs: \n",2.00*np.exp(1.33*z)*(M/1E+10)**0.7)
     return 2.00*np.exp(1.33*z)*(M/1E+10)**0.7
 
 def logMQ_z(z):
     Mlo,zlo = 10.43,0.9
     Mhi,zhi = 8.56,5.6
-    #print ("Quenching masses: \n",((Mlo+zlo*np.log10(1+z))*(z<=1.5)) + ((Mhi+zhi*np.log10(1+z))*(z>1.5)))
     return ((Mlo+zlo*np.log10(1+z))*(z<=1.5)) + ((Mhi+zhi*np.log10(1+z))*(z>1.5))
 
 def pQ_Mz(M,z):
-    #print("Quenching function: \n",0.5*(1-erf((np.log10(M)-logMQ_z(z))/1.5)))
     return 0.5*(1-erf((np.log10(M)-logMQ_z(z))/0.5))
 
 def sfr_Mz(M,z):
@@ -45,32 +46,28 @@ def psi_Mz_alt(M,z):
     return ((np.array(M)/1E+10)**0.7) * np.exp(1.9*(z))/(np.exp(1.7*(z-2))+np.exp(0.2*(z-2)))
 
 def logMQ_z_alt_init(z):
-
     #print ("Quenching masses: \n",10.077 + 0.636*z)
     return 12.6
 
 
 def pQ_Mz_alt_init(M,z):
-
     #print("Quenching function: \n",0.5*(1-erf((np.log10(M)-logMQ_z_alt(z))/1.5)))
     return 0.5*(1-erf((np.log10(M)-logMQ_z_alt_init(z))/0.9))
 
 def logMQ_z_alt(z):
-
     #print ("Quenching masses: \n",10.077 + 0.636*z)
-    return (10.377 + 0.636*z) #* (z<=2) + (10.377 + 0.636*2) * (z>2)
-def pQ_Mz_alt(M,z):
+    return (10.377 + 0.536*z) #* (z<=2) + (10.377 + 0.636*2) * (z>2)
 
+def pQ_Mz_alt(M,z):
     #print("Quenching function: \n",0.5*(1-erf((np.log10(M)-logMQ_z_alt(z))/1.5)))
-    return 0.5*(1-erf((np.log10(M)-logMQ_z_alt(z))/1.5)) #0.5*
+    return 0.5*(1-erf((np.log10(M)-logMQ_z_alt(z))/1.1)) #0.5*
 
 def draw_pQ(M,z):
     p_arr = [False,True]
 
     pq = pQ_Mz_alt_init(M,z)
 
-    isq = np.random.choice(p_arr,p=[pq,1-pq])
-    #print(z,np.log10(M),pq,isq)
+    isq = np.random.choice(p_arr,p=[pq, 1-pq])
     return isq
 
 def draw_pQ_alt(M,z,f):
@@ -78,19 +75,17 @@ def draw_pQ_alt(M,z,f):
 
     pq = np.min([1,pQ_Mz_alt(M,z)+f])
 
-    isq = np.random.choice(p_arr,p=[pq,1-pq])
-    #print(z,np.log10(M),pq,isq)
+    isq = np.random.choice(p_arr,p=[pq, 1-pq])
     return isq
 
 
 def pmin_z(z):
-    return np.max([0.03,(1-((z-10)/10)**2)])
+    return 0 #np.max([0.03,(1-((z-10)/10)**2)])
 
 def pQ_Mz_ft(M,z,isq,mqs):
     pq = []
     isqs = []
     isq=np.array(isq)
-    #print(len(isq[isq==True]))
     for counter,m in enumerate(M):
 
         if isq[counter]:
@@ -115,7 +110,6 @@ def pQ_Mz_ft2(M,z,isq):
     pq = []
     isqs = []
     isq=np.array(isq)
-    #print(len(isq[isq==True]))
     for counter,m in enumerate(M):
 
         if isq[counter]:
@@ -130,7 +124,6 @@ def pQ_Mz_ft2(M,z,isq):
             else:
                 pq.append(1)
                 isqs.append(False)
-    #print(isqs,pq)
     return isqs,pq
 
 
@@ -145,11 +138,12 @@ def sfr_Mz_alt(M,z,isq):
 
 def parser():
     parser = argparse.ArgumentParser()
+    parser.add_argument('-o','--output',help='Output directory',default='test')
     parser.add_argument('-dt','--dt',help='Time step (Myr)',default=0.5,type=float)
-    parser.add_argument('-es','--early_step',help='Early Universe T_F step (Myr)',default=250,type=float)
-    parser.add_argument('-ls','--late_step',help='Late Universe T_F step (Myr)',default=500, type=float)
+    parser.add_argument('-es','--early_step',help='Early Universe T_F step (Myr)',default=25,type=float)
+    parser.add_argument('-ls','--late_step',help='Late Universe T_F step (Myr)',default=50, type=float)
     parser.add_argument('-ts','--tstart',help='Epoch to start the tracks (working backwards) (yr)',default = 0,type=float)
-    parser.add_argument('-c','--config',help='Config filename',default = os.path.join(os.environ['AURA'], 'config', 'config_rates.yaml'))
+    parser.add_argument('-c','--config',help='Config filename',default = os.path.join(os.environ['config'], 'config_rates.yaml'))
     parser.add_argument('-n','--n',help='Number of iterations of each galaxy',default=100,type=int)
     parser.add_argument('-t','--test',help='Is this a test?',action='store_true')
     args = parser.parse_args()
@@ -159,6 +153,7 @@ def script_worker(worker_args):
     args,tf,save_dir = [worker_args[i] for i in range(len(worker_args))]
     dt = args.dt
     N=args.n
+    print('Running for tf: ',tf)
 
     ages = np.arange(0,tf+dt,dt)
     m = [1E+6 for _ in range(N)]
@@ -173,12 +168,12 @@ def script_worker(worker_args):
         t = tf-age
         ts.append(t)
         #print("Current epoch: %.f Myr"%t, 'Age: ',age)
-        try:
+        if t > 0: 
             z_t = z_at_value(cosmo.lookback_time,t*u.Myr,zmin=0)
-        except:
+        else:
             z_t = 0
         zs.append(z_t)
-        #print("current redshift: %.2f"%z_t)
+        #print("current redshift: %.2f"%z_t)  # Added print statement for current redshift
         m_created, is_quenched = sfr_Mz_alt(m,z_t,is_quenched)
         m_created = np.array(m_created)*dt*1E+6
         [m_formed[n].append(m_created[n]) for n in range(N)]
@@ -189,8 +184,6 @@ def script_worker(worker_args):
         f_ml= fml_t(taus)
         #print("Fractional mass lost since each epoch",f_ml)
         ml = f_ml * np.array([m_formed[n] for n in range(N)])
-        #m_lost_tot = np.concatenate([m_lost_tot,[0]])
-
         if counter>1:
             #print('trying to subtract m_lost_tot',m_lost_tot,'from ml ',ml)
             new_ml = [np.sum(ml[n][:counter]- m_lost_tot[n]) for n in range(N)]
@@ -199,39 +192,29 @@ def script_worker(worker_args):
         #print("New mass loss this cycle",new_ml)
         m_lost_tot = [ml[n] for n in range(N)]
         #print("Current array of masses lost",[ "{:0.2e}".format(x) for x in m_lost_tot ])
-        #ml_tot = ml - m_lost
-        #m_lost = ml_tot
         m = [m[n] + m_created[n] - new_ml[n] for n in range(N)]
         #print("Final mass of this epoch: %.1e"%m)
-        #print("#"*100)
         [m_arr[n].append(m[n]) for n in range(N)]
-    #print (m_formed)
-    #print(m_lost_tot)
 
     final_age_weights = [m_formed[n] - m_lost_tot[n] for n in range(N)]
 
-    #print([np.log10(m_arr[n][-1]) for n in range(N)])
 
     print("Saving to: ",os.path.join(save_dir,'SFHs_alt_%3.0f_%.1f_quenched_all_bursts.h5'%(tf,dt)))
     df = pd.DataFrame()
-    #print(track)
-
     for n in range(N):
 
         track = np.array([ts,zs,ages,m_formed[n],final_age_weights[n],m_arr[n]]).T
         new_df = pd.DataFrame(track,columns=['t','z','age','m_formed','final_age_weights','m_tot'],index=[n]*len(ages))
 
-        #df = df.append(new_df)
         df = pd.concat([df, new_df])
 
     df.to_hdf(os.path.join(save_dir,'SFHs_alt_%3.0f_%.1f_quenched_all_bursts.h5'%(tf,dt)),key='main')
 
 def main(args):
     config = yaml.safe_load(open(args.config))
-    #config=yaml.load(open(args.config))
-    save_dir = config['rates_root']+'SFH_mpi/'
+    save_dir = os.path.join(config['rates_root'],args.output)
     if args.test:
-        save_dir=save_dir+'test_smaller_bursts/'
+        save_dir=os.path.join(save_dir,args.output)
     if not os.path.isdir(save_dir):
         os.mkdir(save_dir)
     dt = args.dt
@@ -242,9 +225,9 @@ def main(args):
         tfs = np.concatenate([np.arange(args.tstart,10000,args.late_step),np.arange(10000,13000,args.early_step)])
     else:
         tfs = np.arange(args.tstart,13000,args.early_step)
-
     worker_args = [[args,tf,save_dir] for tf in tfs]
     pool_size = 24
+    #pool_size = 1 # For debugging
     pool = MyPool(processes=pool_size)
     for _ in tqdm(pool.imap_unordered(script_worker,worker_args),total=len(worker_args)):
         pass

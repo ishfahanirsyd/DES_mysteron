@@ -1,5 +1,5 @@
 des_root: $DESSIMS/coadding 
-rates_root: $DESSIMS/mass_assembly/output_mass_assembly_adjusted/
+rates_root: $DESSIMS/mass_assembly/
 Spatial:
   r_max: 1.2
   n_years: 2.3
