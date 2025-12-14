@@ -1,0 +1,18 @@
+config_path: '/priv/debass/software/DES/SIMS/AURA/simulations/config/W21_nostep.yaml'
+
+Rv_lo:
+    lo: 1.50
+    hi: 2.25
+    step: 0.25
+Rv_hi:
+    lo: 2.5
+    hi: 3.25
+    step: 0.25
+age_step:
+    lo: 0.0
+    hi: 0.05
+    step: 0.05
+save:
+    dir: final_model_v1/fixed_with_neb/W21_Rvnostep
+
+n_samples: 300000
