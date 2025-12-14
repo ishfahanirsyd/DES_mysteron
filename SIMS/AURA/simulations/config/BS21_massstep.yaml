@@ -1,0 +1,69 @@
+hostlib_fn: $hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1/all_model_params_quench_BC03_z0.0005_1.10000_av0.00_1.00_rv_rand_full_age_dists_neb_U-2.00_res_1_beta_1.14_combined.h5
+config:
+  root_dir: $DESSIMS
+  efficiency_dir: $DESCODE/SIMS/efficiencies
+
+SN_rv_model:
+  model: mass_rv_step
+  params:
+    rv_low: 2.5
+    rv_high: 1.5
+    rv_sig_low: 1.0
+    rv_sig_high: 1.0
+    mass_split: 10
+    rv_min: 0.5
+
+Host_Av_model:
+  model: choose_Av_SN_E_Rv_step
+  params:
+    Rv_mu_low: 2.6
+    Rv_sig_low: 0.5
+    Rv_mu_high: 3.1
+    Rv_sig_high: 0.5
+    Av_sig: 0.5
+    mass_split: 10
+
+SN_E_model:
+  model: E_exp_mass
+  params:
+    Tau_low: 0.10
+    Tau_high: 0.14
+    mass_split: 10
+
+SN_colour_model:
+  model: c_int_plus_dust
+  params:
+    c_int_type: norm
+    c_int_params:
+      mu: -0.075
+      sig: 0.042
+      e_noise: 0.035
+x1_model:
+  model: x1_int_asymm
+  params:
+    mu: 0.673
+    sig_minus: 1.45
+    sig_plus: 0.222
+
+mB_model:
+  model: tripp_rv_popn_alpha_beta
+  params:
+    mu_alpha: 0.15
+    sig_alpha: 0.0001
+    mu_beta: 1.98
+    sig_beta: 0.35
+    M0: -19.375
+    sigma_int: 0.
+    mass_step:
+      mag: 0.05
+      loc: 10
+    age_step:
+      mag: 0.0
+      loc: 1
+
+mu_res_fitter:
+  fitter: fit_mu_res_nostep
+  params:
+    fix_alpha: False
+    fix_beta: False
+c_perfect: False

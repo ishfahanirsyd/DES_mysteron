@@ -1,0 +1,66 @@
+
+hostlib_fn: $hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1/all_model_params_quench_BC03_z0.0005_1.10000_av0.00_1.00_rv_rand_full_age_dists_neb_U-2.00_res_1_beta_1.14_combined.h5
+config:
+  root_dir: $DESSIMS
+  efficiency_dir: $DESCODE/SIMS/efficiencies
+
+SN_rv_model:
+  model: rv_constant_gauss
+  params:
+    rv: 2.75
+    rv_sig: 1.0
+
+    
+Host_Av_model:
+  model: choose_Av_SN_E_rv_fix
+  params:
+    Rv: 2.75
+    Av_sig: 0.5
+
+SN_E_model:
+  model: E_exp
+  params:
+    TauE: 0.10
+
+SN_colour_model:
+  model: c_int_plus_dust
+  params:
+    c_int_type: norm
+    c_int_params:
+      mu: -0.084
+      sig: 0.04
+      e_noise: 0.03
+
+x1_model:
+  model: x1_int_asymm
+  params:
+    mu: 0.938
+    sig_minus: 1.55
+    sig_plus: 0.263
+    #mu: 0.3
+    #sig_minus: 1.35
+    #sig_plus: 0.655
+
+
+mB_model:
+  model: tripp_rv_popn_alpha_beta
+  params:
+    mu_alpha: 0.15
+    sig_alpha: 0.0001
+    mu_beta: 1.98
+    sig_beta: 0.35
+    M0: -19.375
+    sigma_int: 0.
+    mass_step:
+      mag: 0.0
+      loc: 10
+    age_step:
+      mag: 0.0
+      loc: 0.6
+
+mu_res_fitter:
+  fitter: fit_mu_res_nostep
+  params:
+    fix_alpha: False
+    fix_beta: False
+c_perfect: False
