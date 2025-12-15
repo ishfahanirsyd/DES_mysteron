@@ -171,17 +171,19 @@ Grid configuration files define the **Rv parameter range** and the **age or mass
 **Directory:**
 `/priv/debass/software/DES/SIMS/AURA/simulations/config/grid_configs`
 
-Available Grid config:
-```bash
-- Null Model : `test.yaml`
-- Rv-Mass model:
-`BS21_nostep.yaml`
-`BS21_massstep.yaml`
-- Rv–galaxy age model
-W21_nostep.yaml
-W21_agestep.yaml
-- Rv–SN age model
-W21_linearage.yaml
+### Available Grid Configurations
 
+- **Null model**
+  - `test.yaml`
 
-```
+- **Rv–mass model**
+  - `BS21_nostep.yaml`
+  - `BS21_massstep.yaml`
+
+- **Rv–galaxy age model**
+  - `W21_nostep.yaml`
+  - `W21_agestep.yaml`
+
+- **Rv–SN age model**
+  - `W21_linearage.yaml`
+
