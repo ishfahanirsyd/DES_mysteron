@@ -28,13 +28,6 @@ Activate the conda environment:
 ```bash
 Base: $DESHOME 
 $DESCODE       = $DESHOME/software/DES
-$DESSIMS       = $DESHOME/SIMS
-$AURA          = $DESSIMS/AURA
-$config        = $DESSIMS/config
-$efficiencies  = $DESSIMS/efficiencies
-$mass_assembly = $DESSIMS/mass_assembly
-$hostlib       = $DESSIMS/hostlib
-$filters       = $DESSIMS/filters
 ```
 
 --- 
