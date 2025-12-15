@@ -95,7 +95,7 @@ Example of output directory: `/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`
 When creating the output directory, a subdirectory named `SN_ages` must also be created inside it. This subdirectory is used to store the age distribution of supernovae.
 
 ## MPI version
-(Takes only one galaxy from step 1 at each time step.)
+Takes only one galaxy from step 1 at each time step.
 
 Output:
 - One HDF5 file per key (stored separately)
@@ -105,12 +105,13 @@ Dir: `$AURA$/simulations/scripts/make_hostlib_quenched_mpi.py`
 
 #### Running the code
 ```md
-- With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py –neb -o /output-directory`
-- Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py -o /output-directory`
+With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py –neb -o /output-directory`
+
+Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py -o /output-directory`
 ```
 
 ## nonMPI version
-(takes all simulated galaxies from step 1 in each time steps)
+Takes all simulated galaxies from step 1 in each time steps
 
 Dir: `$AURA/simulations/scripts/make_hostlib_quenched.py`
 
