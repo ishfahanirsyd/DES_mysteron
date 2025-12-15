@@ -26,7 +26,7 @@ Activate the conda environment:
 ## shortcut
 
 ```bash
-$DESHOME (base)
+Base: $DESHOME 
 $DESSIMS       = $DESHOME/SIMS
 $AURA          = $DESSIMS/AURA
 $config        = $DESSIMS/config
@@ -84,11 +84,14 @@ Final output used in the thesis: `$mass_assembly/SFH_mpi/sfh_25_50`
 
 ----
 # 2. SIMULATE HOST GALAXIES
+```md 
 Output from this part goes to: `$hostlib`
+
 
 Example of output directory: `/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`
 
 When creating the output directory, a subdirectory named `SN_ages` must also be created inside it. This subdirectory is used to store the age distribution of supernovae.
+```
 ## MPI version
 (Takes only one galaxy from step 1 at each time step.)
 
