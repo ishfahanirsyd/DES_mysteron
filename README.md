@@ -27,6 +27,7 @@ Activate the conda environment:
 
 ```bash
 Base: $DESHOME 
+$DESCODE       = $DESHOME/software/DES
 $DESSIMS       = $DESHOME/SIMS
 $AURA          = $DESSIMS/AURA
 $config        = $DESSIMS/config
@@ -74,15 +75,15 @@ Number of galaxies seeded.
 
 
 ## nonMPI version
-Dir: `$AURA/simulations/scripts/mass_assembly_quenched.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/mass_assembly_quenched.py`
 ## MPI version (mainly used)
-Dir: `$AURA/simulations/scripts/mass_assembly_quenched_mpi.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/mass_assembly_quenched_mpi.py`
 ## Modified code: modified some steps from earlier version to run faster
-Dir: `$AURA/simulations/scripts/mass_assembly_adjusted.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/mass_assembly_adjusted.py`
 
 ---
 
-**Final output used in the thesis: `$mass_assembly/SFH_mpi/sfh_25_50`**
+**Final output used in the thesis:** `$mass_assembly/SFH_mpi/sfh_25_50`
 
 ----
 # 2. SIMULATE HOST GALAXIES
@@ -101,25 +102,25 @@ Output:
 - One HDF5 file per key (stored separately)
 - One combined HDF5 file containing all keys
 
-Dir: `$AURA$/simulations/scripts/make_hostlib_quenched_mpi.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched_mpi.py`
 
 #### Running the code
 ```md
-With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py –neb -o /output-directory`
+With nebular emission: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched_mpi.py –neb -o /output-directory`
 
-Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi.py -o /output-directory`
+Without nebular emission: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched_mpi.py -o /output-directory`
 ```
 
 ## nonMPI version
 Takes all simulated galaxies from step 1 in each time steps
 
-Dir: `$AURA/simulations/scripts/make_hostlib_quenched.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched.py`
 
 #### Running the code:
 ```md
-With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py –neb -o output-directory`
+With nebular emission: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched.py –neb -o output-directory`
 
-Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py -o output-directory`
+Without nebular emission: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched.py -o output-directory`
 ```
 
 ## Modified version (mainly used)
@@ -128,13 +129,13 @@ Output:
 
 If this version is used, the output must be passed to **Step 3** before proceeding to **Step 4**.
 
-Dir: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
 
 #### Running the code:
 ```md
-With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py –neb -o output-directory`
+With nebular emission: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py –neb -o output-directory`
 
-Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py -o output-directory`
+Without nebular emission: `$DESCODE/SIMS/AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py -o output-directory`
 ```
 
 ---
@@ -146,14 +147,14 @@ Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_m
 # 3. COMBINE HOSTLIB
 Used to combine separate files for each keys from step 2 
 
-Dir: `$AURA/simulations/scripts/combine_hostlib.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/combine_hostlib.py`
 
 ### Modify the input and output directory
 - `dirname`: input directory
 - `outfile`: output file
 
 ### Running the code:
-` /priv/debass/software/DES/SIMS/AURA/simulations/scripts/combine_hostlib.py`
+`combine_hostlib.py`
 
 ---
 
@@ -162,14 +163,17 @@ Dir: `$AURA/simulations/scripts/combine_hostlib.py`
 ---
 
 # 4. SUPERNOVAE SIMULATION
-Dir: `$AURA/simulations/scripts/run_sim_multi_thread_mod.py`
+Dir: `$DESCODE/SIMS/AURA/simulations/scripts/run_sim_multi_thread_mod.py`
+
+Running the code: `run_sim_multi_thread_mod.py grid_config_file`
+
 
 ## Grid Configuration
 
 Grid configuration files define the **Rv parameter range** and the **age or mass step ranges** used in the supernova simulations.
 
 **Directory:**
-`/priv/debass/software/DES/SIMS/AURA/simulations/config/grid_configs`
+`$DESCODE/SIMS/AURA/simulations/config/grid_configs`
 
 ### Available Grid Configurations
 
@@ -187,3 +191,71 @@ Grid configuration files define the **Rv parameter range** and the **age or mass
 - **Rv–SN age model**
   - `W21_linearage.yaml`
 
+## Config
+Used for define the property of simulated supernovae.
+
+**Directory:**
+`$DESCODE/SIMS/AURA/simulations/config`
+
+### Available Configuration Files
+
+- **Null model**
+  - `baseline_model.yaml`
+
+- **Rv–mass model**
+  - `BS21_nostep.yaml`
+  - `BS21_massstep.yaml`
+  - `BS21_intrinmass.yaml`
+  - `BS21_intrinage.yaml`
+
+- **Rv–galaxy age model**
+  - `W21_nostep.yaml`
+  - `W21_intrinmass.yaml`
+  - `W21_intrinage.yaml`
+  - `W21_agestep.yaml`
+
+- **Rv–SN age model**
+  - `W21_Rv_linear_age.yaml`
+
+---
+
+
+#### Observational Data
+**Directory:** `$DESCODE/SIMS/DES-OzDES_data`
+
+**Data analysis and visualization notebooks:**
+- `research_main_mass.ipynb` — mass step
+- `research_main_color.ipynb` — color step
+- `research_main_oii.ipynb` — [O II] step
+- `compilation.ipynb` — data compilation
+
+**Data files:**
+- **DES 5-year sample**
+  - `BBC1D_fixgamma0.FITRES`
+- **OzDES with [OII]**
+  - `ozdes_oII.csv`
+- **Foundation sample**
+  - `Foundation_Master_File.csv`
+  - `FN_Host_Properties-3.csv`
+
+---
+
+#### Analysis
+*Visualizes observed data compared to simulated data*
+
+  
+**Simulated cosmic star formation history (CSFH):**
+- `SFH.ipynb`
+
+**Simulated host galaxies:**
+- `hostlib.ipynb`
+
+**Observed vs simulated supernovae:**
+- `SN.ipynb`  
+
+**Miscellaneous plots from Master’s work:**
+- `draft.ipynb`
+
+**Combined observed datasets:**
+- `df_merged.csv` — hosts without undetectable [O II]
+- `df_merged_new.csv` — hosts including undetectable [O II]
