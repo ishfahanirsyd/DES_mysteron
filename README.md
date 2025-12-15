@@ -133,6 +133,9 @@ Dir: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
 - With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py –neb -o output-directory`
 - Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py -o output-directory`
 ```
+
 ---
+
 **Final output used in the thesis: `$hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`**
+
 ---
