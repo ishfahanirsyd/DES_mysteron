@@ -117,8 +117,9 @@ Dir: `$AURA/simulations/scripts/make_hostlib_quenched.py`
 
 #### Running the code:
 ```md
-- With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py –neb -o output-directory`
-- Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py -o output-directory`
+With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py –neb -o output-directory`
+
+Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched.py -o output-directory`
 ```
 
 ## Modified version (mainly used)
@@ -131,8 +132,9 @@ Dir: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
 
 #### Running the code:
 ```md
-- With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py –neb -o output-directory`
-- Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py -o output-directory`
+With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py –neb -o output-directory`
+
+Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py -o output-directory`
 ```
 
 ---
@@ -140,3 +142,16 @@ Dir: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
 **Final output used in the thesis: `$hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`**
 
 ---
+
+# 3. COMBINE HOSTLIB
+Used to combine separate files for each keys from step 2 
+
+Dir: `$AURA/simulations/scripts/combine_hostlib.py`
+
+### Modify the input and output directory
+- `dirname`: input directory
+- `outfile`: output file
+
+### Running the code: ```bash python /priv/debass/software/DES/SIMS/AURA/simulations/scripts/combine_hostlib.py```
+
+
