@@ -80,8 +80,9 @@ Dir: `$AURA/simulations/scripts/mass_assembly_quenched_mpi.py`
 ## Modified code: modified some steps from earlier version to run faster
 Dir: `$AURA/simulations/scripts/mass_assembly_adjusted.py`
 
+---
 
-Final output used in the thesis: `$mass_assembly/SFH_mpi/sfh_25_50`
+**Final output used in the thesis: `$mass_assembly/SFH_mpi/sfh_25_50`**
 
 ----
 # 2. SIMULATE HOST GALAXIES
@@ -132,7 +133,6 @@ Dir: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py`
 - With nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py –neb -o output-directory`
 - Without nebular emission: `$AURA/simulations/scripts/make_hostlib_quenched_mpi_mod.py -o output-directory`
 ```
-
-Final output used in the thesis: `$hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`
-
+---
+**Final output used in the thesis: `$hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1`**
 ---
