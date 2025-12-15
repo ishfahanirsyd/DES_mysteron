@@ -152,6 +152,36 @@ Dir: `$AURA/simulations/scripts/combine_hostlib.py`
 - `dirname`: input directory
 - `outfile`: output file
 
-### Running the code: ```bash python /priv/debass/software/DES/SIMS/AURA/simulations/scripts/combine_hostlib.py```
+### Running the code:
+` /priv/debass/software/DES/SIMS/AURA/simulations/scripts/combine_hostlib.py`
+
+---
+
+** Final output used in the thesis: `$hostlib/output_hostlib_mpi/SFH_mpi/fixed/with_neb_av0-1/all_model_params_quench_BC03_z0.0005_1.10000_av0.00_1.00_rv_rand_full_age_dists_neb_U-2.00_res_1_beta_1.14_combined.h5`**
+
+---
+
+# 4. SUPERNOVAE SIMULATION
+Dir: `$AURA/simulations/scripts/run_sim_multi_thread_mod.py`
+
+## Grid Configuration
+
+Grid configuration files define the **Rv parameter range** and the **age or mass step ranges** used in the supernova simulations.
+
+**Directory:**
+`/priv/debass/software/DES/SIMS/AURA/simulations/config/grid_configs`
+
+Available Grid config:
+```bash
+- Null Model : `test.yaml`
+- Rv-Mass model:
+`BS21_nostep.yaml`
+`BS21_massstep.yaml`
+- Rv–galaxy age model
+W21_nostep.yaml
+W21_agestep.yaml
+- Rv–SN age model
+W21_linearage.yaml
 
 
+```
