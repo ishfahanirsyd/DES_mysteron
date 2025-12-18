@@ -110,6 +110,7 @@ def sed_worker(worker_args):
             template=None
         elif args.templates =='PEGASE':
             if args.templates_fn =='None':
+                # Not used 
                 templates = pd.read_hdf('/media/data3/wiseman/des/AURA/PEGASE/templates.h5',key='main')
             else:
                 templates = pd.read_hdf(args.templates_fn,key='main')
@@ -176,10 +177,12 @@ def run(args):
 
 #    aura_dir = '%s/templates/' % os.environ["DESSIMS"]
     aura_dir = '%s/' % os.environ["AURA"]
-    outputDir= os.path.join(os.environ["hostlib"],args.output)
+    #outputDir= os.path.join(os.environ["hostlib"],args.output)
     #------------------------------------------------------------------------
     # BC03 SSPs as mc_spec Spectrum objects
-    f1 = open(aura_dir+'/bc03/bc03_logt_list.dat')
+    #f1 = open(aura_dir+'/bc03/bc03_logt_list.dat')
+    f1 = open(os.path.join(os.environ['DESSIMS'],'templates/bc03/bc03_logt_list.dat'))
+
     if args.templates =='BC03':
         bc03_logt_list = [x.strip() for x in f1.readlines()]
         f1.close()
@@ -189,7 +192,9 @@ def run(args):
         #print('bc03',bc03_logt_float_array)
         # CLi
         # bc03_dir = '%s/templates/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
-        bc03_dir = '%s/AURA/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
+        #bc03_dir = '%s/AURA/bc03/bc03_ssp_templates_generated/' % os.environ["DESSIMS"]
+        bc03_dir = os.path.join(os.environ["DESSIMS"],'templates/bc03/bc03_ssp_templates_generated/')
+
         template_obj_list = []
         nLy_list = []
         for i in range(ntemp):
@@ -202,7 +207,7 @@ def run(args):
     elif args.templates=='PEGASE':
         s = SynSpec(library='PEGASE',template_dir = '/media/data3/wiseman/des/AURA/PEGASE/templates/',neb=args.neb)
 
-        neb=args.neb
+        #neb=args.neb
     store = pd.HDFStore(args.input,'r')
     #ordered_keys = np.sort([int(x.strip('/')) for x in store.keys()])
     ordered_keys = np.sort([int(x.strip('/').replace('m', '')) for x in store.keys() if x.strip('/').replace('m', '').isdigit()])
@@ -232,8 +237,8 @@ def run(args):
             # in parallel, only use one SFH
             if len(sfh_df)>0:
                 worker_args.append([sfh_df,args,av_arr,z,tf,s,bc03_logt_float_array,counter])
-        #pool_size = 8
-        pool_size=1 # For testing
+        pool_size = 8
+        #pool_size=1 # For testing
         pool = MyPool(processes=pool_size)
         print('Sending %i jobs'%len(worker_args))
         results =pool.map_async(sed_worker,worker_args)

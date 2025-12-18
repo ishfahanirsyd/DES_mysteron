@@ -88,8 +88,8 @@ def ozdes_efficiency(dir='/priv/debass/software/DES/SIMS/efficiencies'):
     #print('mean eff',eff_df.mean(axis=1))
     #print('std eff',eff_df.std(axis=1))
     std_eff_func =  interp1d(mags,eff_df.std(axis=1))
-    print('mean eff',mean_eff_func)
-    print('std eff',std_eff_func)
+    #print('mean eff',mean_eff_func)
+    #print('std eff',std_eff_func)
 
     return mean_eff_func,std_eff_func
 

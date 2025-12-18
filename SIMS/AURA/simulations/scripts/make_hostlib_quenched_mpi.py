@@ -177,10 +177,11 @@ def run(args):
 
 #    aura_dir = '%s/templates/' % os.environ["DESSIMS"]
     aura_dir = '%s/' % os.environ["AURA"]
+    dessims_dir= '%s/' % os.environ["DESSIMS"]
     outputDir= os.path.join(os.environ["hostlib"],args.output)
     #------------------------------------------------------------------------
     # BC03 SSPs as mc_spec Spectrum objects
-    f1 = open(aura_dir+'/bc03/bc03_logt_list.dat')
+    f1 = open(dessims_dir+'templates/bc03/bc03_logt_list.dat')
     if args.templates =='BC03':
         bc03_logt_list = [x.strip() for x in f1.readlines()]
         f1.close()

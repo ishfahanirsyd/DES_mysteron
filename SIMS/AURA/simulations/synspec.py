@@ -55,7 +55,7 @@ def compute_EW_OII_Model(model_spec_lines,model_spec_nolines):
 class SynSpec():
     def __init__(self,root_dir=aura_dir,template_obj_list =None,neb=True,library='BC03',template_dir=None):
         self.root_dir = root_dir
-        # something
+
         if not template_obj_list:
             self.template_obj_list = self._get_templates(library=library,template_dir=template_dir)
         else:
@@ -71,7 +71,8 @@ class SynSpec():
             print('neb is read')
         self.cosmo = FlatLambdaCDM(70,0.3)
 
-    def _get_templates(self,library,template_dir= '%s/SIMS/templates/bc03' % os.environ["DESCODE"],ntemp=None,logt_list=None):
+    #def _get_templates(self,library,template_dir= '%s/SIMS/templates/bc03' % os.environ["DESCODE"],ntemp=None,logt_list=None):
+    def _get_templates(self,library,template_dir= os.path.join(os.environ["DESSIMS"],'templates/bc03'),ntemp=None,logt_list=None):
         #bc03_dir = '/media/data1/childress/des/galaxy_sfh_fitting/bc03_ssp_templates/'
         template_obj_list = []
 
@@ -109,7 +110,9 @@ class SynSpec():
         return filt_obj_list
     def _prep_neb(self,Z=0.02):
         import scipy.constants as cst
-        nebular_dir = os.path.join(os.environ["DESCODE"], "SIMS", "templates", "cigale", "cigale-v2020", "database_builder", "nebular/")
+        # CLi moving large data directories to $DESSIMS
+        nebular_dir = os.path.join(os.environ["DESSIMS"], "templates", "cigale", "cigale-v2020", "database_builder", "nebular/")
+        #nebular_dir = os.path.join(os.environ["DESCODE"], "SIMS", "templates", "cigale", "cigale-v2020", "database_builder", "nebular/")
         #nebular_dir = os.path.join('/Users/ishfahanirusyda/master_thesis/cigale/cigale-v2020/database_builder/', 'nebular/')
         print("Importing {}...".format(nebular_dir + 'lines.dat'))
         lines = np.genfromtxt(nebular_dir + 'lines.dat')
@@ -183,7 +186,8 @@ class SynSpec():
                                                     spectrum)'''
 
         # load the Lyman Continuum flux from the templates
-        ssp_fn = os.path.join('/priv/debass/software/DES/SIMS/templates/','bc03/models/Padova1994/chabrier/')
+        ssp_fn = os.path.join(os.environ['DESSIMS'],'templates/bc03/models/Padova1994/chabrier/')
+        #ssp_fn = os.path.join('/priv/debass/software/DES/SIMS/templates/','bc03/models/Padova1994/chabrier/')
         ssp_vals = Table.read(ssp_fn+'bc2003_hr_m62_chab_ssp.3color',format='ascii')
         nLy = ssp_vals['col6']
         self.nLy = np.append(np.array(nLy), nLy[-1])
@@ -252,7 +256,7 @@ class SynSpec():
             return wave[lims],flux[lims]*10**(-0.4*ext_F19*Av)
         if law=='CCM89':
             ext_model = CCM89(Rv=Rv)
-            print("dust reddening with CCM89")
+            #print("dust reddening with CCM89")
             try:
                 wave_inv_microns = 1/(wave.values/1E+4) /u.micron
             except:
@@ -386,7 +390,7 @@ class SynSpec():
         return s
 
     def calculate_model_fluxes_pw(self,z,sfh_coeffs=None,dust=True,neb=True,logU=-2,mtot=1E+10,savespec=False,age=None,template='BC03',specsavename=None,sfr=0.0):
-        print('Combining the weighted SSPs for this SFH')
+        #print('Combining the weighted SSPs for this SFH')
         
         model_spec = self.synphot_model_spectra_pw(sfh_coeffs)[0]
         #print('len', len(model_spec))
@@ -397,7 +401,7 @@ class SynSpec():
                               var=np.ones_like(model_spec))
         if self.library=='BC03' and neb==True:
             model_neb_wave, model_neb_flux = self.synphot_model_emlines(sfh_coeffs, logU=logU)
-            print('model_neb_wave', model_neb_wave)
+            #print('model_neb_wave', model_neb_wave)
            
 
             model_neb_flux_rebinned = rebin_a_spec(model_neb_wave * 10, model_neb_flux*(1+z), model_spec.wave())
@@ -418,7 +422,7 @@ class SynSpec():
         if not dust:
             model_spec_reddened = model_spec
         else:
-            print('Reddening with this dust: ',dust)
+            #print('Reddening with this dust: ',dust)
             try:
                 wave,flux = self.redden_a_combined_spec(model_spec.wave(),model_spec.flux(),law=dust['law'],Av=dust['Av'],Rv=dust['Rv'],delta=dust['delta'])
             except:
@@ -449,7 +453,7 @@ class SynSpec():
         colours_sdss = self.get_bands_wtf([model_spec_reddened],band_dict={'SDSS%s'%b:'AB' for b in ['u','g','r','i','z']})
         colours.update(colours_sdss)
 
-        print('Here is the colour: ',colour)
+        #print('Here is the colour: ',colour)
         #print('Going go calculate observed flux with this',model_spec_reddened)
         des_fluxes = self.get_bands_wtf([model_spec_reddened],band_dict={'DES_%s'%b:'AB' for b in ['g','r','i','z']},z=z) #extra 1+z for flux densities
         # CLi
